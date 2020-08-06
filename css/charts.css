@@ -1,0 +1,7 @@
+.chart {
+    width: 100%; 
+    min-height: 450px;
+  }
+  .row {
+    margin:0 !important;
+  }

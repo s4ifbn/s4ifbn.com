@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+p,a,h1,h2,h3,h4,h5,h6,span,button{
+    font-family: 'Cairo', 'Helvetica' !important;
+    font-weight: normal !important;
+}
+
+body{
+   direction: rtl; 
+   padding-top:50px;   
+}
+
+nav {
+    
+}
+
+.jumbotron{
+    border-bottom: 3px solid #00bfc0;
+    border-left: 3px solid #00bfc0;
+    border-right: 3px solid #00bfc0;
+}
+
+.jumbotronCPP{
+    border-bottom: 3px solid #669ad3;
+    border-left: 3px solid #669ad3;
+    border-right: 3px solid #669ad3;
+}
+
+.jumbotronORA{
+    border-bottom: 3px solid #ed3338;
+    border-left: 3px solid #ed3338;
+    border-right: 3px solid #ed3338;
+}
+
+.jumbotronWEB{
+    border-bottom: 3px solid #f16528;
+    border-left: 3px solid #f16528;
+    border-right: 3px solid #f16528;
+}
+
+.jumbotronNW{
+    border-bottom: 3px solid #e84393;
+    border-left: 3px solid #e84393;
+    border-right: 3px solid #e84393;
+}
+
+.dropdown-item:active {
+    background-color: #00bfc0;
+}
+
+.art p,li {
+      font-family: 'Cairo', 'Helvetica';
+      font-size: 16px;
+      text-align: justify;
+  }
+
+  .blogTitle {
+      font-family: 'Cairo', 'Helvetica';
+      font-size: 18px
+  }
+
+  .fa-angle-double-left{
+    color: #00bfc0;
+    font-size:18px !important;
+  }
+
+  a,li,blockquote,h5 {
+      color: grey;
+      text-decoration: none;
+  }
+
+  a:hover {
+      color: grey;
+  }
+
+  .float-right {
+      float: right;
+  }
+
+  .float-left {
+      float: left;
+  }
+
+  .justify {
+      text-align: justify;
+  }
+
+  .date {
+      color: #00bfc0;
+      font-size: 16px;
+  }
+
+  .card-text.big {
+      font-size: 28px;
+      color: #00bfc0;
+  }
+
+  .fa-heart {
+      color: red
+  }
+
+  .fa-graduation-cap,
+  .fa-video,
+  .fa-users,
+  .fa-eye,
+  .fa-music,
+  .fa-book,
+  .fa-futbol,
+  .fa-pencil-alt,
+  .fa-utensils,
+  .fa-code,
+  .fa-gamepad,
+  .fa-chevron-up {
+      font-size: 40px;
+      color: #00bfc0;
+  }
+
+  p,
+  h5 {
+      color: grey;
+  }
+
+  .jumbotron {
+      text-align: center;
+  }
+
+  .mydiv {
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .img {
+      height: 70px;
+  }
+
+  .table th {
+      text-align: center
+  }
+
+  .small {
+      font-weight: bold
+  }
+
+  .footer {
+      background-color: #343a40;
+      text-align: center;
+      color: grey;
+      padding-top: 20px;
+      margin-top: 20px;
+      border-bottom: 5px solid #00bfc0;
+  }
+
+  .social {
+      font-size: 25px !important;
+      color: #00bfc0;
+  }
+
+  .social a {
+      color: #00bfc0;
+      text-decoration: none
+  }
+
+  .social a:hover {
+      color: #00bfc0;
+      text-decoration: none
+  }
+
+  .tree {
+      opacity: 1;
+  }
+
+  .title {
+      font-size: 30px;
+      font-variant-caps: all-petite-caps;
+      color: #00bfc0;
+  }
+
+  .subTitle {
+      font-size: 25px;
+      font-variant-caps: all-petite-caps;
+      color: #9b59b6;
+  }
+
+  .fa-sort-up{
+      color: #00bfc0;
+      font-size: 35px !important;
+  }
+
+  .card-text {
+      text-align: right
+  }
+
+  .size {
+      color: #00bfc0;
+  }

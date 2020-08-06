@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="author" content="Saif Bashar">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="../css/vid.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="icon" href="../img/tree.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/tree.ico" type="image/x-icon" />
+    <title>Saif Bashar / C++</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-42710021-1');
+    </script>
+</head>
+
+<body style="padding-top:50px" id="top">
+    <!-- facebook comments -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=515769531876093&autoLogAppEvents=1">
+    </script>
+    <!-- facebook comments -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand text-white" href="../index.html">
+            <img src="../img/sa.png" width=50px; alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Lectures
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="cpp.html">Programming in C++</a>
+                        <a class="dropdown-item" href="oracle10g.html">Oracle 10g</a>
+                        <a class="dropdown-item" href="htmlcss.html">HTML5 & CSS3</a>
+                        <a class="dropdown-item" href="prolog.html">Prolog</a>
+                        <a class="dropdown-item" href="gapps.html">Google Apps</a>
+                        <a class="dropdown-item" href="vb10.html">Visual Basic.NET</a>
+                        <a class="dropdown-item" href="vb6.html">Visual Basic 6</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="math.html">Mathematics</a>
+                        <a class="dropdown-item" href="nw.html">Networks</a>
+                        <a class="dropdown-item" href="os.html">Operating Systems</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../programs.html">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../presentations.html">Presentations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Q/A</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Designs</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Info
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="pioneers/csPioneers.html">CS Pioneers</a>
+                        <a class="dropdown-item" href="pioneers/mathPioneers.html">Math Pioneers</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../blog.html">Blog
+                        <span class="badge badge-info">
+                            <div id="blogCount">{{blogs}}</div>
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../cv.html">About Me
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid jumbotronCPP">
+            <h1 class="display-4">C/C++</h1>
+            <p class="lead blockquote font-italic" id="q">
+                <my-q></my-q>
+            </p>
+            <h4><span class="badge badge-pill badge-dark">Structured Programming</span>
+                <span class="badge badge-pill badge-dark">Object Oriented Programming</span>
+                <span class="badge badge-pill badge-dark">Data Structures</span></h4>
+            <h1 class="display-4">172 Videos</h1>
+        </div>
+        <hr>
+        <div class="vcont">
+            <div class="vid">
+                <iframe id="myframe" width="560" height="315" src="https://www.youtube.com/embed/huWwibFczeE?rel=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+        <hr>
+        <p class="title">Structured Programming</p>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">1- Basics</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#pr_basics a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="pr_basics">
+                    <a href="https://www.youtube.com/embed/huWwibFczeE">01) Introduction</a><br>
+                    <a href="https://www.youtube.com/embed/0ZEMzvQEMes">02) Borland C++ 5.02 IDE Setup</a><br>
+                    <a href="https://www.youtube.com/embed/PWfQwDdGpVw">03) CodeBlocks IDE Setup</a><br>
+                    <a href="https://www.youtube.com/embed/IxktJ5dZBqM">04) Terminology</a><br>
+                    <a href="https://www.youtube.com/embed/Gwt1jhgRegw">05) Hello World</a><br>
+                    <a href="https://www.youtube.com/embed/l5R44bPxcL4">06) Variables</a><br>
+                    <a href="https://www.youtube.com/embed/JRq6Ga1n_gU">07) Data Types</a><br>
+                    <a href="https://www.youtube.com/embed/6h5ur0h2dOs">08) Escape Sequences</a><br>
+                    <a href="https://www.youtube.com/embed/p9hcOeW9Y3Y">09) Notes on Data Types</a><br>
+                    <a href="https://www.youtube.com/embed/vRtV12AjIFw">10) Arithmetic Operators</a><br>
+                    <a href="https://www.youtube.com/embed/uAglKFT9lAY">11) Arithmetic Operators Precedence</a><br>
+                    <a href="https://www.youtube.com/embed/J6IXZxbihOA">12) Writing Long Equations Correctly</a><br>
+                    <a href="https://www.youtube.com/embed/7sjlNN6VxxM">13) (<span style="color:red">Exercise</span>)
+                        Expressions & Precedence Law</a><br>
+                    <a href="https://www.youtube.com/embed/eMjIsSAlb2o">14) (<span style="color:red">Exercise</span>)
+                        Using
+                        Trigonometric Functions</a><br>
+                    <a href="https://www.youtube.com/embed/X_oDhS99asE">15) (<span style="color:red">Exercise</span>)
+                        Circle
+                        Area</a><br>
+                    <a href="https://www.youtube.com/embed/7IRD2tzlYt4">16) (<span style="color:red">Exercise</span>)
+                        Average
+                        of 5 Numbers</a><br>
+                    <a href="https://www.youtube.com/embed/eMhD0Nl0bS8">17) (<span style="color:red">Exercise</span>)
+                        Equations & Math Functions</a><br>
+                    <a href="https://www.youtube.com/embed/V4J2T7oKNpU">18) (<span style="color:red">Exercise</span>)
+                        Enumeration of Months</a><br>
+                    <a href="https://www.youtube.com/embed/VFE3xv45NjE">19) (<span style="color:red">Exercise</span>)
+                        Enumeration of Seasons</a><br>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">2- Logical Decisions</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#cond a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="cond">
+                    <a href="https://www.youtube.com/embed/JLbbdUY_pwA">01) if-else Statement</a><br>
+                    <a href="https://www.youtube.com/embed/qKJS5eFX0kQ">02) Nested if Statement</a><br>
+                    <a href="https://www.youtube.com/embed/1yxtgM3Q4NU">03) switch Statement</a><br>
+                    <a href="https://www.youtube.com/embed/KokPcCYhHCA">04) Bitwise Operators</a><br>
+                    <a href="https://www.youtube.com/embed/EazM8REHCdw">05) (<span style="color:red">Exercise</span>)
+                        if-else statement</a><br>
+                    <a href="https://www.youtube.com/embed/ErMfudhdMSg">06) (<span style="color:red">Exercise</span>)
+                        Multiple if statements 1</a><br>
+                    <a href="https://www.youtube.com/embed/s4G6EWXgEXY">07) (<span style="color:red">Exercise</span>)
+                        Multiple if statements 2</a><br>
+                    <a href="https://www.youtube.com/embed/uE2RusxQ16o">08) (<span style="color:red">Exercise</span>)
+                        Multiple if statements 3</a><br>
+                    <a href="https://www.youtube.com/embed/gMsuDXaSSJ8">09) (<span style="color:red">Exercise</span>)
+                        Compound Conditions</a><br>
+                    <a href="https://www.youtube.com/embed/gVZ0AVNrD8w">10) (<span style="color:red">Exercise</span>)
+                        Nested if statement 1</a><br>
+                    <a href="https://www.youtube.com/embed/buGPqVpxFPU">11) (<span style="color:red">Exercise</span>)
+                        Nested if statement 2</a><br>
+                    <a href="https://www.youtube.com/embed/GxXecCUeJ9Q">12) (<span style="color:red">Exercise</span>)
+                        Nested if statement 3</a><br>
+                    <a href="https://www.youtube.com/embed/VXWDeIZzWik">13) (<span style="color:red">Exercise</span>)
+                        switch statement 1</a><br>
+                    <a href="https://www.youtube.com/embed/YmYXAAlbex4">14) (<span style="color:red">Exercise</span>)
+                        switch statement 2</a><br>
+                    <a href="https://www.youtube.com/embed/w4AEFK9iQ5Y">15) (<span style="color:red">Exercise</span>)
+                        switch statement 3</a><br>
+                    <a href="https://www.youtube.com/embed/m8Jd5o7v-kU">16) (<span style="color:red">Exercise</span>)
+                        Nested switch statement</a><br>
+                    <a href="https://www.youtube.com/embed/ellPkbH2DDk">17) (<span style="color:red">Exercise</span>)
+                        Operators</a><br>
+                    <a href="https://www.youtube.com/embed/J5gvDV4l12A">18) (<span style="color:red">Exercise</span>)
+                        Mixed Operators 1</a><br>
+                    <a href="https://www.youtube.com/embed/ynMTYJijOxQ">19) (<span style="color:red">Exercise</span>)
+                        Mixed Operators 2</a><br><br>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">3- Loops</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#loop a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="loop">
+                    <a href="https://www.youtube.com/embed/hAldLNt-GcE">01) Loops</a><br>
+                    <a href="https://www.youtube.com/embed/IMqNTXT-Cys">02) Trace or Debug</a><br>
+                    <a href="https://www.youtube.com/embed/B5U48is5Ws0">03) Nested Loops</a><br>
+                    <a href="https://www.youtube.com/embed/rqNkSgvgHuI">04) (<span style="color:red">Exercise</span>)
+                        Display 100 Odd Numbers</a><br>
+                    <a href="https://www.youtube.com/embed/bpuSePx0dmk">05) (<span style="color:red">Exercise</span>)
+                        Sum 100 Odd Numbers</a><br>
+                    <a href="https://www.youtube.com/embed/xSx3ksTX0Ik">06) (<span style="color:red">Exercise</span>)
+                        Student Information</a><br>
+                    <a href="https://www.youtube.com/embed/y--9gqJ2jDE">07) (<span style="color:red">Exercise</span>)
+                        Prime Number Test</a><br>
+                    <a href="https://www.youtube.com/embed/lxs8mPi-CYY">08) (<span style="color:red">Exercise</span>)
+                        Fibonacci Sequence</a><br>
+                    <a href="https://www.youtube.com/embed/xSNeZTs3iK0">09) (<span style="color:red">Exercise</span>)
+                        find GCD between two numbers</a><br>
+                    <a href="https://www.youtube.com/embed/jH-XVRTOfSQ">10) (<span style="color:red">Exercise</span>)
+                        Math Series 1</a><br>
+                    <a href="https://www.youtube.com/embed/Qwfj7c_ZPMI">11) (<span style="color:red">Exercise</span>)
+                        Math Series 2</a><br>
+                    <a href="https://www.youtube.com/embed/_vTWN2iXUxY">12) (<span style="color:red">Exercise</span>)
+                        Math Series 3</a><br>
+                    <a href="https://www.youtube.com/embed/sjAV1eI0TzM">13) (<span style="color:red">Exercise</span>)
+                        Math Series 4</a><br>
+                    <a href="https://www.youtube.com/embed/n21WsFPvESA">14) (<span style="color:red">Exercise</span>)
+                        Reverse an integer</a><br>
+                    <a href="https://www.youtube.com/embed/-VbUQ8h7qIk">15) (<span style="color:red">Exercise</span>)
+                        Find the Output 1</a><br>
+                    <a href="https://www.youtube.com/embed/iTyyrxs_VXY">16) (<span style="color:red">Exercise</span>)
+                        Find the Output 2</a><br>
+                    <a href="https://www.youtube.com/embed/PDNBX3fYkx8">17) (<span style="color:red">Exercise</span>)
+                        Find the Output 3</a><br>
+                    <a href="https://www.youtube.com/embed/CTu4oeI7IpQ">18) (<span style="color:red">Exercise</span>)
+                        Find the Output 4</a><br>
+                    <a href="https://www.youtube.com/embed/erlLearZ4MA">19) (<span style="color:red">Exercise</span>)
+                        Find the Output 5</a><br>
+                    <a href="https://www.youtube.com/embed/Guw6GVdkiWI">20) (<span style="color:red">Exercise</span>)
+                        Read Seven Marks</a><br>
+                    <a href="https://www.youtube.com/embed/_xPEnY-2HQg">21) (<span style="color:red">Exercise</span>)
+                        Student Average, Number of Fails</a><br>
+                    <a href="https://www.youtube.com/embed/-DBPM1RDQz4">22) (<span style="color:red">Exercise</span>)
+                        Add Numbers from 1 to 100</a><br>
+                    <a href="https://www.youtube.com/embed/PmWKyQi-ubg">23) (<span style="color:red">Exercise</span>)
+                        Printing a table</a><br>
+                    <a href="https://www.youtube.com/embed/4g7b3cR5JFo">24) (<span style="color:red">Exercise</span>)
+                        Printing Figure 1</a><br>
+                    <a href="https://www.youtube.com/embed/Ll_6Hko83_Y">25) (<span style="color:red">Exercise</span>)
+                        Printing Figure 2</a><br>
+                    <a href="https://www.youtube.com/embed/CHu8IPtHVP0">26) (<span style="color:red">Exercise</span>)
+                        Printing Figure 3</a><br>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">4- Functions</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#func a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="func">
+                    <a href="https://www.youtube.com/embed/L-5cmL-Edxk">01) Functions</a><br>
+                    <a href="https://www.youtube.com/embed/L6_4yx4Nx-s">02) Important Notes on Functions</a><br>
+                    <a href="https://www.youtube.com/embed/LPwvSEfHk8M">03) Default Arguments</a><br>
+                    <a href="https://www.youtube.com/embed/lHtqEwR65c8">04) More on Variables</a><br>
+                    <a href="https://www.youtube.com/embed/i1XqIUIWjT8">05) Recursion</a><br>
+                    <a href="https://www.youtube.com/embed/-IdNgzepkL4">06) (<span style="color:red">Exercise</span>)
+                        Math Series with functions 1</a><br>
+                    <a href="https://www.youtube.com/embed/dQEGcsoV9_I">07) (<span style="color:red">Exercise</span>)
+                        Count Uppercase Letters</a><br>
+                    <a href="https://www.youtube.com/embed/XxQayunYdlU">08) (<span style="color:red">Exercise</span>)
+                        Convert Feet to Meters</a><br>
+                    <a href="https://www.youtube.com/embed/PD2tMCSFg1o">09) (<span style="color:red">Exercise</span>)
+                        Time Converting</a><br>
+                    <a href="https://www.youtube.com/embed/m0NYp2CPQm8">10) (<span style="color:red">Exercise</span>)
+                        Check Integer, Odd, Even</a><br>
+                    <a href="https://www.youtube.com/embed/b01jTq_uk7U">11) (<span style="color:red">Exercise</span>)
+                        Compute Permutation</a><br>
+                    <a href="https://www.youtube.com/embed/K08iwf2TWuY">12) (<span style="color:red">Exercise</span>)
+                        Check Student Average</a><br>
+                    <a href="https://www.youtube.com/embed/pqBiu4CSClQ">13) (<span style="color:red">Exercise</span>)
+                        Fibonacci with Functions</a><br>
+                    <a href="https://www.youtube.com/embed/CtdrgpRZIQE">14) (<span style="color:red">Exercise</span>)
+                        Factorial with Functions</a><br>
+                    <a href="https://www.youtube.com/embed/Rlh9WD7qFHc">15) (<span style="color:red">Exercise</span>)
+                        Equation of Factorials</a><br>
+                    <a href="https://www.youtube.com/embed/77V_xoV93SQ">16) (<span style="color:red">Exercise</span>)
+                        Leap Year</a><br>
+                    <a href="https://www.youtube.com/embed/tk9urKJrj6Q">17) (<span style="color:red">Exercise</span>)
+                        Calculate Power</a><br>
+                    <a href="https://www.youtube.com/embed/o3o2gGvqKeA">18) (<span style="color:red">Exercise</span>)
+                        Reverse an Integer</a><br>
+                    <a href="https://www.youtube.com/embed/pPV5mmu9LzQ">19) (<span style="color:red">Exercise</span>)
+                        Convert Letter Case</a><br>
+                    <a href="https://www.youtube.com/embed/VbnKWF32MWo">20) (<span style="color:red">Exercise</span>)
+                        Power of N Numbers</a><br><br>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">5- Arrays</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#arr a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="arr">
+                    <a href="https://www.youtube.com/embed/4vIZq4Vfmt8">01) Arrays</a><br>
+                    <a href="https://www.youtube.com/embed/lqVYEcaijyM">02) Multi-Dimesional Arrays</a><br>
+                    <a href="https://www.youtube.com/embed/_xPEnY-2HQg">03) (<span style="color:red">Exercise</span>)
+                        Student Average, Number of Fails</a><br>
+                    <a href="https://www.youtube.com/embed/uCpBlMysBLM">04) (<span style="color:red">Exercise</span>)
+                        Check the Order of Array Elements</a><br>
+                    <a href="https://www.youtube.com/embed/UhYrbxwUQUc">05) (<span style="color:red">Exercise</span>)
+                        Calculate Array's Zeroes</a><br>
+                    <a href="https://www.youtube.com/embed/RGI0jb83A2A">06) (<span style="color:red">Exercise</span>)
+                        Add two Arrays</a><br>
+                    <a href="https://www.youtube.com/embed/ZcX3ppZjJVE">07) (<span style="color:red">Exercise</span>)
+                        Multiply by Two</a><br>
+                    <a href="https://www.youtube.com/embed/Mnz_HxeYYEI">08) (<span style="color:red">Exercise</span>)
+                        Average of Temperatures</a><br>
+                    <a href="https://www.youtube.com/embed/sL_10dRliZY">09) (<span style="color:red">Exercise</span>)
+                        Merge Arrays</a><br>
+                    <a href="https://www.youtube.com/embed/XpicL_ihgb0">10) (<span style="color:red">Exercise</span>)
+                        Summation of Columns</a><br>
+                    <a href="https://www.youtube.com/embed/cvGvDi1a-4k">11) (<span style="color:red">Exercise</span>)
+                        Secondary Diagonal with Zeroes</a><br>
+                    <a href="https://www.youtube.com/embed/i6q_vMmzjJg">12) (<span style="color:red">Exercise</span>)
+                        Main with Secondary Diagonal</a><br>
+                    <a href="https://www.youtube.com/embed/7it9bFl1lEc">13) (<span style="color:red">Exercise</span>)
+                        Summation of Odd Numbers</a><br>
+                    <a href="https://www.youtube.com/embed/PlPK-o9v0as">14) (<span style="color:red">Exercise</span>)
+                        Search for a Value</a><br>
+                    <a href="https://www.youtube.com/embed/mRHEF9yKDkQ">15) (<span style="color:red">Exercise</span>)
+                        Convert 1D to 2D</a><br>
+                    <a href="https://www.youtube.com/embed/udM1Z3Bb1vI">16) (<span style="color:red">Exercise</span>)
+                        Move Capital & Small Letters</a><br>
+                    <a href="https://www.youtube.com/embed/eXQzsZXzq_Q">17) (<span style="color:red">Exercise</span>)
+                        Replace Evens with 10</a><br>
+                    <a href="https://www.youtube.com/embed/992R9XRYa1o">18) (<span style="color:red">Exercise</span>)
+                        Evens with 10 in Main Diagonal</a><br>
+                    <a href="https://www.youtube.com/embed/-oGg_AEkEeM">19) (<span style="color:red">Exercise</span>)
+                        Find Min</a><br>
+                    <a href="https://www.youtube.com/embed/MtbaTIAPDws">20) (<span style="color:red">Exercise</span>)
+                        Exchange Rows</a><br>
+                    <a href="https://www.youtube.com/embed/uu-VGdsIGIk">21) (<span style="color:red">Exercise</span>)
+                        Exchange Row with Column</a><br>
+                    <a href="https://www.youtube.com/embed/6MVX7qvulQ8">22) (<span style="color:red">Exercise</span>)
+                        Max of Secondary Diagonal</a><br>
+                    <a href="https://www.youtube.com/embed/FwUglkTlr7Q">23) (<span style="color:red">Exercise</span>)
+                        Delete Element</a><br>
+                    <a href="https://www.youtube.com/embed/w_Fu8TiJJAY">24) (<span style="color:red">Exercise</span>)
+                        Sorting an Array</a><br>
+                    <a href="https://www.youtube.com/embed/LmDLUm84zvM">25) (<span style="color:red">Exercise</span>)
+                        Average of Even Numbers</a><br>
+                    <a href="https://www.youtube.com/embed/CcZa_UcKf-c">26) (<span style="color:red">Exercise</span>)
+                        Create 1D from 2D</a><br>
+                    <a href="https://www.youtube.com/embed/o1bXUgHSFwg">27) (<span style="color:red">Exercise</span>)
+                        Create 2D Arrays</a><br><br>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">6- Strings</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#str a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="str">
+                    <a href="https://www.youtube.com/embed/d02MwEtOUis">01) Strings</a><br>
+                    <a href="https://www.youtube.com/embed/IbCQrnPFbpE">02) Conversion Functions</a><br>
+                    <a href="https://www.youtube.com/embed/40H8JA5EUm4">03) (<span style="color:red">Exercise</span>)
+                        Reverse a String</a><br>
+                    <a href="https://www.youtube.com/embed/wrK-T-LuOn4">04) (<span style="color:red">Exercise</span>)
+                        Convert Letter Case</a><br>
+                    <a href="https://www.youtube.com/embed/uNwYTcfLXwY">05) (<span style="color:red">Exercise</span>)
+                        Seperate Words</a><br>
+                    <a href="https://www.youtube.com/embed/JTiUnQCiNeI">06) (<span style="color:red">Exercise</span>)
+                        Check Palindrome String</a><br>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">7- Structures</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#struct a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="struct">
+                    <a href="https://www.youtube.com/embed/5Mx9Utynxx0">01) Structures</a><br>
+                    <a href="https://www.youtube.com/embed/8E-9VhVSun8">02) Array of Structures</a><br>
+                    <a href="https://www.youtube.com/embed/SKDq2DroaBg">03) (<span style="color:red">Exercise</span>)
+                        Employee Array of Structures</a><br>
+                    <a href="https://www.youtube.com/embed/awDEIth4z08">04) (<span style="color:red">Exercise</span>)
+                        Structure of Structures</a><br>
+                    <a href="https://www.youtube.com/embed/qfVb_YHo48Y">05) (<span style="color:red">Exercise</span>)
+                        Information of Employees</a><br><br>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">8- Pointers</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#point a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="point">
+                    <a href="https://www.youtube.com/embed/4UED3iLxfoY">01) Pointers Introduction</a><br>
+                    <a href="https://www.youtube.com/embed/mSfgFhSQUos">02) Pointers with Functions Arguments</a><br>
+                    <a href="https://www.youtube.com/embed/_bEdxOGuPSU">03) Pointers with Arrays</a><br>
+                    <a href="https://www.youtube.com/embed/wttfnaMA5cY">04) Pointers with Structures</a><br>
+                    <a href="https://www.youtube.com/embed/L1huH24P-l0">05) (<span style="color:red">Exercise</span>)
+                        Pointer Arithmetic</a><br>
+                    <a href="https://www.youtube.com/embed/sfgOvcpY3qo">06) (<span style="color:red">Exercise</span>)
+                        Find the Output</a><br><br>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="subTitle">9- Files</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#files a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="files">
+                    <a href="https://www.youtube.com/embed/YbI5b3HpRRc">01) Write to files</a><br>
+                    <a href="https://www.youtube.com/embed/P1S4RPbGyVs">02) Read from files</a><br>
+                    <a href="https://www.youtube.com/embed/8LWhCwuMfhA">03) (<span style="color:red">Exercise</span>)
+                        Backup a text file</a><br>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <p class="title">Object Oriented Programming</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#pr_oop a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="pr_oop">
+                    <a href="https://www.youtube.com/embed/i4SN8XFVpTk">01) OOP Introduction</a><br>
+                    <a href="https://www.youtube.com/embed/8xYuJ94MVo4">02) Constructor & Destructor</a><br>
+                    <a href="https://www.youtube.com/embed/MQsjwSxMbD4">03) Constructor Overloading</a><br>
+                    <a href="https://www.youtube.com/embed/VWLFiLXw_fM">04) (<span style="color:red">Exercise</span>)
+                        OOP Calculator</a><br>
+                    <a href="https://www.youtube.com/embed/3YAaeP9KfuI">05) Constant & Static Data Members</a><br>
+                    <a href="https://www.youtube.com/embed/3ageFGbX-So">06) (<span style="color:red">Exercise</span>)
+                        Building an employee class</a><br>
+                    <a href="https://www.youtube.com/embed/7YHg7ZNLNd8">07) Friend Functions</a><br>
+                    <a href="https://www.youtube.com/embed/SvZqPijZhHk">08) (<span style="color:red">Exercise</span>)
+                        Class of Car</a><br>
+                    <a href="https://www.youtube.com/embed/jwcpnA32lyc">09) Friend Class</a><br>
+                    <a href="https://www.youtube.com/embed/zajf197KQP8">10) (<span style="color:red">Exercise</span>)
+                        Friend Class</a><br>
+                    <a href="https://www.youtube.com/embed/H0zhiw86Cno">11) Array of Objects</a><br>
+                    <a href="https://www.youtube.com/embed/29NeWoONJIc">12) (<span style="color:red">Exercise</span>)
+                        Array of Objects with Friend
+                        Function</a><br>
+                    <a href="https://www.youtube.com/embed/k4z_yXGuoYs">13) (<span style="color:red">Exercise</span>)
+                        Multiple Objects with Friend
+                        Function</a><br>
+                    <a href="https://www.youtube.com/embed/RCF1m62FfrE">14) (<span style="color:red">Exercise</span>)
+                        Array of Objects with Friend
+                        Function</a><br>
+                    <a href="https://www.youtube.com/embed/RGDFMNtVolg">15) Class Member Object</a><br>
+                    <a href="https://www.youtube.com/embed/07x82MzCHDo">16) Operators Overloading (Unary
+                        Operators)</a><br>
+                    <a href="https://www.youtube.com/embed/vVfDnyQsQt0">17) Operators Overloading (Binary Operators)
+                        Example 1</a><br>
+                    <a href="https://www.youtube.com/embed/CE9s0MVMR2w">18) Operators Overloading (Binary Operators)
+                        Example 2</a><br>
+                    <a href="https://www.youtube.com/embed/AMMahVZEpZU">19) Operators Overloading (Binary Operators)
+                        Example 3</a><br>
+                    <a href="https://www.youtube.com/embed/1nhIK34BEyY">20) Single Inheritance</a><br>
+                    <a href="https://www.youtube.com/embed/FOh-jjmVFt8">21) Inheritance with Constructors</a><br>
+                    <a href="https://www.youtube.com/embed/-CsX5AAU9U0">22) Multiple Inheritance</a><br>
+                    <a href="https://www.youtube.com/embed/UYvHqAug-rE">23) Hierarchical Inheritance</a><br>
+                    <a href="https://www.youtube.com/embed/YhiGXZdQul8">24) Multilevel Inheritance</a><br>
+                    <a href="https://www.youtube.com/embed/1FoCVS6fuc8">25) (<span style="color:red">Exercise</span>)
+                        Inheritance with Operator Overloading</a><br>
+                    <a href="https://www.youtube.com/embed/fz2tjOqr9ts">26) Public, Protected and Private
+                        Inheritance</a><br>
+                    <a href="https://www.youtube.com/embed/SLkCGDIIhuA">27) Inheritance and Override</a><br>
+                    <a href="https://www.youtube.com/embed/ZMYkxtVXcq8">28) Virtual Functions</a><br>
+                    <a href="https://www.youtube.com/embed/zCqpPqq5QCc">29) Virtual Inheritance</a><br>
+                    <a href="https://www.youtube.com/embed/tXBEQl8U3sY">30) Class Template</a><br><br>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p class="title">Data Structures</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#pr_ds a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="pr_oop">
+                    <a href="https://www.youtube.com/embed/iAgr41bL09g">01) Stack</a><br>
+                    <a href="https://www.youtube.com/embed/jwRhgyNvXVY">02) Stack in OOP</a><br>
+                    <a href="https://www.youtube.com/embed/VLcUoO3sdXg">03) Stack Applications (infix to
+                        postfix)</a><br>
+                    <a href="https://www.youtube.com/embed/0S3fznfeTRc">04) Queue</a><br>
+                    <a href="https://www.youtube.com/embed/buNLgr8Zesw">05) Queue in OOP</a><br>
+                    <a href="https://www.youtube.com/embed/A9u6M5pLNCw">06) Circular Queue Part 1</a><br>
+                    <a href="https://www.youtube.com/embed/s-e-tw8yFms">07) Circular Queue Part 2</a><br>
+                    <a href="https://www.youtube.com/embed/U5iaHbmPAjU">08) (<span style="color:red">Exercise</span>)
+                        Even Queue and Odd Stack</a><br>
+
+                    <a href="https://www.youtube.com/embed/hgUtP9oV_rs">09) Linked List Part 1</a><br>
+                    <a href="https://www.youtube.com/embed/40YGmE5s1mQ">10) Linked List Part 2 (Insert)</a><br>
+                    <a href="https://www.youtube.com/embed/CCoeVO49_Gw">11) Linked List Part 3 (Delete)</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
+        <br>
+        <hr>
+        <br>
+        <div class="fb-comments" data-href="https://saif.io/pg/cpp.html" data-width="100%" data-numposts="10"></div>
+        <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
+        <br><br>
+    </div>
+    <!--container-->
+    <footer>
+        <div class="footer">
+            <table width="100%">
+                <tr>
+                    <td width="33%">
+                        <div class="social">
+                            <a href="https://www.facebook.com/saif.bashaar/" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/saifbashar/" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://twitter.com/saif_bashar/" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="https://github.com/saif-bashar/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://instagram.com/saif.bashar/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/saif-bashar/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="../stats.html"><i class="far fa-chart-bar"></i></a>
+                        </div>
+                    </td>
+                    <td width="33%" id="year">
+                        <img src="../img/tree.png" class="mb-3 tree" alt="Tree">
+                        <br>Made with
+                        <i class="fas fa-heart"></i> By Saif Bashar &copy; {{year}}
+                    </td>
+                    <td width="33%">
+                        <div id="updated">{{message}}</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

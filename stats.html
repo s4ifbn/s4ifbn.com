@@ -5,41 +5,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="author" content="Saif Bashar">
-    <meta name="description" content="Teaching computer science for Arabs">
-    <meta name="keywords"
-        content="computer, saif bashar, c++, oracle, mathematics, computer science, علوم الحاسوب، سيف بشار، البرمجة">
     <meta http-equiv="pragma" content="no-cache">
-    <meta name="google-site-verification" content="T4VamdJmAnW-YTlJSvjRzCDP4dv-yBC7nAM6Y1Txrls" />
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/animi.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/charts.css>
 
-    <link rel="icon" href="img/tree.ico" type="image/x-icon" />
+    <link rel=" icon" href="img/tree.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="img/tree.ico" type="image/x-icon" />
 
-    <title>Saif Bashar</title>
+    <title>Saif Bashar / Stats</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-42710021-1');
     </script>
 </head>
 
-<body style="padding-top:50px" id="top">
+<body style="padding-top:70px" id="top">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-        <a class="navbar-brand text-white" href="#">
+        <a class="navbar-brand text-white" href="index.html">
             <img src="img/sa.png" width=50px; alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -51,11 +43,11 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Lectures
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="pg/cpp.html">Programming in C++</a>
                         <a class="dropdown-item" href="pg/oracle10g.html">Oracle 10g</a>
                         <a class="dropdown-item" href="pg/htmlcss.html">HTML5 & CSS3</a>
@@ -64,10 +56,8 @@
                         <a class="dropdown-item" href="pg/vb10.html">Visual Basic.NET</a>
                         <a class="dropdown-item" href="pg/vb6.html">Visual Basic 6</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="pg/math.html">Mathematics <span
-                                class="badge badge-danger">New</span></a>
-                        <a class="dropdown-item" href="pg/nw.html">Networks <span
-                                class="badge badge-danger">New</span></a>
+                        <a class="dropdown-item" href="pg/math.html">Mathematics</a>
+                        <a class="dropdown-item" href="pg/nw.html">Networks</a>
                         <a class="dropdown-item" href="pg/os.html">Operating Systems</a>
                     </div>
                 </li>
@@ -108,110 +98,53 @@
                     </a>
                 </li>
             </ul>
+
         </div>
     </nav>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="tracking-in-contract"><h3 class="display-4">We have to develope a passion for learning</h3></div>
-                    <p class="lead blockquote font-italic" id="q">
-                        <my-q></my-q>
-                    </p>
-                    <br>
-                    <form method="get" action="lectures.html">
-                        <script>
-                            $(document).ready(function () {
-                                $('go').fadeIn();
-                            });
-                        </script>
-                        <div id="go">
-                            <button type="submit" class="btn btn-outline-info btn-lg">Let's Learn</button>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-6">
-                <div class="mydiv">
-                    <i class="fas fa-graduation-cap"></i>
-                    <br>
-                    <p>Students
-                        <br>
-                        <span id="stdCount">668</span>
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-6">
-                <div class="mydiv">
-
-                    <i class="fas fa-video"></i>
-                    <br>
-                    <p>Videos
-                        <br>
-                        <span id="stdCount">429</span>
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-6">
-                <div class="mydiv">
-                    <i class="fas fa-users"></i>
-                    <br>
-                    <p>Subscribers
-                        <br>
-                        <span id="stdCount">20.9K</span>
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-6">
-                <div class="mydiv">
-                    <i class="fas fa-eye"></i>
-                    <br>
-                    <p>Views
-                        <br>
-                        <span id="stdCount">1.6M</span>
-                    </p>
-                </div>
-            </div>
-        </div>
+        <br>
         <div class="row">
             <div class="col-md-12 col-12">
-                <hr><br>
-                <a class="" href="pg/math.html">New videos added on Mathematics <span
-                        class="badge badge-danger">New</span></a><br>
-                <a class="" href="pg/nw.html">New videos added on Computer Networks <span
-                        class="badge badge-danger">New</span></a>
+                <h4 class="text-center">إحصائيات</h4>
+                <hr>
+                <h5 class="text-right">عدد الفديوات حسب المواضيع</h5>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTExGg2ScrZHgxtywRpB13Tb4j-YIXZOTWtPmYtO2vVE9CRY_x3gzJmliRD0GeFHQiJzyYbtWxAxaWc/pubchart?oid=1163678266&amp;format=interactive"></iframe>
+            </div>
+            <div class="col-md-12 col-12">
+                <hr>
+                <h5 class="text-right">عدد الزيارات اليومي</h5>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/14t8AgzXxMYRmReVAckWD2-MjaIu0a8_k6u5FBqlb8is/pubchart?oid=1520478487&amp;format=interactive"></iframe>
+            </div>
+            <div class="col-md-12 col-12">
+                <hr>
+                <h5 class="text-right"> زيارات حسب الموقع الجغرافي</h5>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1DE-wVzaKof83ZUK-AqIv3xKnr91pVIVcDXwK5Y_ys7w/pubchart?oid=1481892725&amp;format=interactive"></iframe>
+                <br>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR5keF4oxyy3WmaI4C9DX3c-tebF_FgepvXq8vzTCShRRGh4rMx_CAHbdp9fhTPqKxr81pynwhyRAfu/pubchart?oid=1866890178&amp;format=interactive"></iframe>
+            </div>
+            <div class="col-md-12 col-12">
+                <hr>
+                <h5 class="text-right"> أكثر الصفحات زيارة</h5>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1mNTWfoDL-V3d2dNvtsCnPcnoG2KcAZELu4YUsJW417g/pubchart?oid=1731420910&amp;format=interactive"></iframe>
+            </div>
+            <div class="col-md-12 col-12">
+                <hr>
+                <h5 class="text-right"> الزيارات حسب المتصفح</h5>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1UO-vDR91o_0MEzJiepR-08-034LSt8OnGqN8gxowHnM/pubchart?oid=1962427853&amp;format=interactive"></iframe>
+            </div>
+            <div class="col-md-12 col-12">
+                <hr>
+                <h5 class="text-right"> الزيارات حسب الجهاز المستعمل</h5>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKhszDXQx6oDSIpocmVXo9B0akPvS8_Nme3K_26WYQGUQ5dlph41lO5OUxqKXQuMhytQqK_SprU7No/pubchart?oid=575567133&amp;format=interactive"></iframe>
             </div>
             <br>
+
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-2 col-sm-6 col-12">
-                <br>
-                <img src="img/me4.jpg" width="150px" alt="" class="rounded-circle">
-            </div>
-            <div class="col-md-10 col-sm-6 col-12 mt-3">
-                <div class="alert alert-secondary font-italic" role="alert">
-                    My goal is to deliver lectures in various subjects of computer sciences and mathematics dedicated
-                    to the Arab world, hoping to help students, improve the quality of education and trying to bridge
-                    the gap between the theoretical and applied aspects regarding computer science, this site was built
-                    to provide resources for students like books, lecture notes, programs, video lectures and written
-                    lectures that are updated frequently to include new and important topics.<br>
-                    <a href="pg/blog/2018-07-04.html">
-                        <p class="text-right">Read more...</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <br>
+
         <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
         <br>
+        <hr>
+        <p>Powered by Google Analytics</p>
     </div>
     <footer>
         <div class="footer">
@@ -219,16 +152,16 @@
                 <tr>
                     <td width="33%">
                         <div class="social">
-                            <a href="https://www.facebook.com/s4ifbn/" target="_blank"><i
+                            <a href="https://www.facebook.com/saif.bashaar/" target="_blank"><i
                                     class="fab fa-facebook"></i></a>
                             <a href="https://www.youtube.com/saifbashar/" target="_blank"><i
                                     class="fab fa-youtube"></i></a>
-                            <a href="https://twitter.com/s4ifbn/" target="_blank"><i
+                            <a href="https://twitter.com/saif_bashar/" target="_blank"><i
                                     class="fab fa-twitter"></i></a>
-                            <a href="https://github.com/s4ifbn/" target="_blank"><i class="fab fa-github"></i></a>
-                            <a href="https://instagram.com/s4ifbn/" target="_blank"><i
+                            <a href="https://github.com/saif-bashar/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://instagram.com/saif.bashar/" target="_blank"><i
                                     class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/s4ifbn/" target="_blank"><i
+                            <a href="https://www.linkedin.com/in/saif-bashar/" target="_blank"><i
                                     class="fab fa-linkedin"></i></a>
                             <a href="stats.html"><i class="far fa-chart-bar"></i></a>
                         </div>
@@ -245,7 +178,7 @@
             </table>
         </div>
     </footer>
-
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

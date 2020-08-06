@@ -1,0 +1,15 @@
+.vcont{
+    max-width: 960px;
+    margin: auto;
+    }
+    
+.vid{
+        position: relative;
+        padding-bottom: 56.25%;
+    }
+
+.vid iframe{
+    position: absolute ;
+        width: 100%;
+        height:100%;
+    }

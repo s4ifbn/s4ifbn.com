@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="author" content="Saif Bashar">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="../css/vid.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="icon" href="../img/tree.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/tree.ico" type="image/x-icon" />
+    <title>Saif Bashar / HTML & CSS</title>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-42710021-1');
+    </script>
+</head>
+
+<body style="padding-top:50px" id="top">
+<!-- facebook comments -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=515769531876093&autoLogAppEvents=1"></script>
+<!-- facebook comments -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand text-white" href="../index.html">
+            <img src="../img/sa.png" width=50px; alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Lectures
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="cpp.html">Programming in C++</a>
+                        <a class="dropdown-item" href="oracle10g.html">Oracle 10g</a>
+                        <a class="dropdown-item" href="htmlcss.html">HTML5 & CSS3</a>
+                        <a class="dropdown-item" href="prolog.html">Prolog</a>
+                        <a class="dropdown-item" href="gapps.html">Google Apps</a>
+                        <a class="dropdown-item" href="vb10.html">Visual Basic.NET</a>
+                        <a class="dropdown-item" href="vb6.html">Visual Basic 6</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="math.html">Mathematics</a>
+                        <a class="dropdown-item" href="nw.html">Networks</a>
+                        <a class="dropdown-item" href="os.html">Operating Systems</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../programs.html">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../presentations.html">Presentations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Q/A</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Designs</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Info
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="pioneers/csPioneers.html">CS Pioneers</a>
+                        <a class="dropdown-item" href="pioneers/mathPioneers.html">Math Pioneers</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../blog.html">Blog
+                        <span class="badge badge-info"> <div id="blogCount">{{blogs}}</div></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../cv.html">About Me
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid jumbotronWEB">
+            <h1 class="display-4">Web Design</h1>
+            <p class="lead blockquote font-italic" id="q">
+                <my-q></my-q>
+            </p>
+            <h4><span class="badge badge-pill badge-dark">HTML5</span>
+                <span class="badge badge-pill badge-dark">CSS3</span>
+                <h1 class="display-4">15 Videos</h1>
+        </div>
+        <hr>
+        <div class="vcont">
+            <div class="vid">
+                <iframe id="myframe" width="560" height="315" src="https://www.youtube.com/embed/dhp9Sdm_jC8?rel=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <p class="subTitle">1- HTML5</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#html a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="html">
+                    <a href="https://www.youtube.com/embed/dhp9Sdm_jC8">01) Introduction</a><br>
+                    <a href="https://www.youtube.com/embed/BeRKVgwLKAI">02) Working Environment</a><br>
+                    <a href="https://www.youtube.com/embed/30qXDSFBi0E">03) HTML Structure</a><br>
+                    <a href="https://www.youtube.com/embed/JmszZmdP73Y">04) Text Tags</a><br>
+                    <a href="https://www.youtube.com/embed/V__8C44kXgc">05) Lists Tags</a><br>
+                    <a href="https://www.youtube.com/embed/rIdRXGhqxPo">06) Links Tag</a><br>
+                    <a href="https://www.youtube.com/embed/1b-wxZuf3Nc">07) Image Tag</a><br>
+                    <a href="https://www.youtube.com/embed/2IeiHHTyl9Q">08) Table Tags</a><br>
+                    <a href="https://www.youtube.com/embed/dsS23dFIMs0">09) HTML Forms</a><br>
+                    <a href="https://www.youtube.com/embed/uKBt-v6h9SM">10) HTML Forms Validation</a><br>
+                    <a href="https://www.youtube.com/embed/SRinaLguLFs">11) HTML Audio & Video</a><br>
+                    <a href="https://www.youtube.com/embed/mm4iKMZFk0M">12) HTML Meta Tags</a><br><br>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p class="subTitle">2- CSS3</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#css a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="css">
+                    <a href="https://www.youtube.com/embed/DZj7P5IPBEQ">01) CSS Intro</a><br>
+                    <a href="https://www.youtube.com/embed/tX3R8LGNguw">02) CSS Selectors</a><br>
+                    <a href="https://www.youtube.com/embed/vdNcOuJh9jo">03) CSS Colors</a><br>
+                </div>
+            </div>
+        </div>
+        <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
+        <br>
+        <hr>
+        <br>
+        <div class="fb-comments" data-href="https://saif.io/pg/htmlcss.html" data-width="100%" data-numposts="10"></div>
+    </div>
+    <!--container-->
+    <footer>
+        <div class="footer">
+            <table width="100%">
+                <tr>
+                    <td width="33%">
+                        <div class="social">
+                            <a href="https://www.facebook.com/saif.bashaar/" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/saifbashar/" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://twitter.com/saif_bashar/" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="https://github.com/saif-bashar/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://instagram.com/saif.bashar/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/saif-bashar/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="../stats.html"><i class="far fa-chart-bar"></i></a>
+                        </div>
+                    </td>
+                    <td width="33%" id="year">
+                        <img src="../img/tree.png" class="mb-3 tree" alt="Tree">
+                        <br>Made with
+                        <i class="fas fa-heart"></i> By Saif Bashar &copy; {{year}}
+                    </td>
+                    <td width="33%">
+                        <div id="updated">{{message}}</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
