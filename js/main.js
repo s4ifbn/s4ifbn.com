@@ -3,7 +3,7 @@ let scrollVal = 380;
 var app2 = new Vue({
     el: '#updated',
     data: {
-        message: 'Updated: Aug 12th'
+        message: 'Updated: Dec 4th'
     }
 })
 
@@ -25,7 +25,6 @@ var quotes = [ "A programmer has two weapons: logical thinking and search",
                "Learning programming is like learning to play a musical instrument, you will not excel unless you train daily",
                "Work Hard",
                "Programming is understanding",
-               "Do your work, don't be stupid",
                "Think twice, code once",
                "Keep calm and start debugging",
                "Programming is beautiful",
