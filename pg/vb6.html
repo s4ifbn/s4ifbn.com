@@ -145,7 +145,7 @@
                         $("div#pr_basics a").click(function (e) {
                             e.preventDefault();
                             $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({ scrollTop: scrollVal }, "slow");
+                            $("html, body").stop().animate({ scrollTop: scrollVal }, "slow");
                         })
                     });
                 </script>
