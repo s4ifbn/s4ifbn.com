@@ -74,6 +74,11 @@ h5 {
       color: grey;
   }
 
+ a.current {
+    color:#00bfc0 !important;
+    font-weight: bold;
+}
+
   .float-right {
       float: right;
   }
