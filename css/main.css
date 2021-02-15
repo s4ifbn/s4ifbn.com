@@ -5,8 +5,13 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
     font-weight: normal !important;
 }
 
+p,
+h5 {
+    color: grey;
+}
 
 .jumbotron{
+    text-align: center;
     border-bottom: 3px solid #00bfc0;
     border-left: 3px solid #00bfc0;
     border-right: 3px solid #00bfc0;
@@ -107,15 +112,6 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
       color: #00bfc0;
   }
 
-  p,
-  h5 {
-      color: grey;
-  }
-
-  .jumbotron {
-      text-align: center;
-  }
-
   .mydiv {
       width: 100%;
       text-align: center;
@@ -176,7 +172,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
       color: #9b59b6;
   }
 
-  .fa-sort-up{
+  .fa-sort-up {
       color: #00bfc0;
       font-size: 35px !important;
   }
