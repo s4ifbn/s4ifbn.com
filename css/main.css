@@ -170,7 +170,7 @@ button{
   }
 
   .social {
-      font-size: 25px !important;
+      font-size: 35px !important;
       color: #00bfc0;
   }
 
@@ -180,7 +180,7 @@ button{
   }
 
   .social a:hover {
-      color: #00bfc0;
+      color: grey;
       text-decoration: none
   }
 
