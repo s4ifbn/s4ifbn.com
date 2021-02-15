@@ -174,6 +174,10 @@ button{
       color: #00bfc0;
   }
 
+  .badge-info{
+    background-color:#00bfc0;
+  }
+
   .social a {
       color: #00bfc0;
       text-decoration: none
