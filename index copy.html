@@ -21,7 +21,6 @@
     <link rel="shortcut icon" href="img/tree.ico" type="image/x-icon" />
 
     <title>Saif Bashar</title>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"></script>
     <script>
@@ -38,8 +37,8 @@
 
 <body id="top">
     
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand text-white" href="#">
             <img src="img/sa.png" width=50px; alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -53,7 +52,7 @@
                     <a class="nav-link current" href="#">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown1" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Lectures
                     </a>
@@ -74,62 +73,54 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="programs.html">Programs</a>
+                    <a class="nav-link text-white" href="programs.html">Programs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="books.html">Books</a>
+                    <a class="nav-link text-white" href="books.html">Books</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="presentations.html">Presentations</a>
+                    <a class="nav-link text-white" href="presentations.html">Presentations</a>
                 </li>
      
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog
+                    <a class="nav-link text-white" href="blog.html">Blog
                         <span class="badge badge-info">
                             <div id="blogCount">{{blogs}}</div>
                         </span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cv.html">About Me
+                    <a class="nav-link text-white" href="cv.html">About Me
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
-    
-    <div class="container-fluid">
-
-        <div class="row mainDiv">
-            <div class="col-md-10 col-sm-6 col-12">
-                <h1 class="display-5 text-dark">Hello, I'm Saif Bashar</h1>
-                <div class="text-dark">
-                    The goal of this website is to deliver lectures in various subjects of computer sciences and mathematics dedicated
-                    to the Arab world, hoping to help students, improve the quality of education and trying to bridge
-                    the gap between the theoretical and applied aspects regarding computer science, this site was built
-                    to provide resources for students like books, lecture notes, programs, video lectures and written
-                    lectures that are updated frequently to include new and important topics.<br><br>
-                    <button type="button" class="btn btn-sm" onclick='window.location.href="pg/blog/2018-07-04.html"'>Read more...
-                    </button>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-6 col-12">
-                <br>
-                <img src="img/me2.jpg" width="260px" alt="" class="rounded-lg">
-            </div>
-        </div>
-        <br>
+    <div class="container">
         <div class="row">
             <div class="col-12">
-                <blockquote class="blockquote text-center">
-                    <p class="display-4 text-dark">&ldquo; We have to develope a passion for learning &rdquo;</p>
-                </blockquote>
-                 <p class="blockquote text-center" id="q">
-                    <my-q></my-q>
-                </p>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="tracking-in-contract">
+                        <h3 class="display-4">We have to develope a passion for learning</h3>
+                    </div>
+                    <p class="lead blockquote font-italic" id="q">
+                        <my-q></my-q>
+                    </p>
+                    <br>
+                
+                    <form method="get" action="lectures.html">
+                        <div>
+                            <button type="submit" class="btn btn-outline-info btn-lg" style="display: none;" id="ShowICO">Let's Learn</button>
+                        </div>
+                    </form>
+                    <script>
+                        $(document).ready(function(){
+                            $('#ShowICO').fadeIn(1000);
+                        });
+                    </script>
+                </div>
             </div>
         </div>
-        <br><br><br>
         <div class="row">
             <div class="col-md-3 col-6">
                 <div class="mydiv">
@@ -173,26 +164,38 @@
                 </div>
             </div>
         </div>
-        <br><br>
-        
         <div class="row">
             <div class="col-md-12 col-12">
-                <h1 class="display-5 text-dark">What's New ?</h1>
-                <ul class="timeline">
-                    <li> <p>2020-02-28</p><a class="" href="pg/math.html">New videos added on Mathematics </a> </li>
-                    <li> <p>2020-01-13</p><a class="" href="pg/nw.html">New videos added on Computer Networks </a> </li>
-                </ul>   
-                
-                <button type="button" class="btn btn-sm" onclick='window.location.href="lectures.html"'>Lectures
-                </button>
+                <hr><br>
+                <a class="" href="pg/math.html">New videos added on Mathematics <span
+                        class="badge badge-danger">New</span></a><br>
+                <a class="" href="pg/nw.html">New videos added on Computer Networks <span
+                        class="badge badge-danger">New</span></a>
             </div>
             <br>
-            
-
         </div>
-        <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
+        <hr>
+        <div class="row">
+            <div class="col-md-2 col-sm-6 col-12">
+                <br>
+                <img src="img/me2.jpg" width="150px" alt="" class="rounded-circle">
+            </div>
+            <div class="col-md-10 col-sm-6 col-12 mt-3">
+                <div class="alert alert-secondary font-italic" role="alert">
+                    My goal is to deliver lectures in various subjects of computer sciences and mathematics dedicated
+                    to the Arab world, hoping to help students, improve the quality of education and trying to bridge
+                    the gap between the theoretical and applied aspects regarding computer science, this site was built
+                    to provide resources for students like books, lecture notes, programs, video lectures and written
+                    lectures that are updated frequently to include new and important topics.<br>
+                    <a href="pg/blog/2018-07-04.html">
+                        <p class="text-right">Read more...</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
         <br>
-       
+        <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
         <br>
         <br>
     </div>

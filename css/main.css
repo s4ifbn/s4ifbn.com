@@ -4,6 +4,12 @@ body {
     padding-top: 70px !important; 
 }
 
+.container-fluid{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p,a,h1,h2,h3,h4,h5,h6,span,button{
     font-family: 'Cairo', 'Helvetica' !important;
     font-weight: normal !important;
@@ -12,6 +18,19 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
 p,
 h5 {
     color: grey;
+}
+
+button{
+    background-color: #00bfc0 !important;
+    color: white !important;
+}
+
+.mainDiv{
+    background-color: #fbfbfb; 
+    padding: 25px;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .jumbotron{
@@ -193,3 +212,50 @@ h5 {
   .size {
       color: #00bfc0;
   }
+
+
+
+  .timeline{
+	position: relative;
+}
+
+/*Line*/
+.timeline>li::before{
+	content:'';
+	position: absolute;
+	width: 1px;
+	background-color: #E7E7E7;
+	top: 0;
+	bottom: 0;
+	left:-19px;
+}
+
+/*Circle*/
+.timeline>li::after{
+    text-align: center;
+    padding-top:10px;
+	z-index: 10;
+	content:counter(item);
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border:3px solid white;
+	background-color: #E7E7E7;
+	border-radius: 50%;
+	top:0;
+	left:-43px;
+}
+
+/*Content*/
+.timeline>li{
+	counter-increment: item;
+	padding: 10px 10px;
+	margin-left: 0px;
+	min-height:70px;
+	position: relative;
+	background-color: white;
+	list-style: none;
+}
+.timeline>li:nth-last-child(1)::before{
+	width: 0px;
+}
