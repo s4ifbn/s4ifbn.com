@@ -163,10 +163,10 @@ button{
   .footer {
       background-color: #343a40;
       text-align: center;
-      color: grey;
+      color: white;
       padding-top: 20px;
       margin-top: 20px;
-      border-bottom: 5px solid #00bfc0;
+      padding: 30px;
   }
 
   .social {
