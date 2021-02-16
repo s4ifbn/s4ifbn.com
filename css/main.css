@@ -190,6 +190,7 @@ button{
 
 .timeline{
 	position: relative;
+    text-align: left;
 }
 
 /*Line*/
