@@ -28,6 +28,7 @@ button{
 .mainDiv{
     background-color: #fbfbfb; 
     padding: 120px;
+    padding-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
 }
