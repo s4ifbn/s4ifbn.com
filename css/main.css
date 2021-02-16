@@ -33,37 +33,6 @@ button{
     margin-right: auto;
 }
 
-.jumbotron{
-    text-align: center;
-    border-bottom: 3px solid #00bfc0;
-    border-left: 3px solid #00bfc0;
-    border-right: 3px solid #00bfc0;
-}
-
-.jumbotronCPP{
-    border-bottom: 3px solid #669ad3;
-    border-left: 3px solid #669ad3;
-    border-right: 3px solid #669ad3;
-}
-
-.jumbotronORA{
-    border-bottom: 3px solid #ed3338;
-    border-left: 3px solid #ed3338;
-    border-right: 3px solid #ed3338;
-}
-
-.jumbotronWEB{
-    border-bottom: 3px solid #f16528;
-    border-left: 3px solid #f16528;
-    border-right: 3px solid #f16528;
-}
-
-.jumbotronNW{
-    border-bottom: 3px solid #e84393;
-    border-left: 3px solid #e84393;
-    border-right: 3px solid #e84393;
-}
-
 .dropdown-item:active {
     background-color: #00bfc0;
 }
