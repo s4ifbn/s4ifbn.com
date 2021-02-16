@@ -27,8 +27,10 @@ button{
 
 .mainDiv{
     background-color: #fbfbfb; 
-    padding: 120px;
+    padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 135px;
+    padding-right: 135px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -190,7 +192,6 @@ button{
 
 .timeline{
 	position: relative;
-    text-align: left;
 }
 
 /*Line*/
@@ -228,6 +229,7 @@ button{
 	min-height:70px;
 	position: relative;
 	background-color: white;
+    text-align: left;
 	list-style: none;
 }
 .timeline>li:nth-last-child(1)::before{
