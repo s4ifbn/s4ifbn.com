@@ -4,12 +4,6 @@ body {
     padding-top: 70px !important; 
 }
 
-.container-fluid{
-    width:90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 p,a,h1,h2,h3,h4,h5,h6,span,button{
     font-family: 'Cairo', 'Helvetica' !important;
     font-weight: normal !important;
@@ -24,6 +18,22 @@ button{
     background-color: #00bfc0 !important;
     color: white !important;
 }
+
+a,li,h5 {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+a.current {
+  color:#00bfc0 !important;
+  font-weight: bold;
+}
+
+
 
 .mainDiv{
     background-color: #fbfbfb; 
@@ -56,33 +66,19 @@ button{
     font-size:18px !important;
   }
 
-  a,li,h5 {
-      color: grey;
-      text-decoration: none;
-  }
-
-  a:hover {
-      color: grey;
-  }
-
- a.current {
-    color:#00bfc0 !important;
-    font-weight: bold;
-}
-
-  .float-right {
+.float-right {
       float: right;
   }
 
-  .float-left {
+.float-left {
       float: left;
   }
 
-  .justify {
+.justify {
       text-align: justify;
   }
 
-  .date {
+.date {
       color: #00bfc0;
       font-size: 16px;
   }
