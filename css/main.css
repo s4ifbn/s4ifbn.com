@@ -28,7 +28,6 @@ button{
 .mainDiv{
     background-color: #fbfbfb; 
     padding: 85px;
-    
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,17 +42,17 @@ button{
       text-align: justify;
   }
 
-  .blogTitle {
+ .blogTitle {
       font-family: 'Cairo', 'Helvetica';
       font-size: 18px
   }
 
-  .fa-angle-double-left{
+ .fa-angle-double-left{
     color: #00bfc0;
     font-size:18px !important;
   }
 
-  a,li,blockquote,h5 {
+  a,li,h5 {
       color: grey;
       text-decoration: none;
   }

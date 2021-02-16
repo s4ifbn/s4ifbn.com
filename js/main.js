@@ -22,13 +22,13 @@ var app4 = new Vue({
 })
 
 var quotes = [ "A programmer has two weapons: logical thinking and search",
-               "Learning programming is like learning to play a musical instrument, you will not excel unless you train daily",
+               "Programming is like playing a musical instrument, you will not excel unless you train daily",
                "Work Hard",
                "Programming is understanding",
                "Think twice, code once",
                "Keep calm and start debugging",
                "Programming is beautiful",
-               "No pain, no gain",
+               "We have to develope a passion for learning",
                "Code is poetry"
                ]
 
