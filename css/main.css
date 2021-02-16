@@ -33,14 +33,12 @@ a.current {
   font-weight: bold;
 }
 
-
-
 .mainDiv{
     background-color: #fbfbfb; 
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 135px;
-    padding-right: 135px;
+    padding-left: 155px;
+    padding-right: 155px;
     margin-left: auto;
     margin-right: auto;
 }
