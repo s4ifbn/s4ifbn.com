@@ -38,6 +38,7 @@ button{
 }
 
 .art p,li {
+      direction: rtl;
       font-family: 'Cairo', 'Helvetica';
       font-size: 16px;
       text-align: justify;
@@ -174,22 +175,20 @@ button{
       color: #9b59b6;
   }
 
-  .fa-sort-up {
+.fa-sort-up {
       color: #00bfc0;
       font-size: 35px !important;
   }
 
-  .card-text {
+.card-text {
       text-align: right
   }
 
-  .size {
+.size {
       color: #00bfc0;
   }
 
-
-
-  .timeline{
+.timeline{
 	position: relative;
 }
 
