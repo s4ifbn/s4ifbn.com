@@ -90,6 +90,11 @@ a.current {
       color: red
   }
 
+  .fa-copyright, 
+  .fa-check-circle{
+    color: #00bfc0;
+  }
+
   .fa-graduation-cap,
   .fa-video,
   .fa-users,
