@@ -1,19 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Tajawal:wght@400;700&display=swap');
 
-body {
+body{
     padding-top: 70px !important; 
+    font-family: 'Lato', sans-serif !important;
+    font-family: 'Tajawal', sans-serif !important;
+    font-weight: normal !important;
+    font-size: 18px;
 }
 
 p,a,h1,h2,h3,h4,h5,h6,span,button{
-    font-family: 'Cairo', 'Helvetica' !important;
+    font-family: 'Lato', sans-serif !important;
+    font-family: 'Tajawal', sans-serif !important;
     font-weight: normal !important;
 }
-
 p,
 h5 {
     color: grey;
 }
 
+.nav-item{
+    font-size: 18px;
+
+}
 button{
     background-color: #00bfc0 !important;
     color: white !important;
@@ -41,6 +49,9 @@ a.current {
     padding-right: 155px;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
+    text-align:justify;
+    direction: rtl;
 }
 
 .dropdown-item:active {
