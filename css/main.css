@@ -42,13 +42,10 @@ a.current {
 
 .mainDiv{
     background-color: #fbfbfb; 
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width:70%;
     text-align:justify;
     direction: rtl;
 }
