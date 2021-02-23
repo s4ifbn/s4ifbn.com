@@ -5,7 +5,7 @@ body{
     font-family: 'Lato', sans-serif !important;
     font-family: 'Tajawal', sans-serif !important;
     font-weight: normal !important;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 p,a,h1,h2,h3,h4,h5,h6,span,button,ul,ol,li{
@@ -19,7 +19,7 @@ h5 {
 }
 
 .nav-item{
-    font-size: 18px;
+    font-size: 16px;
 
 }
 button{
