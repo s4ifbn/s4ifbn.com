@@ -114,7 +114,7 @@
             </div>
         </div>
         <hr>
-        <p class="title">Structured Programming</p>
+        <p class="title">1) Structured Programming</p>
         <div class="row">
             <div class="col-md-4 col-sm-12">
                 <p class="subTitle">1- Basics</p>
@@ -519,8 +519,8 @@
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <p class="title">Object Oriented Programming</p>
+            <div class="col-md-4 col-sm-12">
+                <p class="title">2) Object Oriented Programming</p>
                 <script>
                     $(document).ready(function () {
                         $("div#pr_oop a").click(function (e) {
@@ -583,8 +583,8 @@
                     <a href="https://www.youtube.com/embed/tXBEQl8U3sY">32) Class Template</a><br><br>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <p class="title">Data Structures</p>
+            <div class="col-md-4 col-sm-12">
+                <p class="title">3) Data Structures</p>
                 <script>
                     $(document).ready(function () {
                         $("div#pr_ds a").click(function (e) {
@@ -596,7 +596,7 @@
                         })
                     });
                 </script>
-                <div id="pr_oop">
+                <div id="pr_ds">
                     <a href="https://www.youtube.com/embed/iAgr41bL09g">01) Stack</a><br>
                     <a href="https://www.youtube.com/embed/jwRhgyNvXVY">02) Stack in OOP</a><br>
                     <a href="https://www.youtube.com/embed/VLcUoO3sdXg">03) Stack Applications (infix to
@@ -611,6 +611,24 @@
                     <a href="https://www.youtube.com/embed/hgUtP9oV_rs">09) Linked List Part 1</a><br>
                     <a href="https://www.youtube.com/embed/40YGmE5s1mQ">10) Linked List Part 2 (Insert)</a><br>
                     <a href="https://www.youtube.com/embed/CCoeVO49_Gw">11) Linked List Part 3 (Delete)</a><br>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="title">4) Important Libraries</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#libs a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: scrollVal
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="libs">
+                    <a href="https://www.youtube.com/embed/iAgr41bL09g">01) Vectors</a><br>
+                  
                 </div>
             </div>
         </div>
