@@ -7,14 +7,15 @@
     <meta http-equiv="author" content="Saif Bashar">
     <meta http-equiv="pragma" content="no-cache">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/charts.css>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel=" icon" href="img/tree.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/charts.css">
+
+    <link rel="icon" href="img/tree.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="img/tree.ico" type="image/x-icon" />
 
     <title>Saif Bashar / Stats</title>
@@ -31,45 +32,47 @@
 
 <body id="top">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-        <a class="navbar-brand text-white" href="index.html">
-            <img src="img/sa.png" width=50px; alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.html">
+                <img src="img/sa.png" width=50px; alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="lectures.html">Lectures</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="programs.html">Programs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="books.html">Books</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="presentations.html">Presentations</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="blog.html">
-                        <span class="badge badge-info">
-                            <div id="blogCount">{{blogs}}</div>
-                        </span> Blog
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="cv.html">About Me
-                    </a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="lectures.html">Lectures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="programs.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="books.html">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="presentations.html">Presentations</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="blog.html">
+                            <span class="badge badge-info">
+                                <div id="blogCount">{{blogs}}</div>
+                            </span> Blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="cv.html">About Me
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
     </nav>
     <div class="container">
@@ -79,34 +82,41 @@
                 <h4 class="text-center">إحصائيات</h4>
                 <hr>
                 <h5 class="text-right">عدد الفديوات حسب المواضيع</h5>
-                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTExGg2ScrZHgxtywRpB13Tb4j-YIXZOTWtPmYtO2vVE9CRY_x3gzJmliRD0GeFHQiJzyYbtWxAxaWc/pubchart?oid=1163678266&amp;format=interactive"></iframe>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTExGg2ScrZHgxtywRpB13Tb4j-YIXZOTWtPmYtO2vVE9CRY_x3gzJmliRD0GeFHQiJzyYbtWxAxaWc/pubchart?oid=1163678266&amp;format=interactive"></iframe>
             </div>
             <div class="col-md-12 col-12">
                 <hr>
                 <h5 class="text-right">عدد الزيارات اليومي</h5>
-                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/14t8AgzXxMYRmReVAckWD2-MjaIu0a8_k6u5FBqlb8is/pubchart?oid=1520478487&amp;format=interactive"></iframe>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no"
+                    src="https://docs.google.com/spreadsheets/d/14t8AgzXxMYRmReVAckWD2-MjaIu0a8_k6u5FBqlb8is/pubchart?oid=1520478487&amp;format=interactive"></iframe>
             </div>
             <div class="col-md-12 col-12">
                 <hr>
                 <h5 class="text-right"> زيارات حسب الموقع الجغرافي</h5>
-                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1DE-wVzaKof83ZUK-AqIv3xKnr91pVIVcDXwK5Y_ys7w/pubchart?oid=1481892725&amp;format=interactive"></iframe>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no"
+                    src="https://docs.google.com/spreadsheets/d/1DE-wVzaKof83ZUK-AqIv3xKnr91pVIVcDXwK5Y_ys7w/pubchart?oid=1481892725&amp;format=interactive"></iframe>
                 <br>
-                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR5keF4oxyy3WmaI4C9DX3c-tebF_FgepvXq8vzTCShRRGh4rMx_CAHbdp9fhTPqKxr81pynwhyRAfu/pubchart?oid=1866890178&amp;format=interactive"></iframe>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR5keF4oxyy3WmaI4C9DX3c-tebF_FgepvXq8vzTCShRRGh4rMx_CAHbdp9fhTPqKxr81pynwhyRAfu/pubchart?oid=1866890178&amp;format=interactive"></iframe>
             </div>
             <div class="col-md-12 col-12">
                 <hr>
                 <h5 class="text-right"> أكثر الصفحات زيارة</h5>
-                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1mNTWfoDL-V3d2dNvtsCnPcnoG2KcAZELu4YUsJW417g/pubchart?oid=1731420910&amp;format=interactive"></iframe>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no"
+                    src="https://docs.google.com/spreadsheets/d/1mNTWfoDL-V3d2dNvtsCnPcnoG2KcAZELu4YUsJW417g/pubchart?oid=1731420910&amp;format=interactive"></iframe>
             </div>
             <div class="col-md-12 col-12">
                 <hr>
                 <h5 class="text-right"> الزيارات حسب المتصفح</h5>
-                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1UO-vDR91o_0MEzJiepR-08-034LSt8OnGqN8gxowHnM/pubchart?oid=1962427853&amp;format=interactive"></iframe>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no"
+                    src="https://docs.google.com/spreadsheets/d/1UO-vDR91o_0MEzJiepR-08-034LSt8OnGqN8gxowHnM/pubchart?oid=1962427853&amp;format=interactive"></iframe>
             </div>
             <div class="col-md-12 col-12">
                 <hr>
                 <h5 class="text-right"> الزيارات حسب الجهاز المستعمل</h5>
-                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKhszDXQx6oDSIpocmVXo9B0akPvS8_Nme3K_26WYQGUQ5dlph41lO5OUxqKXQuMhytQqK_SprU7No/pubchart?oid=575567133&amp;format=interactive"></iframe>
+                <iframe width="100%" height="371" seamless frameborder="0" scrolling="no"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSKhszDXQx6oDSIpocmVXo9B0akPvS8_Nme3K_26WYQGUQ5dlph41lO5OUxqKXQuMhytQqK_SprU7No/pubchart?oid=575567133&amp;format=interactive"></iframe>
             </div>
             <br>
 
@@ -117,7 +127,7 @@
         <hr>
         <p>Powered by Google Analytics</p>
     </div>
-    
+
     <footer>
         <div class="footer">
             <table width="100%">
@@ -137,10 +147,16 @@
             </table>
         </div>
     </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="js/main.js"></script>
