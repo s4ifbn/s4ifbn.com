@@ -40,6 +40,12 @@ a.current {
   font-weight: bold;
 }
 
+#q{
+    font-style: italic;
+    font-size: 28px;
+}
+
+
 .mainDiv{
     background-color: #fbfbfb; 
     padding: 20px;
