@@ -156,6 +156,8 @@ a.current {
   .social {
       font-size: 30px !important;
       color: #00bfc0;
+      text-align: left;
+      width: 50%;
       
   }
 
