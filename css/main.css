@@ -119,8 +119,19 @@ a.current {
   .fa-utensils,
   .fa-code,
   .fa-gamepad,
-  .fa-chevron-up {
+  .fa-chevron-up
+  {
       font-size: 40px;
+      color: #00bfc0;
+  }
+
+  .fa-globe-africa,
+  .fa-gratipay,
+  .fa-envelope,
+  .fa-language,
+  .fa-clock,
+  .fa-file-pdf {
+      font-size: 25px;
       color: #00bfc0;
   }
 
