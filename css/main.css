@@ -67,6 +67,9 @@ a.current {
       text-align: justify;
   }
 
+.vid{
+      text-align: center;
+  }
  .blogTitle {
       font-family: 'Cairo', 'Helvetica';
       font-size: 18px
