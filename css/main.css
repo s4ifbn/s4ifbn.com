@@ -45,6 +45,9 @@ a.current {
     font-size: 36px;
 }
 
+#cse{
+    width: 350px;
+}
 
 .mainDiv{
     background-color: #fbfbfb; 
