@@ -134,10 +134,16 @@ a.current {
   .fa-envelope,
   .fa-language,
   .fa-clock,
-  .fa-file-pdf {
+  .fa-file-pdf
+  {
       font-size: 25px;
       color: #00bfc0;
   }
+
+  .fa-caret-right {
+    font-size: 14px;
+    color: #00bfc0;
+}
 
   .mydiv {
       width: 100%;
