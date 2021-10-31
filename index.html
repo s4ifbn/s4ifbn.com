@@ -1,23 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="author" content="Saif Bashar" />
+    <meta name="description" content="Teaching computer science for Arabs" />
+    <meta
+      name="keywords"
+      content="computer, saif bashar, c++, oracle, mathematics, computer science, علوم الحاسوب، سيف بشار، البرمجة"
+    />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta
+      name="google-site-verification"
+      content="T4VamdJmAnW-YTlJSvjRzCDP4dv-yBC7nAM6Y1Txrls"
+    />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="author" content="Saif Bashar">
-    <meta name="description" content="Teaching computer science for Arabs">
-    <meta name="keywords"
-        content="computer, saif bashar, c++, oracle, mathematics, computer science, علوم الحاسوب، سيف بشار، البرمجة">
-    <meta http-equiv="pragma" content="no-cache">
-    <meta name="google-site-verification" content="T4VamdJmAnW-YTlJSvjRzCDP4dv-yBC7nAM6Y1Txrls" />
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <script src="js/jquery-3.5.1.js"></script>
-    <script src="https://kit.fontawesome.com/b1f74e3fdc.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b1f74e3fdc.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/anim.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/anim.css" />
 
     <link rel="icon" href="img/tree.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="img/tree.ico" type="image/x-icon" />
@@ -25,287 +39,355 @@
     <title>Saif Bashar</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-42710021-1');
+      gtag("config", "UA-42710021-1");
     </script>
-    <script data-ad-client="ca-pub-7453112797382148" async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
+    <script
+      data-ad-client="ca-pub-7453112797382148"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+  </head>
 
-<body id="top">
+  <body id="top">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/sa.png" width=50px; alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/sa.png" width="50px;" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link current" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="lectures.html">Lectures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="programs.html">Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="books.html">Books</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="presentations.html">Presentations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="blog.html">
-                            <span class="badge badge-info">
-                                <div id="blogCount">{{blogs}}</div>
-                            </span> Articles
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="cv.html">About Me
-                        </a>
-                    </li>
-                </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link current" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="lectures.html">Lectures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="programs.html">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="books.html">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="presentations.html"
+                >Presentations</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blog.html">
+                <span class="badge badge-info">
+                  <div id="blogCount">{{blogs}}</div>
+                </span>
+                Articles
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="cv.html">About Me </a>
+            </li>
+          </ul>
 
-                <script async src="https://cse.google.com/cse.js?cx=7bedf306f0d889130"></script>
-                <div id="cse">
-                    <div class="gcse-search"></div>
-                </div>
-
-            </div>
+          <script
+            async
+            src="https://cse.google.com/cse.js?cx=7bedf306f0d889130"
+          ></script>
+          <div id="cse">
+            <div class="gcse-search"></div>
+          </div>
         </div>
+      </div>
     </nav>
     <div class="container-fluid">
-        <div class="row mainDiv">
-            <div class="col-lg-5 col-md-12 col-sm-12 col-12 d-none d-sm-block text-center">
-                <br>
-                <img src="img/me2.jpg" width="260px" alt="Me" class="rounded-lg">
-            </div>
-            <div class="col-lg-7 col-md-12 col-sm-12 col-12 d-none d-sm-block">
-                <br>
-                <h2 class="text-dark">مرحباً ، أنا سيف بشار</h2>
-                <div class="text-dark">
-                    تدريسي لعلوم الحاسوب، هدفي من هذا الموقع هو توفير محاضرات في مواضيع علوم الحاسوب المختلفة
-                    والرياضيات مخصصة للطلاب في العالم العربي، على أمل تقديم المساعدة قدر المستطاع للراغبين بتعلم هذه
-                    المواضيع المهمة وكلي أمل أيضاً في رفع مستوى جودة التعليم وتقليل الفجوة بين الجانب النظري والجانب
-                    التطبيقي بخصوص علوم الحاسوب. هذا الموقع يوفر مجموعة من المحاضرات الفديوية والملاحظات والمقالات
-                    والكتب التي تحدث باستمرار لإضافة المهم والجديد في هذه العلوم. أتمنى أن ينال الموقع إستحسانكم وأن
-                    يعود بالفائدة عليكم ولا تنسوني من دعائكم.<br><br>
-                    <button type="button" class="btn btn-sm"
-                        onclick='window.location.href="pg/blog/2018-07-04.html"'>قراءة المزيد ...
-                    </button>
-                </div>
-            </div>
+      <div class="row mainDiv">
+        <div
+          class="
+            col-lg-5 col-md-12 col-sm-12 col-12
+            d-none d-sm-block
+            text-center
+          "
+        >
+          <br />
+          <img src="img/me2.jpg" width="260px" alt="Me" class="rounded-lg" />
         </div>
-        <br>
-        <br>
-        <br>
-        <div class="row" style="width: 65%; margin-left: auto; margin-right: auto;">
-            <div class="col-md-3 col-6">
-                <div class="mydiv">
-
-                    <i class="fas fa-video"></i>
-                    <br>
-                    <p>Lectures
-                        <br>
-                        <span id="stdCount">445</span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-3 col-6">
-                <div class="mydiv">
-                    <i class="fas fa-history"></i>
-                    <br>
-                    <p>Hours Watched
-                        <br>
-                        <span id="stdCount">151.8K</span>
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-                <div class="mydiv">
-                    <i class="fas fa-users"></i>
-                    <br>
-                    <p>Subscribers
-                        <br>
-                        <span id="stdCount">25.7K</span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-3 col-6">
-                <div class="mydiv">
-                    <i class="fas fa-eye"></i>
-                    <br>
-                    <p>Views
-                        <br>
-                        <span id="stdCount">2.1M</span>
-                    </p>
-                </div>
-            </div>
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 d-none d-sm-block">
+          <br />
+          <h2 class="text-dark">مرحباً ، أنا سيف بشار</h2>
+          <div class="text-dark">
+            تدريسي لعلوم الحاسوب، هدفي من هذا الموقع هو توفير محاضرات في مواضيع
+            علوم الحاسوب المختلفة والرياضيات مخصصة للطلاب في العالم العربي، على
+            أمل تقديم المساعدة قدر المستطاع للراغبين بتعلم هذه المواضيع المهمة
+            وكلي أمل أيضاً في رفع مستوى جودة التعليم وتقليل الفجوة بين الجانب
+            النظري والجانب التطبيقي بخصوص علوم الحاسوب. هذا الموقع يوفر مجموعة
+            من المحاضرات الفديوية والملاحظات والمقالات والكتب التي تحدث باستمرار
+            لإضافة المهم والجديد في هذه العلوم. أتمنى أن ينال الموقع إستحسانكم
+            وأن يعود بالفائدة عليكم ولا تنسوني من دعائكم.<br /><br />
+            <button
+              type="button"
+              class="btn btn-sm"
+              onclick='window.location.href="pg/blog/2018-07-04.html"'
+            >
+              قراءة المزيد ...
+            </button>
+          </div>
         </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-12">
-                <blockquote class="blockquote text-center">
-                    <div class="text-focus-in" id="q">
-                        <span style="font-size: 70px; color: #00bfc0;">&#10077;
-                        </span><span>
-                            <my-q></my-q>
-                        </span><span style="font-size: 70px; color: #00bfc0;">&#10078;
-                        </span>
-                    </div>
-                </blockquote>
-                <br>
-                <div class="bounce-top text-center">
-                    <button type="button" class="btn btn-lg heartbeat"
-                        onclick='window.location.href="lectures.html"'>Let's Learn
-                    </button>
-                </div>
-                <br>
-                <hr>
-                <br>
-            </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div
+        class="row"
+        style="width: 65%; margin-left: auto; margin-right: auto"
+      >
+        <div class="col-md-3 col-6">
+          <div class="mydiv">
+            <i class="fas fa-video"></i>
+            <br />
+            <p>
+              Lectures
+              <br />
+              <span id="stdCount">445</span>
+            </p>
+          </div>
         </div>
-        <div class="row">
-
-            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                <div class="text-center">
-                    <!-- v_ads -->
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7453112797382148"
-                        data-ad-slot="5641310858" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                <div class="text-center">
-                    <!-- v_ads -->
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7453112797382148"
-                        data-ad-slot="5641310858" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                <div class="text-center">
-                    <!-- v_ads -->
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7453112797382148"
-                        data-ad-slot="5641310858" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-
-                </div>
-
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="row">
-            <div class="col-md-6 col-6 d-none d-sm-block">
-                <div style="margin-left: 150px;">
-                    <h2 class="text-dark">What's <span class="badge badge-danger heartbeat">New</span> ?</h2>
-                    <ul class="timeline">
-                        <li>
-                            <p>2021-06-18</p><a class="" href="pg/csharp.html">Video Added
-                                <i class="fas fa-caret-right"></i> C# / Simple Calculator Program</a>
-                        </li>
-                        <li>
-                            <p>2021-05-25</p><a class="" href="pg/csharp.html">Video Added
-                                <i class="fas fa-caret-right"></i> C# / Exploring Visual Studio IDE / UWP</a>
-                        </li>
-                        <li>
-                            <p>2021-05-22</p><a class="" href="pg/csharp.html">Video Added
-                                <i class="fas fa-caret-right"></i> C# / Exploring Visual Studio IDE / Windows Forms</a>
-                        </li>
-                        <li>
-                            <p>2021-05-21</p><a class="" href="pg/csharp.html">Video Added
-                                <i class="fas fa-caret-right"></i> C# / Simple Data Types </a>
-                        </li>
-                        <li>
-                            <p>2021-05-19</p><a class="" href="pg/csharp.html">Video Added <i
-                                    class="fas fa-caret-right"></i> C# / Introduction </a>
-                        </li>
-                        <li>
-                            <p>2021-05-16</p><a class="" href="pg/cpp.html">Video Updated 
-                                <i class="fas fa-caret-right"></i> C++ / Introduction </a>
-                        </li>
-                        <li>
-                            <p>2021-05-05</p><a class="" href="pg/cpp.html">Video Added 
-                                <i class="fas fa-caret-right"></i> C++ / Strings </a>
-                        </li>
-                        <li>
-                            <p>2021-04-23</p><a class="" href="pg/cpp.html">Video Added 
-                                <i class="fas fa-caret-right"></i> C++ / Maps </a>
-                        </li>
-                        <li>
-                            <p>2021-04-10</p><a class="" href="pg/cpp.html">Video Added 
-                                <i class="fas fa-caret-right"></i> C++ / Pointer to Function
-                            </a>
-                        </li>
-                        <li>
-                            <p>2021-03-17</p><a class="" href="pg/cpp.html">Video Added 
-                                <i class="fas fa-caret-right"></i> C++ / Vectors </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-6 col-6 d-none d-sm-block">
-
-            </div>
+        <div class="col-md-3 col-6">
+          <div class="mydiv">
+            <i class="fas fa-history"></i>
+            <br />
+            <p>
+              Hours Watched
+              <br />
+              <span id="stdCount">151.8K</span>
+            </p>
+          </div>
         </div>
 
+        <div class="col-md-3 col-6">
+          <div class="mydiv">
+            <i class="fas fa-users"></i>
+            <br />
+            <p>
+              Subscribers
+              <br />
+              <span id="stdCount">25.7K</span>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="mydiv">
+            <i class="fas fa-eye"></i>
+            <br />
+            <p>
+              Views
+              <br />
+              <span id="stdCount">2.1M</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-12">
+          <blockquote class="blockquote text-center">
+            <div class="text-focus-in" id="q">
+              <span style="font-size: 70px; color: #00bfc0">&#10077; </span
+              ><span>
+                <my-q></my-q> </span
+              ><span style="font-size: 70px; color: #00bfc0">&#10078; </span>
+            </div>
+          </blockquote>
+          <br />
+          <div class="bounce-top text-center">
+            <button
+              type="button"
+              class="btn btn-lg heartbeat"
+              onclick='window.location.href="lectures.html"'
+            >
+              Let's Learn
+            </button>
+          </div>
+          <br />
+          <hr />
+          <br />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+   
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+          <div class="text-center">
+            <!-- v_ads -->
+            <ins
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-7453112797382148"
+              data-ad-slot="5641310858"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+          <div class="text-center">
+            <!-- v_ads -->
+            <ins
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-7453112797382148"
+              data-ad-slot="5641310858"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <div class="row">
+        <div class="col-md-6 col-6 d-none d-sm-block">
+          <div style="margin-left: 150px">
+            <h2 class="text-dark">
+              What's <span class="badge badge-danger heartbeat">New</span> ?
+            </h2>
+            <ul class="timeline">
+              <li>
+                <p>2021-06-18</p>
+                <a class="" href="pg/csharp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C# / Simple
+                  Calculator Program</a
+                >
+              </li>
+              <li>
+                <p>2021-05-25</p>
+                <a class="" href="pg/csharp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C# / Exploring
+                  Visual Studio IDE / UWP</a
+                >
+              </li>
+              <li>
+                <p>2021-05-22</p>
+                <a class="" href="pg/csharp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C# / Exploring
+                  Visual Studio IDE / Windows Forms</a
+                >
+              </li>
+              <li>
+                <p>2021-05-21</p>
+                <a class="" href="pg/csharp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C# / Simple
+                  Data Types
+                </a>
+              </li>
+              <li>
+                <p>2021-05-19</p>
+                <a class="" href="pg/csharp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C# /
+                  Introduction
+                </a>
+              </li>
+              <li>
+                <p>2021-05-16</p>
+                <a class="" href="pg/cpp.html"
+                  >Video Updated <i class="fas fa-caret-right"></i> C++ /
+                  Introduction
+                </a>
+              </li>
+              <li>
+                <p>2021-05-05</p>
+                <a class="" href="pg/cpp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C++ / Strings
+                </a>
+              </li>
+              <li>
+                <p>2021-04-23</p>
+                <a class="" href="pg/cpp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C++ / Maps
+                </a>
+              </li>
+              <li>
+                <p>2021-04-10</p>
+                <a class="" href="pg/cpp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C++ / Pointer
+                  to Function
+                </a>
+              </li>
+              <li>
+                <p>2021-03-17</p>
+                <a class="" href="pg/cpp.html"
+                  >Video Added <i class="fas fa-caret-right"></i> C++ / Vectors
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-6 d-none d-sm-block"></div>
+      </div>
     </div>
     <footer>
-        <div class="footer">
-            <table width="100%">
-                <tr>
-                    <td width="33%" id="year">
-                        <a href="cv.html" class="text-white"> Saif Bashar</a>
-                        <i class="far fa-copyright"></i> {{year}}
-                    </td>
-                    <td width="33%">
-                        Made with
-                        <i class="fas fa-heart heartbeat"></i>
-                    </td>
-                    <td width="33%">
-                        <div id="updated">{{message}} <i class="fas fa-check-circle"></i></div>
-                    </td>
-                </tr>
-            </table>
-        </div>
+      <div class="footer">
+        <table width="100%">
+          <tr>
+            <td width="33%" id="year">
+              <a href="cv.html" class="text-white"> Saif Bashar</a>
+              <i class="far fa-copyright"></i> {{year}}
+            </td>
+            <td width="33%">
+              Made with
+              <i class="fas fa-heart heartbeat"></i>
+            </td>
+            <td width="33%">
+              <div id="updated">
+                {{message}} <i class="fas fa-check-circle"></i>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
