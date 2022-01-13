@@ -46,6 +46,10 @@ a.current {
   font-weight: bold;
 }
 
+.nav-link{
+    text-align: center;
+}
+
 #q{
     font-style: italic;
     font-size: 28px;
