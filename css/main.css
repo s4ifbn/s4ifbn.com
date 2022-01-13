@@ -103,7 +103,20 @@ a.current {
       font-size: 16px;
   }
 
-  .card-text.big {
+.card{
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 15px 15px;
+    height: 450px;
+    width: 22em;
+    margin: 15px;
+    transition: 0.7s ease;
+  }
+
+.card:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.card-text.big {
       font-size: 28px;
       color: #00bfc0;
   }
