@@ -3,16 +3,12 @@
 *{
     font-family: 'Tajawal', 'Cairo', sans-serif;
     font-weight: normal;
+    scroll-behavior: smooth;
 }
 
 body{
     padding-top: 70px !important; 
     font-size: 16px;
-}
-
-p,a,h1,h2,h3,h4,h5,h6,span,button,ul,ol,li{
-    font-family: 'Tajawal', 'Cairo', sans-serif !important;
-    font-weight: normal !important;
 }
 
 p,
