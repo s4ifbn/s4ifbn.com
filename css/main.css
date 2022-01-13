@@ -71,13 +71,11 @@ a.current {
 
 .art p,li {
       direction: rtl;
-      font-family: 'Cairo', 'Helvetica';
       font-size: 16px;
       text-align: justify;
   }
 
  .blogTitle {
-      font-family: 'Cairo', 'Helvetica';
       font-size: 18px
   }
 
@@ -110,6 +108,7 @@ a.current {
     min-width: 350px;
     margin: 10px;
     transition: 0.7s ease;
+    align-items: center;
   }
 
 .mycard:hover{
