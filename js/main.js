@@ -29,7 +29,8 @@ var quotes = [ "A programmer has two weapons: logical thinking and search",
                "Keep calm and start debugging",
                "Programming is beautiful",
                "We have to develope a passion for learning",
-               "Code is poetry"
+               "Code is poetry",
+               "The best way to learn a language is to use it"
                ]
 
 var i = Math.round(Math.random()*100)%quotes.length;
