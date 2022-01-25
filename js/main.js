@@ -46,7 +46,7 @@ var temp = {
       template: '<p>'+quotes[i] +'</p>'
     }
 
-  var vm9 = new Vue({
+var vm9 = new Vue({
     el: '#q',
     data: {
 
