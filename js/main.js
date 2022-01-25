@@ -1,5 +1,4 @@
 let scrollVal = 240;
-let gameVids = 10
 
 var app1 = new Vue({
     el: '#gameVids',
