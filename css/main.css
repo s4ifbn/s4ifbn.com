@@ -50,6 +50,10 @@ a.current {
     text-align: center;
 }
 
+.nav-link:hover{
+    color:#00bfc0 !important;
+}
+
 #q{
     font-style: italic;
     font-size: 28px;
