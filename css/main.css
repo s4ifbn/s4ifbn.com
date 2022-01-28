@@ -38,7 +38,8 @@ a,li,h5 {
 }
 
 a:hover {
-    color: grey;
+    color: #00bfc0;
+    text-decoration: none;
 }
 
 a.current {
