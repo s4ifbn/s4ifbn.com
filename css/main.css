@@ -42,9 +42,9 @@ a:hover {
     text-decoration: none;
 }
 
-a.current {
-  color:#00bfc0 !important;
-}
+.current {
+    color:#00bfc0 !important;
+  }
 
 .nav-link{
     text-align: center;
