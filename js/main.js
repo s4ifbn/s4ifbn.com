@@ -3,7 +3,7 @@ let scrollVal = 240;
 var app1 = new Vue({
     el: '#gameVids',
     data: {
-        gameVids: '13 Videos'
+        gameVids: '14 Videos'
     }
 })
 
