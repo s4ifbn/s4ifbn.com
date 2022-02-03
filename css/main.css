@@ -297,3 +297,8 @@ a:hover {
 .timeline>li:nth-last-child(1)::before{
 	width: 0px;
 }
+
+.buymeacoffee{
+    text-align: right;
+    padding-right: 200px;
+}
