@@ -1,304 +1,311 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@400;700&display=swap");
 
-*{
-    font-family: 'Tajawal', 'Cairo', sans-serif;
-    font-weight: normal;
-    scroll-behavior: smooth;
+* {
+  font-family: "Tajawal", "Cairo", sans-serif;
+  font-weight: normal;
 }
 
-body{
-    padding-top: 70px !important; 
-    font-size: 16px;
+body {
+  padding-top: 70px !important;
+  font-size: 16px;
 }
 
 p,
 h5 {
-    color: grey;
+  color: grey;
 }
 
-.nav-item{
-    font-size: 16px;
+.nav-item {
+  font-size: 16px;
 }
 
-button{
-    background-color: #00bfc0 !important;
-    color: white !important;
-    transition: 0.7s ease !important;
+button {
+  background-color: #00bfc0 !important;
+  color: white !important;
+  transition: 0.7s ease !important;
 }
 
-button:hover{
-    background-color: #343a40 !important;
-    transform: scale(1.2, 1.2);
-   }
-   
+button:hover {
+  background-color: #343a40 !important;
+  transform: scale(1.2, 1.2);
+}
 
-a,li,h5 {
-    color: grey;
-    text-decoration: none;
+a,
+li,
+h5 {
+  color: grey;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #00bfc0;
-    text-decoration: none;
+  color: #00bfc0;
+  text-decoration: none;
 }
 
 .current {
-    color:#00bfc0 !important;
-  }
-
-.nav-link{
-    text-align: center;
+  color: #00bfc0 !important;
 }
 
-.nav-link:hover{
-    color:#00bfc0 !important;
+.nav-link {
+  text-align: center;
 }
 
-#q{
-    font-style: italic;
-    font-size: 28px;
+.nav-link:hover {
+  color: #00bfc0 !important;
 }
 
-#cse{
-    width: 330px;
+#q {
+  font-style: italic;
+  font-size: 28px;
 }
 
-.mainDiv{
-    background-color: #fbfbfb; 
-    padding: 20px 0px 20px 45px;
-    margin-left: auto;
-    margin-right: auto;
-    width:70%;
-    text-align:justify;
-    direction: rtl;
+#cse {
+  width: 330px;
+}
+
+.mainDiv {
+  background-color: #fbfbfb;
+  padding: 20px 0px 20px 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: justify;
+  direction: rtl;
 }
 
 .dropdown-item:active {
-    background-color: #00bfc0;
+  background-color: #00bfc0;
 }
 
-.art p,li {
-      direction: rtl;
-      font-size: 16px;
-      text-align: justify;
-  }
+.art p,
+li {
+  direction: rtl;
+  font-size: 16px;
+  text-align: justify;
+}
 
- .blogTitle {
-      font-size: 18px
-  }
+.blogTitle {
+  font-size: 18px;
+}
 
- .fa-angle-double-left{
-    color: #00bfc0;
-    font-size:18px !important;
-  }
+.fa-angle-double-left {
+  color: #00bfc0;
+  font-size: 18px !important;
+}
 
 .float-right {
-      float: right;
-  }
+  float: right;
+}
 
 .float-left {
-      float: left;
-  }
+  float: left;
+}
 
 .justify {
-      text-align: justify;
-  }
+  text-align: justify;
+}
 
 .date {
-      color: #00bfc0;
-      font-size: 16px;
-  }
+  color: #00bfc0;
+  font-size: 16px;
+}
 
-.mycard{
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 15px 15px;
-    min-height: 450px;
-    min-width: 350px;
-    margin: 10px;
-    transition: 0.7s ease;
-    align-items: center;
-  }
+.mycard {
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 15px 15px;
+  min-height: 450px;
+  min-width: 350px;
+  margin: 10px;
+  transition: 0.7s ease;
+  align-items: center;
+}
 
-.mycard:hover{
-    transform: scale(1.1, 1.1);
+.mycard:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .card-text.big {
-      font-size: 28px;
-      color: #00bfc0;
-  }
-
-  .fa-heart {
-      color: red
-  }
-
-  .fa-copyright, 
-  .fa-check-circle{
-    color: #00bfc0;
-  }
-
-  .fa-graduation-cap,
-  .fa-video,
-  .fa-users,
-  .fa-eye,
-  .fa-music,
-  .fa-book,
-  .fa-futbol,
-  .fa-pencil-alt,
-  .fa-utensils,
-  .fa-code,
-  .fa-history,
-  .fa-gamepad,
-  .fa-chevron-up
-  {
-      font-size: 40px;
-      color: #00bfc0;
-  }
-
-  .fa-globe-africa,
-  .fa-gratipay,
-  .fa-envelope,
-  .fa-language,
-  .fa-clock,
-  .fa-file-pdf
-  {
-      font-size: 25px;
-      color: #00bfc0;
-  }
-
-  .fa-caret-right {
-    font-size: 14px;
-    color: #00bfc0;
+  font-size: 28px;
+  color: #00bfc0;
 }
 
-  .mydiv {
-      width: 100%;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-  }
+.fa-heart {
+  color: red;
+}
 
-  .img {
-      height: 70px;
-  }
+.fa-copyright,
+.fa-check-circle {
+  color: #00bfc0;
+}
 
-  .table th {
-      text-align: center
-  }
+.fa-graduation-cap,
+.fa-video,
+.fa-users,
+.fa-eye,
+.fa-music,
+.fa-book,
+.fa-futbol,
+.fa-pencil-alt,
+.fa-utensils,
+.fa-code,
+.fa-history,
+.fa-gamepad,
+.fa-chevron-up {
+  font-size: 40px;
+  color: #00bfc0;
+}
 
-  .small {
-      font-weight: bold
-  }
+.fa-globe-africa,
+.fa-gratipay,
+.fa-envelope,
+.fa-language,
+.fa-clock,
+.fa-file-pdf {
+  font-size: 25px;
+  color: #00bfc0;
+}
 
-  .footer {
-      background-color: #343a40;
-      text-align: center;
-      color: white;
-      padding-top: 20px;
-      margin-top: 20px;
-      padding: 30px;
-  }
+.fa-caret-right {
+  font-size: 14px;
+  color: #00bfc0;
+}
 
-  .social {
-      font-size: 30px !important;
-      color: #00bfc0;
-      text-align: left;
-      width: 50%;
-      
-  }
+.mydiv {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-  .badge-info{
-    background-color:#00bfc0;
-  }
+.img {
+  height: 70px;
+}
 
-  .social a {
-      color: #00bfc0;
-      text-decoration: none
-  }
+.table th {
+  text-align: center;
+}
 
-  .social a:hover {
-      color: grey;
-      text-decoration: none
-  }
+.small {
+  font-weight: bold;
+}
 
-  .tree {
-      opacity: 1;
-  }
+.footer {
+  background-color: #343a40;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding: 30px;
+}
 
-  .title {
-      font-size: 30px;
-      font-variant-caps: all-petite-caps;
-      color: #00bfc0;
-  }
+.social {
+  font-size: 30px !important;
+  color: #00bfc0;
+  text-align: left;
+  width: 50%;
+}
 
-  .subTitle {
-      font-size: 25px;
-      font-variant-caps: all-petite-caps;
-      color: #9b59b6;
-  }
+.badge-info {
+  background-color: #00bfc0;
+}
+
+.social{
+    letter-spacing: 5px;
+}
+.social a {
+  color: #00bfc0;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.tree {
+  opacity: 1;
+}
+
+.title {
+  font-size: 30px;
+  font-variant-caps: all-petite-caps;
+  color: #00bfc0;
+}
+
+.subTitle {
+  font-size: 25px;
+  font-variant-caps: all-petite-caps;
+  color: #9b59b6;
+}
 
 .fa-sort-up {
-      color: #00bfc0;
-      font-size: 35px !important;
-  }
+  color: #00bfc0;
+  font-size: 35px !important;
+}
 
 .card-text {
-      text-align: right
-  }
+  text-align: right;
+}
 
 .size {
-      color: #00bfc0;
+  color: #00bfc0;
+}
+
+.buymeacoffee {
+  text-align: right;
+  padding-right: 200px;
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
   }
 
-.timeline{
-	position: relative;
+.timeline {
+  position: relative;
 }
 
 /*Line*/
-.timeline>li::before{
-	content:'';
-	position: absolute;
-	width: 1px;
-	background-color: #00bfc0;
-	top: 0;
-	bottom: 0;
-	left:-19px;
+.timeline > li::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #00bfc0;
+  top: 0;
+  bottom: 0;
+  left: -19px;
 }
 
 /*Circle*/
-.timeline>li::after{
-    text-align: center;
-    padding-top:10px;
-	z-index: 10;
-    color: white;
-	content:counter(item);
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	border:3px solid white;
-	background-color: #00bfc0;
-	border-radius: 50%;
-	top:0;
-	left:-43px;
+.timeline > li::after {
+  text-align: center;
+  padding-top: 10px;
+  z-index: 10;
+  color: white;
+  content: counter(item);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 3px solid white;
+  background-color: #00bfc0;
+  border-radius: 50%;
+  top: 0;
+  left: -43px;
 }
 
 /*Content*/
-.timeline>li{
-	counter-increment: item;
-	padding: 10px 10px;
-	margin-left: 0px;
-	min-height:50px;
-	position: relative;
-	background-color: white;
-    text-align: left;
-	list-style: none;
+.timeline > li {
+  counter-increment: item;
+  padding: 10px 10px;
+  margin-left: 0px;
+  min-height: 50px;
+  position: relative;
+  background-color: white;
+  text-align: left;
+  list-style: none;
 }
-.timeline>li:nth-last-child(1)::before{
-	width: 0px;
-}
-
-.buymeacoffee{
-    text-align: right;
-    padding-right: 200px;
+.timeline > li:nth-last-child(1)::before {
+  width: 0px;
 }
