@@ -1,12 +1,5 @@
 let scrollVal = 240;
 
-var app1 = new Vue({
-    el: '#gameVids',
-    data: {
-        gameVids: '14 Videos'
-    }
-})
-
 var app2 = new Vue({
     el: '#updated',
     data: {
