@@ -5,6 +5,10 @@
   font-weight: normal;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   padding-top: 70px !important;
   font-size: 16px;
