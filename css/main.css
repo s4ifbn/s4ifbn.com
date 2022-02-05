@@ -23,6 +23,17 @@ h5 {
   font-size: 16px;
 }
 
+
+
+#cse {
+  width: 330px;
+  
+  
+}
+#cse button{
+  background-color: #343a40 !important;
+  color: white !important;
+}
 button {
   background-color: #00bfc0 !important;
   color: white !important;
@@ -63,9 +74,7 @@ a:hover {
   font-size: 28px;
 }
 
-#cse {
-  width: 330px;
-}
+
 
 .mainDiv {
   background-color: #fbfbfb;
@@ -205,18 +214,12 @@ li {
 
 .social {
   font-size: 30px !important;
+  letter-spacing: 5px;
   color: #00bfc0;
   text-align: left;
   width: 50%;
 }
 
-.badge-info {
-  background-color: #00bfc0;
-}
-
-.social{
-    letter-spacing: 5px;
-}
 .social a {
   color: #00bfc0;
   text-decoration: none;
@@ -225,6 +228,10 @@ li {
 .social a:hover {
   color: grey;
   text-decoration: none;
+}
+
+.badge-info {
+  background-color: #00bfc0;
 }
 
 .tree {
