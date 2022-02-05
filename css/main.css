@@ -23,13 +23,13 @@ h5 {
   font-size: 16px;
 }
 
-.btn {
+button {
   background-color: #00bfc0 !important;
   color: white !important;
   transition: 0.7s ease !important;
 }
 
-.btn:hover {
+button:hover {
   background-color: #343a40 !important;
   transform: scale(1.2, 1.2);
 }
