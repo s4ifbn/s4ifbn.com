@@ -100,7 +100,7 @@
                     <span class="badge badge-pill badge-dark">NightElfs</span>
                     <span class="badge badge-pill badge-dark">Undead</span>
                 </h5>
-                <h1 class="display-5"  id="gameVids">14 Videos</h1>
+                <h1 class="display-5"  id="gameVids">15 Videos</h1>
             </div>
         </div>
         <hr>
@@ -173,6 +173,22 @@
                     <a href="https://www.youtube.com/embed/r3Fw9jqtnes">Chapter 8 / Dissension
                     </a><br>
                     <a href="https://www.youtube.com/embed/xtXvS6wiznc">Chapter 9 / Frostmourne
+                    </a><br>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p class="subTitle">2- The Scourge of Lordaeron</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#undead a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({ scrollTop: scrollVal }, "slow");
+                        })
+                    });
+                </script>
+                <div id="undead">
+                    <a href="https://www.youtube.com/embed/Ris39dyjBQI">Chapter 1 / Trudging Through the Ashes
                     </a><br>
                 </div>
             </div>
