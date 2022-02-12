@@ -23,17 +23,16 @@ h5 {
   font-size: 16px;
 }
 
-
-
 #cse {
   width: 330px;
-  
-  
+  border-radius: 5px;
 }
+
 #cse button{
   background-color: #343a40 !important;
   color: white !important;
 }
+
 button {
   background-color: #00bfc0 !important;
   color: white !important;
