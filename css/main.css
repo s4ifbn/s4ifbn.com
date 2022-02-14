@@ -24,8 +24,7 @@ h5 {
 }
 
 #cse {
-  width: 330px;
-  border-radius: 5px;
+  width: 330px;  
 }
 
 #cse button{
@@ -213,10 +212,10 @@ li {
 
 .social {
   font-size: 30px !important;
-  letter-spacing: 5px;
+  letter-spacing: 15px;
   color: #00bfc0;
   text-align: left;
-  width: 50%;
+  width: 100%;
 }
 
 .social a {
