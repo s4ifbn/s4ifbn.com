@@ -72,16 +72,18 @@ a:hover {
   font-size: 28px;
 }
 
-
-
 .mainDiv {
   background-color: #fbfbfb;
-  padding: 20px 0px 20px 20px;
+  padding: 20px 20px 20px 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 85%;
   text-align: justify;
   direction: rtl;
+}
+
+.mainDiv img{
+  width: 260px;
 }
 
 .dropdown-item:active {
