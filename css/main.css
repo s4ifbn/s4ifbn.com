@@ -2,7 +2,6 @@
 
 * {
   font-family: "Tajawal", "Cairo", sans-serif;
-  font-weight: normal;
 }
 
 html{
@@ -10,26 +9,20 @@ html{
 }
 
 body {
-  padding-top: 70px !important;
-  font-size: 16px;
+  padding-top: 75px;
+  font-size: 18px;
 }
 
+a,
+li,
 p,
 h5 {
   color: grey;
 }
 
-.nav-item {
-  font-size: 16px;
-}
-
-#cse {
-  width: 330px;  
-}
-
-#cse button{
-  background-color: #343a40 !important;
-  color: white !important;
+a:hover {
+  color: #00bfc0;
+  text-decoration: none;
 }
 
 button {
@@ -43,16 +36,17 @@ button:hover {
   transform: scale(1.2, 1.2);
 }
 
-a,
-li,
-h5 {
-  color: grey;
-  text-decoration: none;
+.nav-item {
+  font-size: 16px;
 }
 
-a:hover {
-  color: #00bfc0;
-  text-decoration: none;
+#cse {
+  width: 330px;  
+}
+
+#cse button{
+  background-color: #343a40 !important;
+  color: white !important;
 }
 
 .current {
