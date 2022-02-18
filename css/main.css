@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@400;700&display=swap");
 
+:root{
+  --light-green: #00bfc0;
+}
+
 * {
   font-family: "Tajawal", "Cairo", sans-serif;
 }
@@ -21,12 +25,12 @@ h5 {
 }
 
 a:hover {
-  color: #00bfc0;
+  color: var(--light-green);
   text-decoration: none;
 }
 
 button {
-  background-color: #00bfc0 !important;
+  background-color: var(--light-green) !important;
   color: white !important;
   transition: 0.7s ease !important;
 }
@@ -55,7 +59,7 @@ button:hover {
 }
 
 .current {
-  color: #00bfc0 !important;
+  color: var(--light-green) !important;
 }
 
 /* index page */
@@ -91,7 +95,7 @@ button:hover {
 .fa-users,
 .fa-eye {
   font-size: 42px;
-  color: #00bfc0;
+  color: var(--light-green);
 }
 
 /* blogs */
@@ -106,7 +110,7 @@ li {
 }
 
 .fa-angle-double-left {
-  color: #00bfc0;
+  color: var(--light-green);
   font-size: 22px !important;
 }
 
@@ -145,7 +149,7 @@ li {
 .fa-award,
 .fa-check {
   font-size: 25px;
-  color: #00bfc0;
+  color: var(--light-green);
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -153,12 +157,12 @@ li {
 .social {
   font-size: 30px !important;
   letter-spacing: 15px;
-  color: #00bfc0;
+  color: var(--light-green);
   width: 100%;
 }
 
 .social a {
-  color: #00bfc0;
+  color: var(--light-green);
 }
 
 .social a:hover {
@@ -179,7 +183,7 @@ li {
   content: "";
   position: absolute;
   width: 1px;
-  background-color: #00bfc0;
+  background-color: var(--light-green);
   top: 0;
   bottom: 0;
   left: -19px;
@@ -196,7 +200,7 @@ li {
   width: 50px;
   height: 50px;
   border: 3px solid white;
-  background-color: #00bfc0;
+  background-color: var(--light-green);
   border-radius: 50%;
   top: 0;
   left: -43px;
@@ -238,5 +242,5 @@ li {
 
 .fa-copyright,
 .fa-check-circle {
-  color: #00bfc0;
+  color: var(--light-green);
 }
