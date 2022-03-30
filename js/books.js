@@ -1,7 +1,14 @@
 let mathBook = document.querySelector(".mathBookLink");
-let CountMathBookClicks = 0;
+var CountMathBookClicks = localStorage.getItem('mathcounter');
+if (CountMathBookClicks === null) {
+    CountMathBookClicks = 0;
+} else {
 
-mathBook.addEventListener("click", function() {
-  CountMathBookClicks += 1;
-  document.getElementById('mathBook').innerHTML='Downloded ' + CountMathBookClicks + ' Times';
-});
+    mathBook.addEventListener("click", function() {
+        CountMathBookClicks += 1;
+        localStorage.setItem('mathcounter', CountMathBookClicks);
+        document.getElementById('mathBook').innerHTML='Downloded ' + CountMathBookClicks + ' Times';
+      });
+}
+
+
