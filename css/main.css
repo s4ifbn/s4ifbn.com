@@ -92,8 +92,9 @@ button:hover {
 .fa-video,
 .fa-history,
 .fa-users,
+.fa-book-bookmark,
 .fa-eye {
-  font-size: 42px;
+  font-size: 44px;
   color: var(--light-green);
 }
 
