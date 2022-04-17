@@ -98,6 +98,14 @@ button:hover {
   color: var(--light-green);
 }
 
+.youtubeBtn{
+  background-color: #DC3545 !important;
+}
+
+.lecturesBtn{
+  background-color: #FFC107 !important;
+}
+
 /* blogs */
 .blogTitle {
   font-size: 18px;
