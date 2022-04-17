@@ -33,6 +33,7 @@ button {
   background-color: var(--light-green) !important;
   color: white !important;
   transition: 0.7s ease !important;
+  margin: 5px;
 }
 
 button:hover {
