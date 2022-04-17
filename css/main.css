@@ -3,6 +3,7 @@
 @media screen and (max-width: 400px) {
   .lecturesBtn, .youtubeBtn, .moreBtn {
     width: 100%;
+    height: 30px;
   }
 }
 
