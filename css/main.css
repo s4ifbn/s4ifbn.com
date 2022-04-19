@@ -206,56 +206,6 @@ li {
   padding-right: 5%;
 }
 
-/* timeline*/
-.timeline {
-  position: relative;
-}
-
-.timeline > li::before {
-  content: "";
-  position: absolute;
-  width: 1px;
-  background-color: var(--light-green);
-  top: 0;
-  bottom: 0;
-  left: -19px;
-}
-
-/* timeline Circle*/
-.timeline > li::after {
-  text-align: center;
-  padding-top: 5px;
-  z-index: 10;
-  color: white;
-  content: counter(item);
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border: 3px solid white;
-  font-weight: bold;
-  font-size: 20px;
-  background-color: var(--light-green);
-  border-radius: 50%;
-  top: 0;
-  left: -43px;
-}
-
-/* timeline Content*/
-.timeline > li {
-  counter-increment: item;
-  padding: 10px 10px;
-  margin-left: 0px;
-  min-height: 50px;
-  position: relative;
-  background-color: white;
-  text-align: left;
-  list-style: none;
-}
-
-.timeline > li:nth-last-child(1)::before {
-  width: 0px;
-}
-
 .fa-sort-up {
   color: #00bfc0;
   font-size: 35px !important;
