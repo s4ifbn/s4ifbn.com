@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@400;700&display=swap");
 
 @media screen and (max-width: 500px) {
-  .lecturesBtn, .youtubeBtn, .moreBtn {
+  .lecturesBtn, .youtubeBtn, .moreBtn, .booksBtn {
     width: 100%;
     height: 3em;
   }
@@ -13,6 +13,7 @@
 
 :root {
   --light-green: #00bfc0;
+  --light-purple: #A267AC;
 }
 
 * {
@@ -67,7 +68,7 @@ button:hover {
 }
 
 .nav-link:hover {
-  color: #00bfc0 !important;
+  color: var(--light-green) !important;
 }
 
 .current {
@@ -116,6 +117,10 @@ button:hover {
 
 .lecturesBtn{
   background-color: #FFC107 !important;
+}
+
+.booksBtn{
+  background-color: var(--light-purple) !important;
 }
 
 /* blogs */
