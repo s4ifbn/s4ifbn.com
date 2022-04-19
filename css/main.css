@@ -64,7 +64,8 @@ button:hover {
 }
 
 .navbar{
-  opacity: 0.9;
+  opacity: 0.99;
+  height: 77px;
 }
 
 .nav-link {
