@@ -63,6 +63,10 @@ button:hover {
   width: 90px;
 }
 
+.navbar{
+  opacity: 0.9;
+}
+
 .nav-link {
   text-align: center;
 }
