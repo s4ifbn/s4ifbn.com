@@ -64,8 +64,11 @@ button:hover {
 }
 
 .navbar{
-  opacity: 0.99;
   height: 77px;
+}
+
+#navbarSupportedContent{
+  background-color: #363C42;
 }
 
 .nav-link {
