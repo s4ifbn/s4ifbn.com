@@ -20,3 +20,10 @@ var app4 = new Vue({
         blogs: '8'
     }
 })
+
+var app4 = new Vue({
+    el: '#booksCount',
+    data: {
+        books: '4'
+    }
+})
