@@ -229,6 +229,7 @@ li {
 /* footer */
 .footer {
   background-color: #343a40;
+  margin-top: 20px;
   text-align: center;
   color: white;
   padding: 20px;
