@@ -158,6 +158,17 @@ li {
   width: 80%;
 }
 
+.books p{
+  direction: rtl;
+}
+
+.books ul,li{
+  list-style:none;
+  direction: ltr;
+  text-align: left;
+  text-decoration: none;
+}
+
 /* lectures */
 .mycard {
   box-shadow: 5px 5px 25px rgba(1 1 1 / 15%);
