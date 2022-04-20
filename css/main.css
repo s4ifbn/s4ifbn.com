@@ -222,7 +222,7 @@ li {
 }
 
 .fa-sort-up {
-  color: #00bfc0;
+  color: var(--light-green);
   font-size: 35px !important;
 }
 
@@ -231,15 +231,11 @@ li {
   background-color: #343a40;
   text-align: center;
   color: white;
-  margin-top: 10px;
-  padding: 30px;
-}
-
-.fa-heart {
-  color: #00bfc0;
+  padding: 20px;
 }
 
 .fa-copyright,
-.fa-check-circle {
+.fa-check-circle,
+.fa-heart {
   color: var(--light-green);
 }
