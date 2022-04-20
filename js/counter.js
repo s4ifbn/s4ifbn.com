@@ -7,10 +7,10 @@ counters.forEach(counter => {
 		const count = +counter.innerText;
 
 		// Lower inc to slow and higher to slow
-		const inc = target / speed;
+		const inc = parseInt(target / speed);
 
-		// console.log(inc);
-		// console.log(count);
+		console.log(inc);
+		console.log(count);
 
 		// Check if target is reached
 		if (count < target) {
