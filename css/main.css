@@ -148,6 +148,11 @@ li {
   direction: rtl;
   text-align: justify;
 }
+/* books */
+
+.books{
+  width: 80%;
+}
 
 /* lectures */
 .mycard {
