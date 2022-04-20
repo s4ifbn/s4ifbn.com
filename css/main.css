@@ -80,6 +80,7 @@ button:hover {
 
 .nav-link {
   text-align: center;
+  direction: rtl;
 }
 
 .nav-link:hover {
