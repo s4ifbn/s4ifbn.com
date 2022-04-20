@@ -10,7 +10,7 @@ ul.timeline:before {
     position: absolute;
     left: 29px;
     width: 2px;
-    height: 108%;
+    height: 100%;
     z-index: 400;
 }
 ul.timeline > li {
