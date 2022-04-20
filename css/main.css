@@ -100,6 +100,10 @@ button:hover {
   direction: rtl;
 }
 
+div.counter{
+  color: grey;
+}
+
 .mainDiv img {
   width: 260px;
 }
