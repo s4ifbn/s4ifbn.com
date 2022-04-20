@@ -1,8 +1,3 @@
-.heartbeat {
-  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-  animation: heartbeat 1.5s ease-in-out infinite both;
-}
-
 /**
  * ----------------------------------------
  * animation text-focus-in
@@ -182,9 +177,9 @@
   }
 }
 
-.bounce-top {
-  -webkit-animation: bounce-top 0.9s both;
-  animation: bounce-top 0.9s both;
+.heartbeat {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
 /**
@@ -297,9 +292,9 @@
   }
 }
 
-.bounce-left {
-  -webkit-animation: bounce-left 2.5s 3s forwards;
-  animation: bounce-left 2.5s 3s forwards;
+.bounce-top {
+  -webkit-animation: bounce-top 0.9s both;
+  animation: bounce-top 0.9s both;
 }
 
 /**
@@ -412,4 +407,9 @@
     animation-timing-function: ease-out;
     opacity: 1;
   }
+}
+
+.bounce-left {
+  -webkit-animation: bounce-left 2.5s 3s forwards;
+  animation: bounce-left 2.5s 3s forwards;
 }
