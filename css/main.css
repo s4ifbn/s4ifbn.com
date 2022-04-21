@@ -91,6 +91,12 @@ button:hover {
   color: var(--light-green) !important;
 }
 
+.badge-danger:hover{
+  background-color: #343a40 !important;
+  transition: 0.7s ease !important;
+  transform: scale(1.2, 1.2);
+}
+
 /* index page */
 .mainDiv {
   padding: 20px 20px 20px 20px;
