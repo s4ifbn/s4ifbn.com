@@ -28,7 +28,8 @@ ul.timeline > li a:hover{
 }
 
 ul.timeline > li p.date{
-    color:#A267AC
+    color:#A267AC;
+    font-size: 16px;
 }
 
 ul.timeline > li:before {
