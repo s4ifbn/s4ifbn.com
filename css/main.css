@@ -62,16 +62,17 @@ button:hover {
 
 /* Start Navbar */
 #cse {
-  width: 425px;
+  width: 420px;
 }
 
 #cse button {
   height: 35px;
-  width: 90px;
+  width: 80px;
 }
 
 .navbar {
   height: 77px;
+    background-color: #363C42;
 }
 
 #navbarSupportedContent {
@@ -220,7 +221,8 @@ li {
 .fa-envelope,
 .fa-file-pdf,
 .fa-award,
-.fa-check {
+.fa-check,
+.fa-angles-down {
   font-size: 25px;
   color: var(--light-green);
   margin-left: 5px;
