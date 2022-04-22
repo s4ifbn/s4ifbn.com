@@ -104,6 +104,10 @@ button:hover {
 }
 
 /* index page */
+
+.fb-share-button{
+    float: left;
+}
 .mainDiv {
   padding: 20px 20px 20px 20px;
   margin-left: auto;
