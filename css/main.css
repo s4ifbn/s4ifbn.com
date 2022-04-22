@@ -12,6 +12,11 @@
   .nav-link {
     font-size: 1.3em;
   }
+
+  video{
+    width: 320px;
+    height: 240px;
+  }
 }
 
 :root {
