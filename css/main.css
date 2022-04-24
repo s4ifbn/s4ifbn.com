@@ -26,6 +26,7 @@
 
 * {
   font-family: "Tajawal", "Cairo", sans-serif;
+  /*border: 1px solid red;*/
 }
 
 html {
@@ -73,15 +74,6 @@ button:hover {
 #cse button {
   height: 35px;
   width: 80px;
-}
-
-.navbar {
-  height: 77px;
-    background-color: #363C42;
-}
-
-#navbarSupportedContent {
-  background-color: #363C42;
 }
 
 .nav-link {
