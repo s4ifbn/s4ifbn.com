@@ -182,7 +182,6 @@ li {
   font-size: 1.5rem;
 }
 
-
 /* lectures */
 
 .mycard {
@@ -223,7 +222,8 @@ li {
 .fa-file-pdf,
 .fa-award,
 .fa-check,
-.fa-angles-down {
+.fa-angles-down,
+.fa-angles-up {
   font-size: 25px;
   color: var(--light-green);
   margin-left: 5px;
