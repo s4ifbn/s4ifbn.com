@@ -19,10 +19,6 @@ ul.timeline > li {
     padding-left: 20px;
 }
 
-ul.timeline > li a{
-    color:#DC3545
-}
-
 ul.timeline > li a:hover{
     color:#00bfc0
 }
