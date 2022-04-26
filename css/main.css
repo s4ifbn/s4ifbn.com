@@ -152,6 +152,7 @@ div.counter{
 }
 
 /* blogs */
+
 .blogTitle {
   font-size: 18px;
 }
@@ -161,6 +162,7 @@ li {
   direction: rtl;
   text-align: justify;
 }
+
 /* books */
 
 .books{
@@ -185,11 +187,9 @@ li {
 /* lectures */
 
 .mycard {
-  box-shadow: 5px 5px 25px rgba(1 1 1 / 15%);
+  box-shadow: 5px 5px 20px rgba(1 1 1 / 15%);
   border-radius: 15px 15px;
   min-height: 450px;
-  min-width: 350px;
-  margin: 3px;
   transition: 0.7s ease;
   align-items: center;
 }
@@ -208,6 +208,7 @@ li {
 }
 
 /* CV page */
+
 .equal {
   display: flex;
   display: -webkit-flex;
