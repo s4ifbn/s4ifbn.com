@@ -152,6 +152,10 @@ div.counter{
   background-color: var(--light-purple) !important;
 }
 
+.artBtn {
+  background-color: var(--light-green) !important;
+}
+
 /* blogs */
 
 .blogTitle {
