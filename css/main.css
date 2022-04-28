@@ -276,6 +276,7 @@ li {
 /* footer */
 .footer {
   background-color: #343a40;
+  border-top: 15px solid var(--light-purple);
   margin-top: 20px;
   text-align: center;
   color: white;
