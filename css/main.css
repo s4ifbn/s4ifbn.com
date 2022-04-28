@@ -22,7 +22,7 @@
 
 :root {
   --light-green: #00bfc0;
-  --light-purple: #A267AC;
+  --light-purple: #B122CB;
 }
 
 * {
@@ -214,7 +214,7 @@ li {
 
 .subTitle {
   font-size: 22px;
-  color: #A267AC;
+  color:var(--light-purple);
 }
 
 /* CV page */
