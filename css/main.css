@@ -21,8 +21,12 @@
 }
 
 :root {
-  --light-green: #00bfc0;
-  --light-purple: #B122CB;
+  --green: #00bfc0;
+  --purple: #B122CB;
+  --dark-grey: #343a40;
+  --light-grey: grey;
+  --red: #DC3545;
+  --yellow: #FFC107;
 }
 
 * {
@@ -40,7 +44,7 @@ body {
 }
 
 nav{
-border-left: 15px solid var(--light-purple);
+border-left: 15px solid var(--purple);
 }
 
 a,
@@ -51,23 +55,23 @@ h4,
 h3,
 h2,
 h1 {
-  color: grey;
+  color: var(--light-grey);
 }
 
 a:hover {
-  color: var(--light-green);
+  color: var(--green);
   text-decoration: none;
 }
 
 button {
-  background-color: var(--light-green) !important;
+  background-color: var(--green) !important;
   color: white !important;
   transition: 0.7s ease !important;
   margin: 5px;
 }
 
 button:hover {
-  background-color: #343a40 !important;
+  background-color: var(--dark-grey) !important;
   transform: scale(1.2, 1.2);
 }
 
@@ -88,15 +92,15 @@ button:hover {
 }
 
 .nav-link:hover {
-  color: var(--light-green) !important;
+  color: var(--green) !important;
 }
 
 .current {
-  color: var(--light-green) !important;
+  color: var(--green) !important;
 }
 
 .badge-danger:hover{
-  background-color: #343a40 !important;
+  background-color: var(--dark-grey) !important;
   transition: 0.7s ease !important;
   transform: scale(1.2, 1.2);
 }
@@ -116,7 +120,7 @@ button:hover {
 }
 
 div.counter{
-  color: grey;
+  color: var(--light-grey);
 }
 
 .mainDiv img {
@@ -142,23 +146,23 @@ div.counter{
 .fa-book,
 .fa-eye {
   font-size: 42px;
-  color: var(--light-green);
+  color: var(--green);
 }
 
 .youtubeBtn {
-  background-color: #DC3545 !important;
+  background-color: var(--red) !important;
 }
 
 .lecturesBtn {
-  background-color: #FFC107 !important;
+  background-color: var(--yellow) !important;
 }
 
 .booksBtn {
-  background-color: var(--light-purple) !important;
+  background-color: var(--purple) !important;
 }
 
 .artBtn {
-  background-color: var(--light-green) !important;
+  background-color: var(--green) !important;
 }
 
 /* blogs */
@@ -214,7 +218,7 @@ li {
 
 .subTitle {
   font-size: 22px;
-  color:var(--light-purple);
+  color:var(--purple);
 }
 
 /* CV page */
@@ -236,14 +240,14 @@ li {
 .fa-angles-down,
 .fa-angles-up {
   font-size: 25px;
-  color: var(--light-green);
+  color: var(--green);
   margin-left: 5px;
   margin-right: 5px;
 }
 
 .fa-angle-double-left,
 .fa-caret-right {
-  color: var(--light-green);
+  color: var(--green);
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -251,12 +255,12 @@ li {
 .social {
   font-size: 30px !important;
   letter-spacing: 15px;
-  color: var(--light-green);
+  color: var(--green);
   width: 100%;
 }
 
 .social a {
-  color: var(--light-green);
+  color: var(--green);
 }
 
 .social a:hover {
@@ -269,14 +273,15 @@ li {
 }
 
 .fa-sort-up {
-  color: var(--light-green);
+  color: var(--green);
   font-size: 35px !important;
 }
 
 /* footer */
+
 .footer {
   background-color: #343a40;
-  border-top: 15px solid var(--light-purple);
+  border-top: 15px solid var(--purple);
   margin-top: 20px;
   text-align: center;
   color: white;
@@ -286,5 +291,5 @@ li {
 .fa-copyright,
 .fa-check-circle,
 .fa-heart {
-  color: var(--light-green);
+  color: var(--green);
 }
