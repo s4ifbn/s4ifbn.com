@@ -13,17 +13,3 @@ var app3 = new Vue({
         year: '2022'
     }
 })
-
-var app4 = new Vue({
-    el: '#blogCount',
-    data: {
-        blogs: '8'
-    }
-})
-
-var app4 = new Vue({
-    el: '#booksCount',
-    data: {
-        books: '4'
-    }
-})
