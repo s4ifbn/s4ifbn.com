@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@400;700&display=swap");
 
 @media screen and (max-width: 500px) {
-
   .lecturesBtn,
   .youtubeBtn,
   .booksBtn,
@@ -78,7 +77,7 @@ button:hover {
 /* Navbar */
 
 #cse {
-  width: 420px;
+  width: 350px;
 }
 
 #cse button {
