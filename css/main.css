@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@400;700&display=swap");
 
 @media screen and (max-width: 500px) {
+
   .lecturesBtn,
   .youtubeBtn,
   .booksBtn,
@@ -13,7 +14,7 @@
     font-size: 1.3em;
   }
 
-  video{
+  video {
     width: 320px;
     height: 240px;
   }
@@ -42,8 +43,8 @@ body {
   font-size: 16px;
 }
 
-nav{
-border-left: 15px solid var(--purple);
+nav {
+  border-left: 15px solid var(--purple);
 }
 
 a,
@@ -98,7 +99,7 @@ button:hover {
   color: var(--green) !important;
 }
 
-.badge-danger:hover{
+.badge-danger:hover {
   background-color: var(--dark-grey) !important;
   transition: 0.7s ease !important;
   transform: scale(1.2, 1.2);
@@ -106,9 +107,10 @@ button:hover {
 
 /* index page */
 
-.fb-share-button{
-    float: left;
+.fb-share-button {
+  float: left;
 }
+
 .mainDiv {
   padding: 20px 20px 20px 20px;
   margin-left: auto;
@@ -118,7 +120,7 @@ button:hover {
   direction: rtl;
 }
 
-div.counter{
+div.counter {
   color: var(--light-grey);
 }
 
@@ -170,30 +172,31 @@ div.counter{
   font-size: 18px;
 }
 
-.art p, .art
-li {
+.art p,
+.art li {
   direction: rtl;
   text-align: justify;
 }
 
 /* books */
 
-.books{
+.books {
   width: 80%;
 }
 
-.books p{
+.books p {
   direction: rtl;
 }
 
-.books ul,li{
-  list-style:none;
+.books ul,
+li {
+  list-style: none;
   direction: ltr;
   text-align: left;
   text-decoration: none;
 }
 
-.bookTitle{
+.bookTitle {
   font-size: 1.5rem;
 }
 
@@ -217,7 +220,7 @@ li {
 
 .subTitle {
   font-size: 22px;
-  color:var(--purple);
+  color: var(--purple);
 }
 
 /* CV page */
