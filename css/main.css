@@ -44,7 +44,7 @@ body {
 }
 
 nav {
-  border-left: 15px solid var(--purple);
+  border-left: 10px solid var(--purple);
 }
 
 a,
@@ -283,7 +283,7 @@ li {
 
 .footer {
   background-color: #343a40;
-  border-top: 15px solid var(--purple);
+  border-top: 10px solid var(--purple);
   margin-top: 20px;
   text-align: center;
   color: white;
