@@ -82,8 +82,8 @@ button:hover {
 }
 
 #cse button {
-  height: 35px;
-  width: 80px;
+  background-color: var(--dark-grey) !important;
+  border: none;
 }
 
 .nav-link {
