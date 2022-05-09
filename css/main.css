@@ -48,7 +48,7 @@ body {
 }
 
 nav {
-  border-left: 10px solid var(--purple);
+  border-left: 10px groove var(--purple);
 }
 
 a,
@@ -83,11 +83,13 @@ button:hover {
 
 #cse {
   width: 350px;
+
 }
 
 #cse button {
   background-color: var(--dark-grey) !important;
-  border: none;
+  border-radius: 5px;
+  border-right: 10px groove  var(--purple);
 }
 
 .nav-link {
@@ -287,7 +289,7 @@ li {
 
 .footer {
   background-color: #343a40;
-  border-top: 10px solid var(--purple);
+  border-top: 10px groove var(--purple);
   margin-top: 20px;
   text-align: center;
   color: white;
