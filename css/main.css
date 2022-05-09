@@ -89,6 +89,7 @@ button:hover {
 #cse button {
   background-color: var(--dark-grey) !important;
   border-radius: 5px;
+  height: 35px;
   border-right: 10px groove  var(--purple);
 }
 
