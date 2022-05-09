@@ -83,6 +83,20 @@ button:hover {
 
 #cse {
   width: 350px;
+  margin: 0px;
+  padding: 0px;
+}
+
+input.gsc-input {
+  background: none !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+.gsc-input-box {
+  border-radius: 3px !important;
+  margin: 0px;
+  padding: 0px;
 }
 
 #cse button {
