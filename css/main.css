@@ -19,9 +19,9 @@
     height: 240px;
   }
 
-  .badge{
-   padding: 5px;
-   }
+  .badge {
+    padding: 5px;
+  }
 }
 
 :root {
@@ -94,16 +94,14 @@ input.gsc-input {
 }
 
 .gsc-input-box {
-  border-radius: 3px !important;
-  margin: 0px;
-  padding: 0px;
+  border-radius: 20px !important;
 }
 
 #cse button {
   background-color: var(--dark-grey) !important;
   border-radius: 5px;
   height: 35px;
-  border-right: 10px groove  var(--purple);
+  border-right: 10px groove var(--purple);
 }
 
 .nav-link {
