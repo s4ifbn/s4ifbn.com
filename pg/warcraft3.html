@@ -97,7 +97,7 @@
                     <span class="badge badge-pill badge-dark">NightElfs</span>
                     <span class="badge badge-pill badge-dark">Undead</span>
                 </h5>
-                <h1 class="display-5"  id="gameVids">30 Videos</h1>
+                <h1 class="display-5"  id="gameVids">31 Videos</h1>
             </div>
         </div>
         <hr>
@@ -208,7 +208,7 @@
                     <a href="https://www.youtube.com/embed/eWF8li0nT8Q">Chapter 7 / The Siege of Dalaran
                     </a><br>
                     <a href="https://www.youtube.com/embed/1gqa-RyMRWA">Chapter 8 / Under The Burning Sky
-                    </a><br>
+                    </a><br><br>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -238,6 +238,22 @@
                     <a href="https://www.youtube.com/embed/Nql4PvJH3Qc">Chapter 7 / The Oracle                        
                     </a><br>
                     <a href="https://www.youtube.com/embed/GyoIoQENQUQ">Chapter 8 / By Demons Be Driven
+                    </a><br><br>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p class="subTitle">5- Eternity's End</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#nightelf a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({ scrollTop: scrollVal }, "slow");
+                        })
+                    });
+                </script>
+                <div id="nightelf">
+                    <a href="https://www.youtube.com/embed/3Tv1DAfnfAE">Chapter 1 / Enemies at The Gate
                     </a><span class="badge badge-danger heartbeat">New</span><br>
                 </div>
             </div>
