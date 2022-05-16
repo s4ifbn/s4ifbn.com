@@ -198,6 +198,11 @@ div.counter {
   text-align: justify;
 }
 
+.date{
+  color:#A267AC;
+  font-size: 18px;
+}
+
 /* books */
 
 .books {
