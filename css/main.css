@@ -106,6 +106,10 @@ input.gsc-input {
   border-right: 10px groove var(--purple);
 }
 
+.gsc-clear-button{
+  display:none;
+}
+
 .nav-link {
   text-align: center;
   direction: rtl;
