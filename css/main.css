@@ -146,8 +146,6 @@ input.gsc-input {
 
 div.counter {
   color: var(--light-grey);
-  font-weight: 600;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
 
