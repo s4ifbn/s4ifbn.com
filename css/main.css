@@ -254,7 +254,7 @@ li {
 }
 
 .comment{
-  width: 100%;
+  width: 100% !important;
 }
 
 /* CV page */
