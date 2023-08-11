@@ -253,6 +253,10 @@ li {
   color: var(--purple);
 }
 
+.comment{
+  width: 100%;
+}
+
 /* CV page */
 
 .equal {
