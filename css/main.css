@@ -253,7 +253,7 @@ li {
   color: var(--purple);
 }
 
-.comment{
+.comment, .fb-comments{
   width: 100% !important;
 }
 
