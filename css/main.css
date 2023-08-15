@@ -253,10 +253,6 @@ li {
   color: var(--purple);
 }
 
-.comment, .fb-comments{
-  width: 100% !important;
-}
-
 /* CV page */
 
 .equal {
