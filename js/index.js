@@ -1,13 +1,8 @@
-var quotes = [ "A programmer has two weapons: logical thinking and search",
-               "Programming is like playing a musical instrument, you will not excel unless you train daily",
-               "Work Hard",
-               "Programming is understanding",
-               "Think twice, code once",
-               "Keep calm and start debugging",
-               "Programming is beautiful",
-               "We have to develope a passion for learning",
-               "Code is poetry",
-               "The best way to learn a language is to use it"
+var quotes = [ "للمبرمج سلاحان: التفكير المنطقي والبحث",
+               "تعلم البرمجة يشبه تعلم آلة موسيقية: لتحترفها يجب أن تتدرب عليها يومياً",
+               "البرمجة هي الفهم",
+               "علينا أن نطور قابليتنا على التعلم",
+               "أفضل طريقة لتعلم لغة برمجية هو إستخدامها"
                ]
 
 var i = Math.round(Math.random()*100)%quotes.length;
