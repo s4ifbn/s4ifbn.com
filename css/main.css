@@ -37,7 +37,6 @@
 
 * {
   font-family: "Tajawal", "Cairo", sans-serif;
-  /*border: 1px solid red;*/
 }
 
 html {
@@ -163,6 +162,7 @@ div.counter {
   font-size: 18px;
   margin-top: 5px;
   margin-bottom: 5px;
+  color: var(--light-grey);
 }
 
 .fa-video,
