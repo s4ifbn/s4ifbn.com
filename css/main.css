@@ -66,6 +66,7 @@ h1 {
 a:hover {
   color: var(--green);
   text-decoration: none;
+  padding: 5px;
 }
 
 button {
