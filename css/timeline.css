@@ -6,6 +6,7 @@ ul.timeline {
 ul.timeline:before {
     content: ' ';
     background: #d4d9df;
+    border: dashed #00bfc0 1px;
     display: inline-block;
     position: absolute;
     left: 29px;

@@ -80,6 +80,11 @@ button:hover {
   transform: scale(1.2, 1.2);
 }
 
+.qmark{
+  color:var(--green);
+  font-size: 38px;
+}
+
 /* Navbar */
 
 #cse {
