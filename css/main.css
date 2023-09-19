@@ -164,7 +164,8 @@ div.counter {
   font-size: 18px;
   margin-top: 5px;
   margin-bottom: 5px;
-  color: var(--light-grey);
+  padding: 10px;
+  color: var(--light-grey);  
 }
 
 .fa-video,
