@@ -155,7 +155,7 @@ div.counter {
 }
 
 .mainDiv img {
-  width: 100%;
+  width: 80%;
   border-right: 10px groove var(--purple);
 }
 
