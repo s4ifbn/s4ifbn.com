@@ -10,6 +10,6 @@ var app2 = new Vue({
 var app3 = new Vue({
     el: '#year',
     data: {
-        year: '2024'
+        year: '2025'
     }
 })
