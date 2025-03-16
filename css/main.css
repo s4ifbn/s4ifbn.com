@@ -200,6 +200,10 @@ div.counter {
   font-size: 18px;
 }
 
+.img-rounded {
+  border-radius: 50%;
+}
+
 .art p,
 .art li {
   direction: rtl;
