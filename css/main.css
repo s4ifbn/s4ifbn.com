@@ -338,3 +338,10 @@ li {
 .fb_iframe_widget iframe {
     width: 100% !important;
 }
+
+/* Bootstrap override  */
+
+.badge{
+  padding-bottom: 1px;
+  font-size: 16px;
+}
