@@ -50,6 +50,7 @@ body {
 
 nav {
   border-left: 10px groove var(--purple);
+  font-size: 18px;
 }
 
 a,
