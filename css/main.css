@@ -81,8 +81,8 @@ button:hover {
   transform: scale(1.2, 1.2);
 }
 
-.qmark{
-  color:var(--green);
+.qmark {
+  color: var(--green);
   font-size: 38px;
   padding: 5px;
 }
@@ -112,8 +112,8 @@ input.gsc-input {
   border-right: 10px groove var(--purple);
 }
 
-.gsc-clear-button{
-  display:none;
+.gsc-clear-button {
+  display: none;
 }
 
 .nav-link {
@@ -167,7 +167,7 @@ div.counter {
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 10px;
-  color: var(--light-grey);  
+  color: var(--light-grey);
 }
 
 .fa-video,
@@ -211,7 +211,7 @@ div.counter {
   text-align: justify;
 }
 
-.date{
+.date {
   color: var(--purple);
   font-size: 16px;
 }
@@ -281,7 +281,7 @@ li {
   margin-right: 5px;
 }
 
-.fa-discord{
+.fa-discord {
   color: var(--green);
 }
 
@@ -335,14 +335,14 @@ li {
 }
 
 .fb_iframe_widget,
-.fb_iframe_widget > span,
+.fb_iframe_widget>span,
 .fb_iframe_widget iframe {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 /* Bootstrap override  */
 
-.badge{
+.badge {
   padding-bottom: 1px;
   font-size: 16px;
 }
