@@ -27,6 +27,7 @@ html {
   background-color: #343a40;
   color: white;
   padding: 1rem;
+  width: 300px;
   position: fixed;
   border: 3px groove var(--purple);
   overflow-y: auto;
@@ -52,6 +53,7 @@ html {
 
 .lec_content {
   margin-left: 300px;
+  text-align: justify;
   font-size: 22px;
   padding: 2rem;
   flex: 1;
