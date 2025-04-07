@@ -52,11 +52,9 @@ html {
 }
 
 .lec_content {
-  margin-left: 300px;
   text-align: justify;
   font-size: 22px;
   padding: 2rem;
-  flex: 1;
 }
 
 .lec_content h1 {
@@ -65,10 +63,6 @@ html {
 
 .lec_content a {
   color: var(--green);
-}
-
-.lec_content>ul {
-  list-style-type: square;
 }
 
 h2 {
