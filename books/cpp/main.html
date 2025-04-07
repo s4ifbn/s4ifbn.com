@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="author" content="Saif Bashar">
+    <meta name="description" content="Teaching computer science for Arabs">
+    <meta name="keywords"
+        content="saif bashar,c++,python,oracle,mathematics,computer science,برمجة، سيف بشار، البرمجة، سي، بايثون، رياضيات، مبرمج">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="google-site-verification" content="T4VamdJmAnW-YTlJSvjRzCDP4dv-yBC7nAM6Y1Txrls">
+
+    <title>Saif Bashar's Notes on C / C++</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/08a0e9ffc6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/anim.css">
+    <link rel="stylesheet" href="../../css/books.css">
+
+    <link rel="icon" href="../../img/tree.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../img/tree.ico" type="image/x-icon">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "UA-42710021-1");
+        gtag('config', 'AW-973947261');
+    </script>
+</head>
+
+<body id="top">
+    <!-- facebook comments -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0"
+        nonce="ygDyqfHP"></script>
+    <!-- facebook comments -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link current" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../../lectures.html">Lectures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../../programs.html">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../../books.html">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../../blog.html">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../../cv.html">About Me</a>
+                        </li>
+                    </ul>
+                    <script async src="https://cse.google.com/cse.js?cx=7bedf306f0d889130"></script>
+                    <div id="cse" class="d-none d-lg-block">
+                        <div class="gcse-search"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <h2>Contents</h2>
+        <a href="#chapter1">Chapter 1: Intro</a>
+        <a href="#chapter2">Chapter 2: Basics</a>
+        <a href="#chapter3">Chapter 3: Code Examples</a>
+    </div>
+
+    <main class="lec_content">
+        <section id="chapter1">
+            <h1>Chapter 1: Introduction</h1>
+            <p>This chapter covers the purpose of the book and what to expect.</p>
+        </section>
+
+        <section id="chapter2">
+            <h1>Chapter 2: Basics of C++</h1>
+            <p>We'll start with a simple C++ program:</p>
+            <pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello, world!" &lt;&lt; endl;
+    return 0;
+}</code></pre>
+        </section>
+
+        <section id="chapter3">
+            <h1>Chapter 3: Code Examples</h1>
+            <p>Let's look at a loop example in C++:</p>
+            <pre><code>for (int i = 0; i &lt; 5; i++) {
+    cout &lt;&lt; i &lt;&lt; endl;
+}</code></pre>
+        </section>
+
+        <section id="comments">
+            <h1>Comments</h1>
+            <div id="fb-root"></div>
+            <div class="fb-comments" data-href="https://s4ifbn.com/books/cpp/main.html" data-width="100%"
+                data-numposts="5"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer" id="down">
+          <table width="100%">
+            <tr>
+              <td width="33%" id="year">
+                <a href="cv.html" class="text-white"> Saif</a>
+                <i class="far fa-copyright"></i> {{year}}
+              </td>
+              <td width="33%">
+                <img src="../../img/tree.png" alt="Saif Bashar" width="50%">
+              </td>
+              <td width="33%">
+                <div id="updated">{{message}} <i class="fas fa-check-circle"></i></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous">
+      </script>
+
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous">
+      </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="../../js/main.js"></script>
+      <script src="../../js/index.js"></script>
+      <script src="../../js/counter.js"></script>
+</body>
+
+</html>
