@@ -13,8 +13,6 @@
 
     <title>Notes on C / C++ :: Chapter 1</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="js/jquery-3.5.1.js"></script>
@@ -43,8 +41,7 @@
 <body id="top">
     <!-- facebook comments -->
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0"
-        nonce="ygDyqfHP"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v22.0"></script>
     <!-- facebook comments -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
@@ -57,7 +54,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link current" href="#">Home</a>
+                            <a class="nav-link current" href="../../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="../../lectures.html">Lectures</a>
@@ -84,10 +81,6 @@
         </nav>
     </header>
     <div class="container-fluid">
-
-
-
-
         <div class="row">
             <div class="col-lg-2">
                 <div class="sidebar d-none d-lg-block">
@@ -139,12 +132,23 @@
                             </div>
                             <div class="col-lg-10 col-sm-12">
                                 <p>
-                                    C programming language is considered an old programming language, and still widely used today by many companies and programmers in various areas of technology, the language was written in the early seventies by the computer scientist Dennis Ritchie, it was called C because it was derived from the B language and other languages like COBOL and Simula, B language was written by Ken Thompson who is Dennis's friend as they were working at Bell Laboratories, Ken wrote the famous UNIX operating system in C language.
+                                    C programming language is considered an old programming language, and still widely
+                                    used today by many companies and programmers in various areas of technology, the
+                                    language was written in the early seventies by the computer scientist Dennis
+                                    Ritchie, it was called C because it was derived from the B language and other
+                                    languages like COBOL and Simula, B language was written by Ken Thompson who is
+                                    Dennis's friend as they were working at Bell Laboratories, Ken wrote the famous UNIX
+                                    operating system in C language.
                                 </p>
                             </div>
                         </div>
                         <p>
-                            The C language was updated several times from 1977 to 1979, and the standard release was in the mid-eighties. It was called ANSI C, and the language was widely accepted and adopted by many companies and programmers. The C programming language is considered a general-purpose language and a procedural language in that the program consists of some procedures called functions that perform a specific task and the main function that drives the program's execution.
+                            The C language was updated several times from 1977 to 1979, and the standard release was in
+                            the mid-eighties. It was called ANSI C, and the language was widely accepted and adopted by
+                            many companies and programmers. The C programming language is considered a general-purpose
+                            language and a procedural language in that the program consists of some procedures called
+                            functions that perform a specific task and the main function that drives the program's
+                            execution.
                         </p>
                         <div class="row">
                             <div class="col-lg-2 col-sm-12">
@@ -155,40 +159,66 @@
                             </div>
                             <div class="col-lg-10 col-sm-12">
                                 <p>
-                                    The biggest update that happened to the C language was in 1979, when the computer scientist Bjarne Stroustrup, another friend of Dennis, added the concept of objects and classes and applied the object-oriented programming style with many new features. He called the experimental release C with classes, then the name was changed to C++. C++ has also gone through several updates and releases; every release contains several upgrades, adding new features, removing some, and so on.
+                                    The biggest update that happened to the C language was in 1979, when the computer
+                                    scientist Bjarne Stroustrup, another friend of Dennis, added the concept of objects
+                                    and classes and applied the object-oriented programming style with many new
+                                    features. He called the experimental release C with classes, then the name was
+                                    changed to C++. C++ has also gone through several updates and releases; every
+                                    release contains several upgrades, adding new features, removing some, and so on.
                                 </p>
                                 <ul>
-                                    <li>➔	ISO C++ in 1997</li>
-                                    <li>➔	ISO C++ in 1998</li>
-                                    <li>➔	ISO C++ in 2003</li>
-                                    <li>➔	ISO C++ in 2006</li>
-                                    <li>➔	ISO C++11 in 2011</li>
-                                    <li>➔	ISO C++14 in 2014</li>
-                                    <li>➔	ISO C++17 in 2017</li>
-                                    <li>➔	ISO C++20 in 2020</li>
+                                    <li>➔ ISO C++ in 1997</li>
+                                    <li>➔ ISO C++ in 1998</li>
+                                    <li>➔ ISO C++ in 2003</li>
+                                    <li>➔ ISO C++ in 2006</li>
+                                    <li>➔ ISO C++11 in 2011</li>
+                                    <li>➔ ISO C++14 in 2014</li>
+                                    <li>➔ ISO C++17 in 2017</li>
+                                    <li>➔ ISO C++20 in 2020</li>
                                 </ul>
                             </div>
                         </div>
                         <p>
-                            The work is in progress on the 2023 release; you can check the official website for the latest language development news at: <a href="https://isocpp.org" target="_blank">https://isocpp.org</a>
+                            The work is in progress on the 2023 release; you can check the official website for the
+                            latest language development news at: <a href="https://isocpp.org"
+                                target="_blank">https://isocpp.org</a>
                         </p>
                         <p>
-                        The main features that Bjarne added to the C language were:<br>
-                        1- Added support for the OOP programming style with all its advanced features like encapsulation, inheritance, polymorphism, operator overloading, and other features like virtual functions, exception handling, etc. we will discuss those features in Part 2 of this book.<br>
-                        2- Added the concept of class templates to work with generic data types.
+                            The main features that Bjarne added to the C language were:<br>
+                            1- Added support for the OOP programming style with all its advanced features like
+                            encapsulation, inheritance, polymorphism, operator overloading, and other features like
+                            virtual functions, exception handling, etc. we will discuss those features in Part 2 of this
+                            book.<br>
+                            2- Added the concept of class templates to work with generic data types.
                         </p>
                         <p>
-                            What are the reasons that make C and C++ programming languages powerful and widely used today? Here are some reasons:<br>
-                            1- The C language became the base language for many other languages that are derived from it, like PHP for backend web development, Java, Python, Objective-C, C#, and other languages; it is also used in building the Oracle database, the UNIX, Linux, and Mac operating systems, and parts of the Windows operating system.<br>
-                            2- The C programming language is considered by some authors a mid-level language because it contains features that allow the programmer to use it either on a high level or on a low level. It provides the techniques needed to let the programmer work directly with memory and device drivers. It also supports pointers, and this will make programmers write very fast and efficient programs.<br>
-                            3- It is considered a cross-platform language that works on any platform or operating system, unlike languages like Visual Basic, which only work under the Windows environment. You still need to install a compiler for each platform.<br>
-                            4- The C programming language has a small number of keywords, which makes the learning process easier.<br>
+                            What are the reasons that make C and C++ programming languages powerful and widely used
+                            today? Here are some reasons:<br>
+                            1- The C language became the base language for many other languages that are derived from
+                            it, like PHP for backend web development, Java, Python, Objective-C, C#, and other
+                            languages; it is also used in building the Oracle database, the UNIX, Linux, and Mac
+                            operating systems, and parts of the Windows operating system.<br>
+                            2- The C programming language is considered by some authors a mid-level language because it
+                            contains features that allow the programmer to use it either on a high level or on a low
+                            level. It provides the techniques needed to let the programmer work directly with memory and
+                            device drivers. It also supports pointers, and this will make programmers write very fast
+                            and efficient programs.<br>
+                            3- It is considered a cross-platform language that works on any platform or operating
+                            system, unlike languages like Visual Basic, which only work under the Windows environment.
+                            You still need to install a compiler for each platform.<br>
+                            4- The C programming language has a small number of keywords, which makes the learning
+                            process easier.<br>
                             5- It supports a huge number of libraries on various topics.
                         </p>
                         <p>
-                            C++ is not the easiest programming language to learn, but learning it and mastering all its concepts will make it easy to learn any other programming language.
+                            C++ is not the easiest programming language to learn, but learning it and mastering all its
+                            concepts will make it easy to learn any other programming language.
                         </p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RuSNG-tkFb4?si=W5bKBx6T9C__hrJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/RuSNG-tkFb4?si=W5bKBx6T9C__hrJy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <br><br>
                         <h1 id="terms">
                             <a href="#terms" class="heading-link">
@@ -202,7 +232,8 @@
                     <table width="100%" class="page-nav">
                         <tr>
                             <td>
-                                <p style="text-align: left;"><i class="fas fa-angle-double-left heartbeat"></i><a href="main.html"> Previous Chapter</a></p>
+                                <p style="text-align: left;"><i class="fas fa-angle-double-left heartbeat"></i><a
+                                        href="main.html"> Previous Chapter</a></p>
                             </td>
                             <td>
                                 <p style="text-align: right;"><a href="ch2.html"> Next Chapter</a><i
@@ -214,9 +245,7 @@
                     <br>
                     <section id="comments">
                         <h3>Leave a Comment</h3>
-                        <div id="fb-root"></div>
-                        <div class="fb-comments" data-href="https://s4ifbn.com/books/cpp/ch1.html" data-width="100%"
-                            data-numposts="5"></div>
+                        <div class="fb-comments" data-href="https://s4ifbn.com/books/cpp/ch1.html" data-width="100%" data-numposts="5"></div>
                     </section>
                     <div class="row text-center">
                         <div class="col-12">
