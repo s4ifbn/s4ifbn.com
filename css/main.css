@@ -346,3 +346,8 @@ li {
   padding-bottom: 1px;
   font-size: 16px;
 }
+
+.badge a{
+  color: white !important;
+  text-decoration: none !important;
+}
