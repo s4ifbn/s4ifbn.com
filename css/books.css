@@ -31,8 +31,8 @@ blockquote{
   color: white;
   padding: 1rem;
   position:sticky;
-  margin-top: 20px;
-  top: 70px;
+  margin-top: 30px;
+  top: 80px;
   border: 4px groove var(--purple);
   z-index: 1000;
 }
