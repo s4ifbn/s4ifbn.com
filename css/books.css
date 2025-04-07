@@ -22,14 +22,15 @@ html {
 }
 
 .sidebar {
-  margin-top: 50px;
   margin-left: 5px;
   background-color: #343a40;
   color: white;
   padding: 1rem;
-  position: fixed;
-  border: 3px groove var(--purple);
-  overflow-y: auto;
+  position:sticky;
+  margin-top: 20px;
+  top: 70px;
+  border: 4px groove var(--purple);
+  z-index: 1000;
 }
 
 .sidebar h2 {
@@ -50,9 +51,9 @@ html {
   background-color: #495057;
 }
 
-.lec_content {
+.lec_content p {
   text-align: justify;
-  font-size: 22px;
+  font-size: 24px;
   padding: 2rem;
 }
 
