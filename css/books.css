@@ -3,6 +3,10 @@ html {
   scroll-padding-top: 6rem;
 }
 
+blockquote{
+  font-size: 24px;
+}
+
 .heading-link {
   color: var(--purple) !important;
   font-size: 36px;
