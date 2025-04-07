@@ -69,8 +69,13 @@ blockquote{
   color: var(--green);
 }
 
+.page-nav a, i{
+  font-size: 20px;
+}
+
 h2 {
   color: var(--purple);
+  font-size: 28px;
 }
 
 pre {
