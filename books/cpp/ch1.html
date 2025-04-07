@@ -83,108 +83,112 @@
             </div>
         </nav>
     </header>
-    <div class="sidebar">
-        <h2>Contents</h2>
-        <a href="main.html">Chapter 0: Notes</a>
-        <a href="#chapter1">Chapter 1: Intro</a>
-        <ul>
-            <li><a href="#overview"> 0.1 Remarks</a></li>
-        </ul>
-        <a href="ch2.html">Chapter 2: Basics</a>
-    </div>
-
-    <main class="lec_content">
-        <section id="chapter1">
-            <h1 style="text-align: center">Chapter 1: Intro</h1>
-            <h1 id="overview">
-                <a href="#overview" class="heading-link">
-                    1.1 C / C++ Overview
-                    <span class="link-icon"><i class="fa-solid fa-link"></i></span>
-                </a>
-            </h1>
-            <p>
-                Programming languages are the languages that are used by humans to talk to computers to make them do what we want. For a computer to understand us we have to use a language the computer understands. Computers are electronic devices that understand the language of electricity; I mean the existence of electrical charge in their complex circuits; this charge is represented by two states on/off or zero/one. This language is called the machine language which is represented by the binary number system so it is also called binary language. So, computers understand the binary language very well, but as humans, it is impractical to write programs in binary language because it is (low level) and we have to memorize every instruction's binary code which is impractical and tedious. Easier languages for human understanding needed to be invented.
-            </p>
-            <p>
-                Companies and computer scientists started inventing programming languages that are closer to the human understanding level (high level), to make programming easy and more productive, and since the computer revolution thousands of programming languages are written and many of them are obsolete and no longer used today and some of them are still in use and new programming languages are still emerging every couple of years.
-            </p>
-
-            <h2 id="gnotes">0.2 General Notes</h2>
-            <p>
-                This book is for beginners in programming; it doesn’t assume any previous experience in programming to read it, but you need the basic information about computers in general. The book is written for the first-year undergraduate college students of the computer science major or anyone who wants to learn the basics of programming and dive into the massive world of programming.
-            </p>
-            <p>
-                The book contains two parts: the first part (this part) will gradually explain the fundamental concepts of structured programming using the C/C++ languages, and part two will enter the world of object-oriented programming (the modern style of programming), which is usually taught at the second-year computer sciences colleges in Iraq. This book is dedicated to everyone who wants to know what programming is all about.
-            </p>
-            <h2 id="dev-env">0.3 Development Environment</h2>
-            <p>
-                There are many development environments, or IDEs, to work with and execute our programs. The working environment I use in executing all the examples in this book is called CodeBlocks. The current version is 20.03; it’s an up-to-date environment that is updated and improved regularly. The number 20 indicates the year, which is 2020, and the number 3 indicates the month the version was released. This environment is free, lightweight, and cross-platform, which means that you can find a version that works on all the major operating systems. You can find the Windows version on my website, follow this link <a href="../../programs.html">Programs</a>. You can find other versions for other platforms at their official website at <a href="http://www.codeblocks.org">codeblocks.org</a>.
-            </p>
-            <p>
-                Make sure the version you download contains the GCC compiler. The version I provided on my website contains the GCC compiler version 6.2.0. All the programs in this book are executed using CodeBlocks 20.03 on a laptop with these specifications:
-            </p>
-            <ul>
-                <li>CPU Intel Core i3 1.9 GHz</li>
-                <li>RAM DDR3 8 GB</li>
-                <li>OS Windows 10 Pro 64-bit</li>
-            </ul>
-            <p>
-                For Mac users the programs were also tested on Xcode IDE using a MacBook Pro with these specifications:
-            </p>
-            <ul>
-                <li>Apple M1 Pro</li>
-                <li>RAM DDR5 16 GB</li>
-                <li>OS MacOS Ventura 13.4 64-bit</li>
-            </ul>
-            <p>
-                Before we start our journey, you need to install the CodeBlocks IDE. You can watch the video in the link below to follow the steps required for installing and configuring this environment to get you up and ready to write your programs and create your own C/C++ projects:
-            </p>
-            <div style="text-align: center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/PWfQwDdGpVw?si=pcE1_lX-7qjRQDiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <p>
-                There is however a nice website that provides online compilers for most of the famous programming languages. This website makes you write, execute, and share programs with your friends without installing anything on your machine. The website is https://replit.com. All the programs in this book will be hosted on this site and on GitHub for testing our programs at this location.
-            </p>
-            <p><a href="https://github.com/s4ifbn/CPP-Book">https://github.com/s4ifbn/CPP-Book</a></p>
-            <p>
-                Here is a video to show you how to use the website.
-            </p>
-            <div style="text-align: center;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ot5wRrylOvA?si=UqRJjm5XzZhb5rP2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <h2 id="warn">0.4 Warning</h2>
-            <p>
-                Before we begin, you have to know something important: you cannot learn to program or be a programmer by only reading books or listening to lectures. You have to practice programming by writing programs and fixing errors that occur; in fact, you will spend more time fixing errors than writing code. You have to work on all the examples in this book and solve the exercises and challenges at the end of each chapter. Most importantly, you have to make sure that your programs are working correctly and giving the desired output, because making the program run is one thing, and making it give correct results is another.
-            </p>
-            <blockquote>
-                Learning programming is like learning how to play a musical instrument; the only way to be proficient is by continuous practice.
-            </blockquote>
-        </section>
-        <br>
-        <table width="100%">
-            <tr>
-                <td>
-                    <p><i class="fas fa-angle-double-left heartbeat"></i><a href="../../books.html"> Back to Books</a></p>
-                </td>
-                <td style="text-align: right;">
-                    <p><a href="ch1.html"> Next Chapter</a><i class="fas fa-angle-double-right heartbeat"></i></p>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <br>
-        <section id="comments">
-            <h3>Leave a Comment</h3>
-            <div id="fb-root"></div>
-            <div class="fb-comments" data-href="https://s4ifbn.com/books/cpp/main.html" data-width="100%"
-                data-numposts="5"></div>
-        </section>
-        <div class="row text-center">
-            <div class="col-12">
-                <a href="#top"><i class="fa-solid fa-angles-up heartbeat"></i></a>
+    <div class="row">
+        <div class="col-lg-2">
+            <div class="sidebar d-none d-lg-block">
+                <h2>Contents</h2>
+                <a href="main.html">Chapter 0: Notes</a>
+                <a href="#chapter1">Chapter 1: Intro</a>
+                <ul>
+                    <li><a href="#overview"> 0.1 Remarks</a></li>
+                </ul>
+                <a href="ch2.html">Chapter 2: Basics</a>
             </div>
         </div>
-    </main>
+        <div class="col-lg-10">
+            <main class="lec_content">
+                <section id="chapter1">
+                    <h1 style="text-align: center">Chapter 1: Intro</h1>
+                    <h1 id="overview">
+                        <a href="#overview" class="heading-link">
+                            1.1 C / C++ Overview
+                            <span class="link-icon"><i class="fa-solid fa-link"></i></span>
+                        </a>
+                    </h1>
+                    <p>
+                        Programming languages are the languages that are used by humans to talk to computers to make them do what we want. For a computer to understand us we have to use a language the computer understands. Computers are electronic devices that understand the language of electricity; I mean the existence of electrical charge in their complex circuits; this charge is represented by two states on/off or zero/one. This language is called the machine language which is represented by the binary number system so it is also called binary language. So, computers understand the binary language very well, but as humans, it is impractical to write programs in binary language because it is (low level) and we have to memorize every instruction's binary code which is impractical and tedious. Easier languages for human understanding needed to be invented.
+                    </p>
+                    <p>
+                        Companies and computer scientists started inventing programming languages that are closer to the human understanding level (high level), to make programming easy and more productive, and since the computer revolution thousands of programming languages are written and many of them are obsolete and no longer used today and some of them are still in use and new programming languages are still emerging every couple of years.
+                    </p>
+                    <h2 id="gnotes">0.2 General Notes</h2>
+                    <p>
+                        This book is for beginners in programming; it doesn’t assume any previous experience in programming to read it, but you need the basic information about computers in general. The book is written for the first-year undergraduate college students of the computer science major or anyone who wants to learn the basics of programming and dive into the massive world of programming.
+                    </p>
+                    <p>
+                        The book contains two parts: the first part (this part) will gradually explain the fundamental concepts of structured programming using the C/C++ languages, and part two will enter the world of object-oriented programming (the modern style of programming), which is usually taught at the second-year computer sciences colleges in Iraq. This book is dedicated to everyone who wants to know what programming is all about.
+                    </p>
+                    <h2 id="dev-env">0.3 Development Environment</h2>
+                    <p>
+                        There are many development environments, or IDEs, to work with and execute our programs. The working environment I use in executing all the examples in this book is called CodeBlocks. The current version is 20.03; it’s an up-to-date environment that is updated and improved regularly. The number 20 indicates the year, which is 2020, and the number 3 indicates the month the version was released. This environment is free, lightweight, and cross-platform, which means that you can find a version that works on all the major operating systems. You can find the Windows version on my website, follow this link <a href="../../programs.html">Programs</a>. You can find other versions for other platforms at their official website at <a href="http://www.codeblocks.org">codeblocks.org</a>.
+                    </p>
+                    <p>
+                        Make sure the version you download contains the GCC compiler. The version I provided on my website contains the GCC compiler version 6.2.0. All the programs in this book are executed using CodeBlocks 20.03 on a laptop with these specifications:
+                    </p>
+                    <ul>
+                        <li>CPU Intel Core i3 1.9 GHz</li>
+                        <li>RAM DDR3 8 GB</li>
+                        <li>OS Windows 10 Pro 64-bit</li>
+                    </ul>
+                    <p>
+                        For Mac users the programs were also tested on Xcode IDE using a MacBook Pro with these specifications:
+                    </p>
+                    <ul>
+                        <li>Apple M1 Pro</li>
+                        <li>RAM DDR5 16 GB</li>
+                        <li>OS MacOS Ventura 13.4 64-bit</li>
+                    </ul>
+                    <p>
+                        Before we start our journey, you need to install the CodeBlocks IDE. You can watch the video in the link below to follow the steps required for installing and configuring this environment to get you up and ready to write your programs and create your own C/C++ projects:
+                    </p>
+                    <div style="text-align: center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PWfQwDdGpVw?si=pcE1_lX-7qjRQDiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <p>
+                        There is however a nice website that provides online compilers for most of the famous programming languages. This website makes you write, execute, and share programs with your friends without installing anything on your machine. The website is https://replit.com. All the programs in this book will be hosted on this site and on GitHub for testing our programs at this location.
+                    </p>
+                    <p><a href="https://github.com/s4ifbn/CPP-Book">https://github.com/s4ifbn/CPP-Book</a></p>
+                    <p>
+                        Here is a video to show you how to use the website.
+                    </p>
+                    <div style="text-align: center;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ot5wRrylOvA?si=UqRJjm5XzZhb5rP2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h2 id="warn">0.4 Warning</h2>
+                    <p>
+                        Before we begin, you have to know something important: you cannot learn to program or be a programmer by only reading books or listening to lectures. You have to practice programming by writing programs and fixing errors that occur; in fact, you will spend more time fixing errors than writing code. You have to work on all the examples in this book and solve the exercises and challenges at the end of each chapter. Most importantly, you have to make sure that your programs are working correctly and giving the desired output, because making the program run is one thing, and making it give correct results is another.
+                    </p>
+                    <blockquote>
+                        Learning programming is like learning how to play a musical instrument; the only way to be proficient is by continuous practice.
+                    </blockquote>
+                </section>
+                <br>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <p><i class="fas fa-angle-double-left heartbeat"></i><a href="../../books.html"> Back to Books</a></p>
+                        </td>
+                        <td style="text-align: right;">
+                            <p><a href="ch1.html"> Next Chapter</a><i class="fas fa-angle-double-right heartbeat"></i></p>
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+                <br>
+                <section id="comments">
+                    <h3>Leave a Comment</h3>
+                    <div id="fb-root"></div>
+                    <div class="fb-comments" data-href="https://s4ifbn.com/books/cpp/main.html" data-width="100%"
+                        data-numposts="5"></div>
+                </section>
+                <div class="row text-center">
+                    <div class="col-12">
+                        <a href="#top"><i class="fa-solid fa-angles-up heartbeat"></i></a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
     <footer>
         <div class="footer" id="down">
           <table width="100%">

@@ -27,7 +27,6 @@ html {
   background-color: #343a40;
   color: white;
   padding: 1rem;
-  width: 300px;
   position: fixed;
   border: 3px groove var(--purple);
   overflow-y: auto;
