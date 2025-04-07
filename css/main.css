@@ -285,6 +285,7 @@ li {
 }
 
 .fa-angle-double-left,
+.fa-angle-double-right,
 .fa-caret-right {
   color: var(--green);
   margin-left: 5px;

@@ -1,12 +1,11 @@
 
   .sidebar {
-    z-index: -1;
-    width: 250px;
+    margin-left: 5px;
     background-color: #343a40;
     color: white;
     padding: 1rem;
     position: fixed;
-    height: 70vh;
+    border: 3px groove var(--purple);
     overflow-y: auto;
   }
 
@@ -29,7 +28,9 @@
   }
 
   .lec_content {
+    margin-top: 30px;
     margin-left: 300px;
+    font-size:22px;
     padding: 2rem;
     flex: 1;
   }
@@ -38,6 +39,17 @@
     margin-top: 0;
   }
 
+  .lec_content a {
+    color: var(--green);
+  }
+
+  .lec_content > ul{
+    list-style-type: square;
+  }
+
+  h2{
+    color: var(--purple);
+  }
   pre {
     background-color: #2d2d2d;
     color: #f8f8f2;
