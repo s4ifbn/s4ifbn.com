@@ -3,6 +3,10 @@ html {
   scroll-padding-top: 6rem;
 }
 
+ol{
+  list-style: upper-latin !important;
+}
+
 blockquote{
   font-size: 24px;
 }
