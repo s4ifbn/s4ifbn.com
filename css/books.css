@@ -73,6 +73,15 @@ blockquote{
   color: var(--green);
 }
 
+.HL{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: #eee;
+  padding: 0.4rem;
+  color: var(--green);
+}
+
+
 .page-nav a, i{
   font-size: 20px;
 }
