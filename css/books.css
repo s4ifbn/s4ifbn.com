@@ -98,6 +98,8 @@ pre {
   overflow-x: auto;
   border-radius: 5px;
   font-family: 'Courier New', monospace;
+  font-size: 26px;
+  text-align: left;
   margin: 1rem 0;
 }
 
