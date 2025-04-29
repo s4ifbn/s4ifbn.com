@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الهيكل التنظيمي لكلية علوم الحاسوب</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Kufam:ital,wght@0,400..900;1,400..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .chart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box {
+            min-width: 40%;
+            background-color: #3498db;
+            color: white;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            transition: 0.3s ease;
+        }
+
+        .box.scientific {
+            background-color: #2ecc71;
+        }
+
+        .box.admin {
+            background-color: #e67e22;
+        }
+
+        .box.departments {
+            background-color: #9b59b6;
+        }
+
+        .arrow {
+            display: inline-block;
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .box.active .arrow {
+            transform: rotate(90deg);
+            /* Rotate the arrow */
+        }
+
+        .details {
+            max-height: 0;
+            overflow: scroll;
+            background: #fff;
+            color: #333;
+            margin-top: 10px;
+            border-radius: 8px;
+            padding: 0 15px;
+            text-align: right;
+            transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s;
+            opacity: 0;
+        }
+
+        .box.active .details {
+            max-height: 300px;
+            opacity: 1;
+            padding: 15px;
+        }
+
+        .branch {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .branch {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>الجامعة التكنولوجية<br>الهيكل التنظيمي لكلية علوم الحاسوب</h1>
+
+    <div class="chart">
+        <div class="box">
+            <span class="arrow">▶</span> مجلس الكلية
+            <div class="details">
+                <table width="100%">
+                    <tr>
+                        <td>عميد الكلية</td>
+                        <td>أ.د. علاء كاظم فرحان</td>
+                    </tr>
+                    <tr>
+                        <td>ممثل التدريسيين</td>
+                        <td>أ.د. أحمد طارق صادق</td>
+                    </tr>
+                    <tr>
+                        <td>المعاون العلمي </td>
+                        <td>أ.م.د. مصطفى جاسم هادي</td>
+                    </tr>
+                    <tr>
+                        <td>المعاون الإداري</td>
+                        <td>أ.م.د. بشار سعدون مهدي</td>
+                    </tr>
+                    <tr>
+                        <td>رئيس قسم البرمجيات</td>
+                        <td>أ.م.د. أياد حازم إبراهيم</td>
+                    </tr>
+                    <tr>
+                        <td>رئيس قسم نظم المعلومات</td>
+                        <td>أ.م.د. عذراء جاسم محمد</td>
+                    </tr>
+                    <tr>
+                        <td>رئيس قسم الذكاء الاصطناعي</td>
+                        <td>م.د. دينا كاظم محسن</td>
+                    </tr>
+                    <tr>
+                        <td>رئيس قسم أمنية الحاسوب والأمن السيبراني</td>
+                        <td>م.د. رنا محمد حسن زكي</td>
+                    </tr>
+                    <tr>
+                        <td>رئيس قسم شبكات الحاسوب وتطوير الويب</td>
+                        <td>م.د. سيف بشار نعمة</td>
+                    </tr>
+                    <tr>
+                        <td>رئيس قسم الوسائط المتعددة والإعلام الرقمي</td>
+                        <td>م.د. ندى حسين علي</td>
+                    </tr>
+                    <tr>
+                        <td>مقرر الكلية </td>
+                        <td>م.د. مصطفى طارق عيد</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="arrow">▶</span> عميد الكلية
+            <br> أ.د. علاء كاظم فرحان
+            <div class="details">
+                <ul>
+                    <li>وحدة مكتب العميد</li>
+                    <li>أمانة مجلس الكلية</li>
+                    <li>لجنة الترقيات العلمية</li>
+                    <li>وحدة صندوق التعليم العالي</li>
+                    <li>شعبة ضمان الجودة والأداء الجامعي
+                        <ul>
+                            <li>وحدة الاعتماد الأكاديمي</li>
+                            <li>وحدة ضمان الجودة</li>
+                            <li>وحدة تقييم الأداء</li>
+                        </ul>
+                    </li>
+                    <li>شعبة المكتبة</li>
+                    <li>وحدة الإعلام والإتصال الحكومي</li>
+                    <li>وحدة التدقيق والرقابة المالية</li>
+                    <li>وحدة المتابعة</li>
+                    <li>وحدة الاعمار والمشاريع (عضو ارتباط)</li>
+                    <li>وحدة شؤون المواطنين (عضو ارتباط)</li>
+                    <li>وحدة التصاريح الأمنية (عضو ارتباط)</li>
+                    <li>وحدة العقود الحكومية (عضو ارتباط)</li>
+                    <li>وحدة شؤون المرأة</li>
+                </ul>
+                <br>
+            </div>
+        </div>
+
+        <div class="branch">
+            <div class="box scientific">
+                <span class="arrow">▶</span> المعاون العلمي
+                <br> أ.م.د. مصطفى جاسم هادي
+                <div class="details">
+                    <ul>
+                        <li>مكتب المعاون العلمي</li>
+                        <li>شعبة شؤون الدراسات العليا</li>
+                        <li>شعبة الوثائق والخريجيين</li>
+                        <li>شعبة المختبرات</li>
+                        <li>شعبة الشؤون العلمية والعلاقات الثقافية</li>
+                        <li>شعبة الدراسات والتخطيط
+                            <ul>
+                                <li>وحدة الإحصاء</li>
+                                <li> وحدة التخطيط</li>
+                                <li> وحدة البيانات والمعلوماتية</li>
+                            </ul>
+                        </li>
+                        <li>وحدة الارشاد النفسي والتوجيه التربوي</li>
+                        <li>وحدة متابعة الخريجيين والتأهيل والتوظيف</li>
+                        <li>وحدة المجلة العلمية</li>
+                        <li>وحدة التعليم المستمر</li>
+                        <li>وحدة الحاضنات التكنولوجية</li>
+                        <li>وحدة حقوق الإنسان</li>
+                        <li>وحدة البرنامج الحكومي (عضو ارتباط)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box admin">
+                <span class="arrow">▶</span> المعاون الإداري
+                <br> أ.م.د. بشار سعدون مهدي
+                <div class="details">
+                    <ul>
+                        <li>مكتب المعاون الإداري</li>
+                        <li>شعبة الموارد البشرية
+                            <ul>
+                                <li>وحدة الملاك</li>
+                                <li>وحدة شؤون الأفراد</li>
+                                <li>وحدة الصادرة والواردة</li>
+                                <li>وحدة الملفات والتوثيق الالكتروني</li>
+                                <li>وحدة التقاعد</li>
+                            </ul>
+                        </li>
+                        <li>شعبة الشؤون المالية
+                            <ul>
+                                <li>وحدة الحسابات والصرف</li>
+                                <li>وحدة الرواتب</li>
+                                <li>وحدة أمانة الصندوق</li>
+                                <li>وحدة السجلات</li>
+                            </ul>
+                        </li>
+                        <li>شعبة شوون الطلبة والتسجيل
+                            <ul>
+                                <li>وحدة القبول والتسجيل</li>
+                                <li>وحدة متابعة الطلبة وتدقيق الوثائق والسجلات</li>
+                                <li>وحدة الملفات والتدقيق</li>
+                            </ul>
+                        </li>
+                        <li>شعبة القانونية
+                            <ul>
+                                <li>وحدة الاستشارات القانونية</li>
+                                <li>وحدة الدعاوى القانونية والكفالات</li>
+                            </ul>
+                        </li>
+                        <li>شعبة تكنولوجيا المعلومات
+                            <ul>
+                                <li>وحدة الانترنت والشبكات</li>
+                                <li>وحدة ادارة الموقع الالكتروني</li>
+                            </ul>
+                        </li>
+                        <li>شعبة المخازن
+                            <ul>
+                                <li>وحدة الوقود والزيت</li>
+                            </ul>
+                        </li>
+                        <li>شعبة الصيانة والخدمات
+                            <ul>
+                                <li>وحدة الصيانة</li>
+                                <li>وحدة الخدمات</li>   
+                            </ul>
+                        </li>
+                        <li>وحدة العمل والنشاط الطلابي</li>
+                        <li>وحدة التدريب الصيفي</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box departments">
+                <span class="arrow">▶</span> الأقسام العلمية
+                <div class="details">
+                    <ul>
+                        <li>قسم البرمجيات</li>
+                        <li>قسم نظم المعلومات</li>
+                        <li>قسم الذكاء الاصطناعي</li>
+                        <li>قسم أمنية الحاسوب والأمن السيبراني</li>
+                        <li>قسم شبكات الحاسوب وتطوير الويب</li>
+                        <li>قسم الوسائط المتعددة والإعلام الرقمي</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const boxes = document.querySelectorAll('.box');
+
+            boxes.forEach(box => {
+                box.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    boxes.forEach(b => {
+                        if (b !== box) {
+                            b.classList.remove('active');
+                        }
+                    });
+                    box.classList.toggle('active');
+                });
+            });
+
+            document.addEventListener('click', function () {
+                boxes.forEach(b => b.classList.remove('active'));
+            });
+        });
+    </script>
+
+</body>
+
+</html>
