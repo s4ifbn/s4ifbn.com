@@ -3,7 +3,7 @@ let scrollVal = 180;
 var app2 = new Vue({
     el: '#updated',
     data: {
-        message: 'May 5th'
+        message: 'May 7th'
     }
 })
 
