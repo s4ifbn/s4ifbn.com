@@ -13,4 +13,3 @@ var app3 = new Vue({
         year: '2025'
     }
 })
-
