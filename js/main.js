@@ -24,7 +24,7 @@ var app4 = new Vue({
 var app5 = new Vue({
     el: '#subs',
     data: {
-        subs: '487'
+        subs: '35.2 K'
     }
 })
 
