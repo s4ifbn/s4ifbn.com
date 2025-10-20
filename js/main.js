@@ -13,3 +13,31 @@ var app3 = new Vue({
         year: '2025'
     }
 })
+
+var app4 = new Vue({
+    el: '#lects',
+    data: {
+        lects: '487'
+    }
+})
+
+var app5 = new Vue({
+    el: '#subs',
+    data: {
+        subs: '487'
+    }
+})
+
+var app6 = new Vue({
+    el: '#views',
+    data: {
+        views: '3.3 M'
+    }
+})
+
+var app7 = new Vue({
+    el: '#pages',
+    data: {
+        pages: '497'
+    }
+})
