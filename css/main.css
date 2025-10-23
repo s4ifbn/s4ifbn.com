@@ -246,6 +246,10 @@ li {
   align-items: center;
 }
 
+.red{
+  color: #DC3545;
+}
+
 .card-text {
   text-align: right;
 }
