@@ -28,6 +28,8 @@
   --light-grey: grey;
   --red: #DC3545;
   --yellow: #FFC107;
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
 }
 
 * {
@@ -124,6 +126,7 @@ input.gsc-input {
 
 .nav-link:hover {
   color: var(--green) !important;
+  transition: all 0.3s ease;
 }
 
 .current {
@@ -142,14 +145,18 @@ input.gsc-input {
   float: left;
 }
 
+  
 .mainDiv {
-  padding: 20px 20px 20px 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
+  padding: 40px 30px;
+  margin: 40px auto;
+  max-width: 1200px;
   text-align: justify;
   direction: rtl;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
 }
+
 
 div.counter {
   color: var(--light-grey);
