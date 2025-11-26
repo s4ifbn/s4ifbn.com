@@ -101,6 +101,10 @@ input.gsc-input {
   border-radius: 20px !important;
 }
 
+.gsc-control-cse{
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
 #cse button {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
   border-radius: 5px;
