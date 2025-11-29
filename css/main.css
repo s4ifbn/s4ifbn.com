@@ -166,7 +166,7 @@ div.counter {
   width: 85%;
   max-width: 350px;
   border-radius: 20px;
-  box-shadow: var(--shadow-xl);
+  box-shadow: 0 30px 60px -12px rgba(99, 102, 241, 0.3);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border: 4px solid white;
   position: relative;
@@ -270,6 +270,27 @@ li {
 }
 
 /* lectures */
+
+.lects-title{
+  font-size: 68px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(var(--purple), var(--green));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tags span {
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+  background: rgba(249, 250, 251, 0.9);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  color: #374151;
+  font-size: 0.9rem;
+  margin: 0.1rem 0.2rem;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
 
 .mycard {
   box-shadow: 5px 5px 20px rgba(1 1 1 / 15%);
