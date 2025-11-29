@@ -162,9 +162,24 @@ div.counter {
   font-size: 20px;
 }
 
-.mainDiv img {
+/* .mainDiv img {
   width: 80%;
   border-right: 10px groove var(--purple);
+} */
+
+.mainDiv img {
+  width: 85%;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-xl);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 4px solid white;
+  position: relative;
+}
+
+.mainDiv img:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 30px 60px -12px rgba(99, 102, 241, 0.3);
 }
 
 .mydiv {
