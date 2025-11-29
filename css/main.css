@@ -162,11 +162,6 @@ div.counter {
   font-size: 20px;
 }
 
-/* .mainDiv img {
-  width: 80%;
-  border-right: 10px groove var(--purple);
-} */
-
 .mainDiv img {
   width: 85%;
   max-width: 350px;
