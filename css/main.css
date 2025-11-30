@@ -272,7 +272,7 @@ li {
 /* lectures */
 
 .lects-title{
-  font-size: 68px;
+  font-size: 58px;
   font-weight: bolder;
   background: -webkit-linear-gradient(var(--purple), var(--green));
   -webkit-background-clip: text;
