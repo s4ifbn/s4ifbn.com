@@ -1,1677 +1,1681 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="author" content="Saif Bashar">
-    <meta http-equiv="pragma" content="no-cache">
-    <link rel="stylesheet" href="../css/vid.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="author" content="Saif Bashar">
+  <meta http-equiv="pragma" content="no-cache">
+  <link rel="stylesheet" href="../css/vid.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/anim.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/anim.css">
 
-    <link rel="icon" href="../img/tree.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="../img/tree.ico" type="image/x-icon" />
-    <title>Saif Bashar / C++</title>
-    <script src="../js/jquery-3.6.0.min.js"></script>
+  <link rel="icon" href="../img/tree.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/tree.ico" type="image/x-icon">
+  <title>Saif Bashar / C++</title>
+  <script src="../js/jquery-3.6.0.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-        </script>
-
-    <script src="https://kit.fontawesome.com/08a0e9ffc6.js" crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-42710021-1');
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <!-- Google Ads-->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7453112797382148"
-        crossorigin="anonymous"></script>
-    <!-- Google Ads-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+  <script src="https://kit.fontawesome.com/08a0e9ffc6.js" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-42710021-1');
+  </script>
+  <!-- Google Ads-->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7453112797382148"
+    crossorigin="anonymous"></script>
+  <!-- Google Ads-->
 </head>
 
 <body id="top">
 
-    <!-- facebook comments -->
-     <div id="fb-root"></div>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v24.0&appId=APP_ID"></script>
-    <!-- facebook comments -->
+  <!-- facebook comments -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v24.0&appId=APP_ID"></script>
+  <!-- facebook comments -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-        <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <div class="container-fluid">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link current" href="../lectures.html">Lectures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../programs.html">Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../books.html">Books</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../blog.html">Articles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../cv.html">About Me
-                        </a>
-                    </li>
-                </ul>
-                <script async src="https://cse.google.com/cse.js?cx=7bedf306f0d889130"></script>
-                <div id="cse" class="d-none d-lg-block">
-                    <div class="gcse-search"></div>
-                </div>
-            </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link current" href="../lectures.html">Lectures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../programs.html">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../books.html">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../blog.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../cv.html">About Me
+            </a>
+          </li>
+        </ul>
+        <script async src="https://cse.google.com/cse.js?cx=7bedf306f0d889130"></script>
+        <div id="cse" class="d-none d-lg-block">
+          <div class="gcse-search"></div>
         </div>
-    </nav>
-    <div class="container">
-        <div class="text-center">
-            <div class="mt-5">
-                <h1 class="display-5 lects-title">Programming in C / C++</h1>
-                <p>
-                    سلسلة دروس متكاملة في البرمجة تبدأ من الأساسيات وصولاً إلى البرمجة الشيئية وهياكل البيانات، مع الكثير من التمارين العملية وحل المسائل خطوة بخطوة
-                </p>
-                <div class="text-center">
-                    <h5 class="tags">
-                        <span><i class="fa-solid fa-cubes"></i> Structured Programming</span>
-                        <span><i class="fa-solid fa-shapes"></i> Object Oriented Programming</span>
-                        <span><i class="fa-solid fa-diagram-project"></i> Data Structures</span>
-                        <br>
-                        <span><i class="fa-solid fa-layer-group"></i>Beginner → Intermediate</span>
-                        <span><i class="fa-solid fa-earth-asia"></i>Language : Arabic</span>
-                        <span><i class="fa-solid fa-chalkboard-user"></i> Course type : University programming course</span>
-                    </h5>
-                    <br>
-                </div>
-            </div>
-            <div class="actions">
-                    <a href="#structured" class="btn-actions">
-                        <i class="fa-solid fa-play"></i>
-                        Start from basics
-                    </a>
-                    <a href="#oop" class="btn-actions">
-                        <i class="fa-solid fa-layer-group"></i>
-                        Jump to OOP
-                    </a>
-                    <a href="#ds" class="btn-actions">
-                        <i class="fa-solid fa-database"></i>
-                            Jump to Data Structures
-                    </a>
-            </div>
-            <br>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <div class="fb-like" data-href="https://s4ifbn.com/pg/cpp.html" data-layout="button_count"
-                    data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-            </div>
-            <div class="col-6 text-right">
-                 اضغط على أي درس في القوائم ليتم عرضه هنا
-                 <i class="fa-solid fa-lightbulb"></i>
-            </div>
-        </div>
-
-        <div class="vcont">
-            <div class="row">
-                <div class="col-6">
-
-                </div>
-                <div class="col-6 text-right">
-
-                </div>
-            </div>
-            <div class="vid">
-                <iframe id="myframe" width="560" height="315" src="https://www.youtube.com/embed/RuSNG-tkFb4?rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <h1 class="section-title" id="structured">Structured Programming</h1>
-        <br>
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 1</div>
-                <p class="module-title">Basics</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#pr_basics a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="pr_basics" class="module-card lesson-list">
-                        <a href="https://www.youtube.com/embed/RuSNG-tkFb4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text">Introduction</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/0ZEMzvQEMes">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text">Borland C++ 5.02 IDE Setup</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/PWfQwDdGpVw">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text">CodeBlocks IDE Setup</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/IxktJ5dZBqM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text">Terminology</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/Gwt1jhgRegw">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text">Hello World Program</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/l5R44bPxcL4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text">Variables</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/JRq6Ga1n_gU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">07</span>
-                                <span class="lesson-text">Data Types</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/6h5ur0h2dOs">
-                              <span class="lesson-title">
-                                <span class="lesson-index">08</span>
-                                <span class="lesson-text"> Escape Sequences</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/p9hcOeW9Y3Y">
-                              <span class="lesson-title">
-                                <span class="lesson-index">09</span>
-                                <span class="lesson-text"> Notes on Data Types</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/vRtV12AjIFw">
-                              <span class="lesson-title">
-                                <span class="lesson-index">10</span>
-                                <span class="lesson-text"> Arithmetic Operators</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/uAglKFT9lAY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">11</span>
-                                <span class="lesson-text"> Arithmetic Operators Precedence</span>
-                             </span>
-                             <span class="lesson-tag topic">Topic</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/J6IXZxbihOA">
-                              <span class="lesson-title">
-                                <span class="lesson-index">12</span>
-                                <span class="lesson-text"> Writing Long Equations Correctly</span>
-                             </span>
-                             <span class="lesson-tag exercise">Exercise</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/7sjlNN6VxxM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">13</span>
-                                <span class="lesson-text"> Expressions &amp; Precedence Law</span>
-                             </span>
-                             <span class="lesson-tag exercise">Exercise</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/eMjIsSAlb2o">
-                              <span class="lesson-title">
-                                <span class="lesson-index">14</span>
-                                <span class="lesson-text"> Using Trigonometric Functions</span>
-                             </span>
-                             <span class="lesson-tag exercise">Exercise</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/X_oDhS99asE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">15</span>
-                                <span class="lesson-text"> Find Circle Area</span>
-                             </span>
-                             <span class="lesson-tag exercise">Exercise</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/7IRD2tzlYt4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">16</span>
-                                <span class="lesson-text"> Find Average of 5 Numbers</span>
-                             </span>
-                             <span class="lesson-tag exercise">Exercise</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/eMhD0Nl0bS8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">17</span>
-                                <span class="lesson-text"> Find Equations &amp; Math Functions</span>
-                             </span>
-                             <span class="lesson-tag exercise">Exercise</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/V4J2T7oKNpU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">18</span>
-                                <span class="lesson-text"> Find Enumeration of Months</span>
-                             </span>
-                             <span class="lesson-tag exercise">Exercise</span>
-                        </a>
-                        <a href="https://www.youtube.com/embed/VFE3xv45NjE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">19</span>
-                                <span class="lesson-text"> Find Enumeration of Seasons</span>
-                             </span>
-                             <span class="lesson-tag exercise">Exercise</span>
-                        </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 2</div>
-                <p class="module-title">Logical Decisions</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#cond a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="cond" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/JLbbdUY_pwA">
-                        <span class="lesson-title">
-                            <span class="lesson-index">01</span>
-                            <span class="lesson-text">if-else Statement</span>
-                        </span>
-                        <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/qKJS5eFX0kQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text">Nested if Statement</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/1yxtgM3Q4NU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text">switch Statement</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/KokPcCYhHCA">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text">Bitwise Operators</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/EazM8REHCdw">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text">if-else statement</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/ErMfudhdMSg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text">Multiple if statements 1</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/s4G6EWXgEXY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">07</span>
-                                <span class="lesson-text">Multiple if statements 2</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/uE2RusxQ16o">
-                              <span class="lesson-title">
-                                <span class="lesson-index">08</span>
-                                <span class="lesson-text">Multiple if statements 3</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/gMsuDXaSSJ8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">09</span>
-                                <span class="lesson-text">Compound Conditions</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/gVZ0AVNrD8w">
-                              <span class="lesson-title">
-                                <span class="lesson-index">10</span>
-                                <span class="lesson-text">Nested if statement 1</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/buGPqVpxFPU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">11</span>
-                                <span class="lesson-text">Nested if statement 2</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/GxXecCUeJ9Q">
-                              <span class="lesson-title">
-                                <span class="lesson-index">12</span>
-                                <span class="lesson-text">Nested if statement 3</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/VXWDeIZzWik">
-                              <span class="lesson-title">
-                                <span class="lesson-index">13</span>
-                                <span class="lesson-text">switch statement 1</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/YmYXAAlbex4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">14</span>
-                                <span class="lesson-text">switch statement 2</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/w4AEFK9iQ5Y">
-                              <span class="lesson-title">
-                                <span class="lesson-index">15</span>
-                                <span class="lesson-text">switch statement 3</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/m8Jd5o7v-kU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">16</span>
-                                <span class="lesson-text">Nested switch statement</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/ellPkbH2DDk">
-                              <span class="lesson-title">
-                                <span class="lesson-index">17</span>
-                                <span class="lesson-text">Operators</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/J5gvDV4l12A">
-                              <span class="lesson-title">
-                                <span class="lesson-index">18</span>
-                                <span class="lesson-text">Mixed Operators 1</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/ynMTYJijOxQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">19</span>
-                                <span class="lesson-text">Mixed Operators 2</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 3</div>
-                <p class="module-title">Loops</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#loop a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="loop" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/hAldLNt-GcE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text">Loops</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/IMqNTXT-Cys">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text">Trace or Debug</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/B5U48is5Ws0">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Nested Loops</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/vHie7uF5xqM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> Ranged For Loop</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/rqNkSgvgHuI">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text"> Display 100 Odd Numbers</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/bpuSePx0dmk">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text"> Sum 100 Odd Numbers</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/xSx3ksTX0Ik">
-                              <span class="lesson-title">
-                                <span class="lesson-index">07</span>
-                                <span class="lesson-text"> Student Information</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/y--9gqJ2jDE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">08</span>
-                                <span class="lesson-text"> Prime Numbers Test</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/lxs8mPi-CYY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">09</span>
-                                <span class="lesson-text"> Fibonacci Sequence</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/lxs8mPi-CYY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">10</span>
-                                <span class="lesson-text"> find GCD between two numbers</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/jH-XVRTOfSQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">11</span>
-                                <span class="lesson-text"> Math Series 1</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/Qwfj7c_ZPMI">
-                              <span class="lesson-title">
-                                <span class="lesson-index">12</span>
-                                <span class="lesson-text"> Math Series 2</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/_vTWN2iXUxY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">13</span>
-                                <span class="lesson-text"> Math Series 3</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/sjAV1eI0TzM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">14</span>
-                                <span class="lesson-text"> Math Series 4</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/n21WsFPvESA">
-                              <span class="lesson-title">
-                                <span class="lesson-index">15</span>
-                                <span class="lesson-text"> Reverse an integer</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/-VbUQ8h7qIk">
-                              <span class="lesson-title">
-                                <span class="lesson-index">16</span>
-                                <span class="lesson-text"> Find the Output 1</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/iTyyrxs_VXY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">17</span>
-                                <span class="lesson-text"> Find the Output 2</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/PDNBX3fYkx8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">18</span>
-                                <span class="lesson-text"> Find the Output 3</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                   <a href="https://www.youtube.com/embed/CTu4oeI7IpQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">19</span>
-                                <span class="lesson-text"> Find the Output 4</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/erlLearZ4MA">
-                              <span class="lesson-title">
-                                <span class="lesson-index">20</span>
-                                <span class="lesson-text"> Find the Output 5</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/Guw6GVdkiWI">
-                              <span class="lesson-title">
-                                <span class="lesson-index">21</span>
-                                <span class="lesson-text"> Read Seven Marks</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/_xPEnY-2HQg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">22</span>
-                                <span class="lesson-text"> Student Average, Number of Fails</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/-DBPM1RDQz4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">23</span>
-                                <span class="lesson-text"> Add Numbers from 1 to 100</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/PmWKyQi-ubg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">24</span>
-                                <span class="lesson-text"> Printing a table</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/4g7b3cR5JFo">
-                              <span class="lesson-title">
-                                <span class="lesson-index">25</span>
-                                <span class="lesson-text"> Printing Figure 1</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/Ll_6Hko83_Y">
-                              <span class="lesson-title">
-                                <span class="lesson-index">26</span>
-                                <span class="lesson-text"> Printing Figure 2</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/CHu8IPtHVP0">
-                              <span class="lesson-title">
-                                <span class="lesson-index">27</span>
-                                <span class="lesson-text"> Printing Figure 3</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 4</div>
-                <p class="module-title">Functions</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#func a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="func" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/L-5cmL-Edxk">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> Functions</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/L6_4yx4Nx-s">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> Important Notes on Functions</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/LPwvSEfHk8M">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Default Arguments</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/lHtqEwR65c8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> More on Variables</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/i1XqIUIWjT8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text"> Recursion</span>
-                             </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/-IdNgzepkL4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text"> Math Series with functions</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/dQEGcsoV9_I">
-                              <span class="lesson-title">
-                                <span class="lesson-index">07</span>
-                                <span class="lesson-text"> Count Uppercase Letters</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/XxQayunYdlU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">08</span>
-                                <span class="lesson-text"> Convert Feet to Meters</span>
-                             </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/PD2tMCSFg1o">
-                              <span class="lesson-title">
-                                <span class="lesson-index">09</span>
-                                <span class="lesson-text"> Time Converting</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/m0NYp2CPQm8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">10</span>
-                                <span class="lesson-text"> Check Odd or Even Integers</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/b01jTq_uk7U">
-                              <span class="lesson-title">
-                                <span class="lesson-index">11</span>
-                                <span class="lesson-text"> Compute Permutation</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/K08iwf2TWuY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">12</span>
-                                <span class="lesson-text"> Check Student Average</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/pqBiu4CSClQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">13</span>
-                                <span class="lesson-text"> Fibonacci with Functions</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/CtdrgpRZIQE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">14</span>
-                                <span class="lesson-text"> Factorial with Functions</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/Rlh9WD7qFHc">
-                              <span class="lesson-title">
-                                <span class="lesson-index">15</span>
-                                <span class="lesson-text"> Equation of Factorials</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/77V_xoV93SQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">16</span>
-                                <span class="lesson-text"> Leap Year Check</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/tk9urKJrj6Q">
-                              <span class="lesson-title">
-                                <span class="lesson-index">17</span>
-                                <span class="lesson-text"> Calculate Power</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                   <a href="https://www.youtube.com/embed/o3o2gGvqKeA">
-                              <span class="lesson-title">
-                                <span class="lesson-index">18</span>
-                                <span class="lesson-text"> Reverse an Integer</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/pPV5mmu9LzQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">19</span>
-                                <span class="lesson-text"> Convert Letter Case</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                   <a href="https://www.youtube.com/embed/VbnKWF32MWo">
-                              <span class="lesson-title">
-                                <span class="lesson-index">20</span>
-                                <span class="lesson-text"> Power of N Numbers</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 5</div>
-                <p class="module-title">Arrays</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#arr a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="arr" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/4vIZq4Vfmt8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> Arrays</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/lqVYEcaijyM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> Multi-Dimesional Arrays</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/_xPEnY-2HQg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Student Average, Number of Fails</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/uCpBlMysBLM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> Array Order Check</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/UhYrbxwUQUc">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text"> Count Array's Zeroes</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/RGI0jb83A2A">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text"> Add two Arrays</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/ZcX3ppZjJVE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">07</span>
-                                <span class="lesson-text"> Multiply by Two</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/Mnz_HxeYYEI">
-                              <span class="lesson-title">
-                                <span class="lesson-index">08</span>
-                                <span class="lesson-text"> Average of Temperatures</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/sL_10dRliZY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">09</span>
-                                <span class="lesson-text"> Merge Arrays</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/XpicL_ihgb0">
-                              <span class="lesson-title">
-                                <span class="lesson-index">10</span>
-                                <span class="lesson-text"> Summation of Columns</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/cvGvDi1a-4k">
-                              <span class="lesson-title">
-                                <span class="lesson-index">11</span>
-                                <span class="lesson-text"> Secondary Diagonal with Zeroes</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/i6q_vMmzjJg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">12</span>
-                                <span class="lesson-text"> Main with Secondary Diagonal</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/7it9bFl1lEc">
-                              <span class="lesson-title">
-                                <span class="lesson-index">13</span>
-                                <span class="lesson-text"> Summation of Odd Numbers</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/PlPK-o9v0as">
-                              <span class="lesson-title">
-                                <span class="lesson-index">14</span>
-                                <span class="lesson-text"> Search for a Value</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/mRHEF9yKDkQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">15</span>
-                                <span class="lesson-text"> Convert 1D to 2D Arrays</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/udM1Z3Bb1vI">
-                              <span class="lesson-title">
-                                <span class="lesson-index">16</span>
-                                <span class="lesson-text"> Move Capital &amp; Small Letters</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/eXQzsZXzq_Q">
-                              <span class="lesson-title">
-                                <span class="lesson-index">17</span>
-                                <span class="lesson-text"> Replace Evens with Number 10</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/992R9XRYa1o">
-                              <span class="lesson-title">
-                                <span class="lesson-index">18</span>
-                                <span class="lesson-text"> Replace Evens in Main Diagonal</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/-oGg_AEkEeM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">19</span>
-                                <span class="lesson-text"> Find Minimum number</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/MtbaTIAPDws">
-                              <span class="lesson-title">
-                                <span class="lesson-index">20</span>
-                                <span class="lesson-text"> Exchange Rows</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/uu-VGdsIGIk">
-                              <span class="lesson-title">
-                                <span class="lesson-index">21</span>
-                                <span class="lesson-text"> Exchange Row with Column</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/6MVX7qvulQ8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">22</span>
-                                <span class="lesson-text"> Max of Secondary Diagonal</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/FwUglkTlr7Q">
-                              <span class="lesson-title">
-                                <span class="lesson-index">23</span>
-                                <span class="lesson-text"> Delete an element</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/w_Fu8TiJJAY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">24</span>
-                                <span class="lesson-text"> Sorting an Array</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/LmDLUm84zvM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">25</span>
-                                <span class="lesson-text"> Average of Even Numbers</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/CcZa_UcKf-c">
-                              <span class="lesson-title">
-                                <span class="lesson-index">26</span>
-                                <span class="lesson-text"> Create 1D Array from 2D</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/o1bXUgHSFwg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">27</span>
-                                <span class="lesson-text"> Create 2D Arrays</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 6</div>
-                <p class="module-title">Strings</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#str a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="str" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/d02MwEtOUis">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> Strings</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/IbCQrnPFbpE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> String Conversion Functions</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/40H8JA5EUm4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Reverse a String</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/wrK-T-LuOn4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> Convert Letter Case</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/uNwYTcfLXwY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text"> Seperate Words</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/JTiUnQCiNeI">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text"> Check Palindrome String</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 7</div>
-                <p class="module-title">Structures</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#struct a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="struct" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/5Mx9Utynxx0">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> Structures</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/8E-9VhVSun8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> Array of Structures</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/SKDq2DroaBg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Employee Array of Structures</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/awDEIth4z08">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> Structure of Structures</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/qfVb_YHo48Y">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text"> Information of Employees</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 8</div>
-                <p class="module-title">Pointers</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#point a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="point" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/4UED3iLxfoY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> Introduction to Pointers</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/mSfgFhSQUos">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> Pointers with Functions Arguments</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/_bEdxOGuPSU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Pointers with Arrays</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/wttfnaMA5cY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> Pointers with Structures</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/5gw41uFnxGs">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text"> Pointer to Function</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/szeaVEbDQQg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text"> Passing Function to Function</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/L1huH24P-l0">
-                              <span class="lesson-title">
-                                <span class="lesson-index">07</span>
-                                <span class="lesson-text"> Pointer Arithmetic</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/sfgOvcpY3qo">
-                              <span class="lesson-title">
-                                <span class="lesson-index">08</span>
-                                <span class="lesson-text"> Find the Output</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="module-label">Track 9</div>
-                <p class="module-title">Files</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#files a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="files" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/YbI5b3HpRRc">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> Write to files</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/P1S4RPbGyVs">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> Read from files</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/8LWhCwuMfhA">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Backup a text file</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <br><br><br><br><br><br>
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <h1 class="section-title" id="oop">Object Oriented Programming</h1>
-                <script>
-                    $(document).ready(function () {
-                        $("div#pr_oop a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="pr_oop" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/i4SN8XFVpTk">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> OOP Introduction</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/8xYuJ94MVo4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> Constructor &amp; Destructor</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/MQsjwSxMbD4">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Constructor Overloading</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/VWLFiLXw_fM">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> OOP Calculator</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/3YAaeP9KfuI">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text"> Constant &amp; Static Data Members</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/3ageFGbX-So">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text"> Building an employee class</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/lWlkD7SCZ6k">
-                              <span class="lesson-title">
-                                <span class="lesson-index">07</span>
-                                <span class="lesson-text"> Getters &amp; Setters</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/7YHg7ZNLNd8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">08</span>
-                                <span class="lesson-text"> Friend Functions</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/SvZqPijZhHk">
-                              <span class="lesson-title">
-                                <span class="lesson-index">09</span>
-                                <span class="lesson-text"> Building an Class of Car</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/jwcpnA32lyc">
-                              <span class="lesson-title">
-                                <span class="lesson-index">10</span>
-                                <span class="lesson-text"> Friend Class</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/zajf197KQP8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">11</span>
-                                <span class="lesson-text"> Building a Friend Class</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/H0zhiw86Cno">
-                              <span class="lesson-title">
-                                <span class="lesson-index">12</span>
-                                <span class="lesson-text"> Array of Objects with Friend</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/29NeWoONJIc">
-                              <span class="lesson-title">
-                                <span class="lesson-index">13</span>
-                                <span class="lesson-text"> Array of Objects with Friend Function</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/k4z_yXGuoYs">
-                              <span class="lesson-title">
-                                <span class="lesson-index">14</span>
-                                <span class="lesson-text"> Multiple Objects with Friend Function</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/RCF1m62FfrE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">15</span>
-                                <span class="lesson-text"> Array of Objects with Friend Function</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/hCxQE91p0yU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">16</span>
-                                <span class="lesson-text"> Pointer to Object</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/RGDFMNtVolg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">17</span>
-                                <span class="lesson-text"> Class Member Object</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/07x82MzCHDo">
-                              <span class="lesson-title">
-                                <span class="lesson-index">18</span>
-                                <span class="lesson-text"> Operators Overloading (Unary Operators)</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/vVfDnyQsQt0">
-                              <span class="lesson-title">
-                                <span class="lesson-index">19</span>
-                                <span class="lesson-text"> Operators Overloading (Binary Operators) Example 1</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/CE9s0MVMR2w">
-                              <span class="lesson-title">
-                                <span class="lesson-index">20</span>
-                                <span class="lesson-text"> Operators Overloading (Binary Operators) Example 2</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/AMMahVZEpZU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">21</span>
-                                <span class="lesson-text"> Operators Overloading (Binary Operators) Example 3</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/1nhIK34BEyY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">22</span>
-                                <span class="lesson-text"> Single Inheritance</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/FOh-jjmVFt8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">23</span>
-                                <span class="lesson-text"> Inheritance with Constructors</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/-CsX5AAU9U0">
-                              <span class="lesson-title">
-                                <span class="lesson-index">24</span>
-                                <span class="lesson-text"> Multiple Inheritance</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/UYvHqAug-rE">
-                              <span class="lesson-title">
-                                <span class="lesson-index">25</span>
-                                <span class="lesson-text"> Hierarchical Inheritance</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/YhiGXZdQul8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">26</span>
-                                <span class="lesson-text"> Multilevel Inheritance</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/1FoCVS6fuc8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">27</span>
-                                <span class="lesson-text"> Inheritance with Operator Overloading</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/fz2tjOqr9ts">
-                              <span class="lesson-title">
-                                <span class="lesson-index">28</span>
-                                <span class="lesson-text"> Public, Protected and Private Inheritance</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/SLkCGDIIhuA">
-                              <span class="lesson-title">
-                                <span class="lesson-index">29</span>
-                                <span class="lesson-text"> Inheritance and Override</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/ZMYkxtVXcq8">
-                              <span class="lesson-title">
-                                <span class="lesson-index">30</span>
-                                <span class="lesson-text"> Virtual Functions</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/zCqpPqq5QCc">
-                              <span class="lesson-title">
-                                <span class="lesson-index">31</span>
-                                <span class="lesson-text"> Virtual Inheritance</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/tXBEQl8U3sY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">32</span>
-                                <span class="lesson-text"> Class Templates</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <h1 class="section-title" id="ds">Data Structures</h1>
-                <script>
-                    $(document).ready(function () {
-                        $("div#pr_ds a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="pr_ds" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/iAgr41bL09g">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> Stack</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/jwRhgyNvXVY">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> Stack in OOP</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/VLcUoO3sdXg">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Stack Applications (infix to postfix)</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/0S3fznfeTRc">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> Queue</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/buNLgr8Zesw">
-                              <span class="lesson-title">
-                                <span class="lesson-index">05</span>
-                                <span class="lesson-text"> Queue in OOP</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/A9u6M5pLNCw">
-                              <span class="lesson-title">
-                                <span class="lesson-index">06</span>
-                                <span class="lesson-text"> Circular Queue Part 1</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/s-e-tw8yFms">
-                              <span class="lesson-title">
-                                <span class="lesson-index">07</span>
-                                <span class="lesson-text"> Circular Queue Part 2</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/U5iaHbmPAjU">
-                              <span class="lesson-title">
-                                <span class="lesson-index">08</span>
-                                <span class="lesson-text"> Even Queue and Odd Stack</span>
-                              </span>
-                            <span class="lesson-tag exercise">Exercise</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/hgUtP9oV_rs">
-                              <span class="lesson-title">
-                                <span class="lesson-index">09</span>
-                                <span class="lesson-text"> Linked List Part 1</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/40YGmE5s1mQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">10</span>
-                                <span class="lesson-text"> Linked List Part 2 (Insert)</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/CCoeVO49_Gw">
-                              <span class="lesson-title">
-                                <span class="lesson-index">11</span>
-                                <span class="lesson-text"> Linked List Part 3 (Delete)</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <p class="section-title">Libraries</p>
-                <script>
-                    $(document).ready(function () {
-                        $("div#libs a").click(function (e) {
-                            e.preventDefault();
-                            $("#myframe").attr("src", $(this).attr("href"));
-                            $("html, body").animate({
-                                scrollTop: scrollVal
-                            }, "slow");
-                        })
-                    });
-                </script>
-                <div id="libs" class="module-card lesson-list">
-                    <a href="https://www.youtube.com/embed/PW0edU84w0c">
-                              <span class="lesson-title">
-                                <span class="lesson-index">01</span>
-                                <span class="lesson-text"> Vectors</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/BL7XTexs8O0">
-                              <span class="lesson-title">
-                                <span class="lesson-index">02</span>
-                                <span class="lesson-text"> Maps</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/AX7udJw1U0Y">
-                              <span class="lesson-title">
-                                <span class="lesson-index">03</span>
-                                <span class="lesson-text"> Strings</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                    <a href="https://www.youtube.com/embed/pXQXGiP2QbQ">
-                              <span class="lesson-title">
-                                <span class="lesson-index">04</span>
-                                <span class="lesson-text"> Stack</span>
-                              </span>
-                            <span class="lesson-tag topic">Topic</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <p><i class="fas fa-angle-double-left heartbeat"></i><a href="../lectures.html"> Back to Lectures</a></p>
-
-        <div class="row text-center comment w-100">
-            <div class="col-12">
-              <div class="fb-comments" data-href="https://s4ifbn.com/pg/cpp.html" data-width="100%" data-numposts="5">
-              </div>
-            </div>
-        </div>
-
-        <br>
-        <div class="row text-center">
-            <div class="col-12">
-                <a href="#top"><i class="fa-solid fa-angles-up heartbeat"></i></a>
-            </div>
-        </div>
+      </div>
     </div>
-    <footer>
-        <div class="footer">
-            <table width="100%">
-                <tr>
-                    <td width="33%" id="year">
-                        <a href="../cv.html" class="text-white"> Saif</a>
-                        <i class="far fa-copyright"></i> {{year}}
-                    </td>
-                    <td width="33%">
-                        <img src="../img/tree.png" alt="Saif Bashar" width="50%">
-                    </td>
-                    <td width="33%">
-                        <div id="updated">{{message}} <i class="fas fa-check-circle"></i></div>
-                    </td>
-                </tr>
-            </table>
+  </nav>
+  <div class="container">
+    <div class="text-center">
+      <div class="mt-5">
+        <h1 class="display-5 lects-title">Programming in C / C++</h1>
+        <p>
+          سلسلة دروس متكاملة في البرمجة تبدأ من الأساسيات وصولاً إلى البرمجة الشيئية وهياكل البيانات، مع الكثير من
+          التمارين العملية وحل المسائل خطوة بخطوة
+        </p>
+        <div class="text-center">
+          <h5 class="tags">
+            <span><i class="fa-solid fa-cubes"></i> Structured Programming</span>
+            <span><i class="fa-solid fa-shapes"></i> Object Oriented Programming</span>
+            <span><i class="fa-solid fa-diagram-project"></i> Data Structures</span>
+            <br>
+            <span><i class="fa-solid fa-layer-group"></i>Beginner → Intermediate</span>
+            <span><i class="fa-solid fa-earth-asia"></i>Language : Arabic</span>
+            <span><i class="fa-solid fa-chalkboard-user"></i> Course type : University programming course</span>
+          </h5>
+          <br>
         </div>
-    </footer>
+      </div>
+      <div class="actions">
+        <a href="#structured" class="btn-actions">
+          <i class="fa-solid fa-play"></i>
+          Start from basics
+        </a>
+        <a href="#oop" class="btn-actions">
+          <i class="fa-solid fa-layer-group"></i>
+          Jump to OOP
+        </a>
+        <a href="#ds" class="btn-actions">
+          <i class="fa-solid fa-database"></i>
+          Jump to Data Structures
+        </a>
+      </div>
+      <br>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="fb-like" data-href="https://s4ifbn.com/pg/cpp.html" data-layout="button_count" data-action="like"
+          data-size="small" data-show-faces="true" data-share="true"></div>
+      </div>
+      <div class="col-6 text-right">
+        اضغط على أي درس في القوائم ليتم عرضه هنا
+        <i class="fa-solid fa-lightbulb"></i>
+      </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="../js/main.js"></script>
+    <div class="vcont">
+      <div class="row">
+        <div class="col-6">
+
+        </div>
+        <div class="col-6 text-right">
+
+        </div>
+      </div>
+      <div class="vid">
+        <iframe id="myframe" title="Current Lesson" width="560" height="315" src="https://www.youtube.com/embed/RuSNG-tkFb4?rel=0"
+          allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h1 class="section-title" id="structured">Structured Programming</h1>
+    <br>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 1</div>
+        <p class="module-title">Basics</p>
+        <script>
+          $(document).ready(function () {
+            $("div#pr_basics a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="pr_basics" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/RuSNG-tkFb4">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text">Introduction</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/0ZEMzvQEMes">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text">Borland C++ 5.02 IDE Setup</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/PWfQwDdGpVw">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text">CodeBlocks IDE Setup</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/IxktJ5dZBqM">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text">Terminology</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/Gwt1jhgRegw">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text">Hello World Program</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/l5R44bPxcL4">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text">Variables</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/JRq6Ga1n_gU">
+            <span class="lesson-title">
+              <span class="lesson-index">07</span>
+              <span class="lesson-text">Data Types</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/6h5ur0h2dOs">
+            <span class="lesson-title">
+              <span class="lesson-index">08</span>
+              <span class="lesson-text"> Escape Sequences</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/p9hcOeW9Y3Y">
+            <span class="lesson-title">
+              <span class="lesson-index">09</span>
+              <span class="lesson-text"> Notes on Data Types</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/vRtV12AjIFw">
+            <span class="lesson-title">
+              <span class="lesson-index">10</span>
+              <span class="lesson-text"> Arithmetic Operators</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/uAglKFT9lAY">
+            <span class="lesson-title">
+              <span class="lesson-index">11</span>
+              <span class="lesson-text"> Arithmetic Operators Precedence</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/J6IXZxbihOA">
+            <span class="lesson-title">
+              <span class="lesson-index">12</span>
+              <span class="lesson-text"> Writing Long Equations Correctly</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/7sjlNN6VxxM">
+            <span class="lesson-title">
+              <span class="lesson-index">13</span>
+              <span class="lesson-text"> Expressions &amp; Precedence Law</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/eMjIsSAlb2o">
+            <span class="lesson-title">
+              <span class="lesson-index">14</span>
+              <span class="lesson-text"> Using Trigonometric Functions</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/X_oDhS99asE">
+            <span class="lesson-title">
+              <span class="lesson-index">15</span>
+              <span class="lesson-text"> Find Circle Area</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/7IRD2tzlYt4">
+            <span class="lesson-title">
+              <span class="lesson-index">16</span>
+              <span class="lesson-text"> Find Average of 5 Numbers</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/eMhD0Nl0bS8">
+            <span class="lesson-title">
+              <span class="lesson-index">17</span>
+              <span class="lesson-text"> Find Equations &amp; Math Functions</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/V4J2T7oKNpU">
+            <span class="lesson-title">
+              <span class="lesson-index">18</span>
+              <span class="lesson-text"> Find Enumeration of Months</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/VFE3xv45NjE">
+            <span class="lesson-title">
+              <span class="lesson-index">19</span>
+              <span class="lesson-text"> Find Enumeration of Seasons</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 2</div>
+        <p class="module-title">Logical Decisions</p>
+        <script>
+          $(document).ready(function () {
+            $("div#cond a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="cond" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/JLbbdUY_pwA">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text">if-else Statement</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/qKJS5eFX0kQ">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text">Nested if Statement</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/1yxtgM3Q4NU">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text">switch Statement</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/KokPcCYhHCA">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text">Bitwise Operators</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/EazM8REHCdw">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text">if-else statement</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/ErMfudhdMSg">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text">Multiple if statements 1</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/s4G6EWXgEXY">
+            <span class="lesson-title">
+              <span class="lesson-index">07</span>
+              <span class="lesson-text">Multiple if statements 2</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/uE2RusxQ16o">
+            <span class="lesson-title">
+              <span class="lesson-index">08</span>
+              <span class="lesson-text">Multiple if statements 3</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/gMsuDXaSSJ8">
+            <span class="lesson-title">
+              <span class="lesson-index">09</span>
+              <span class="lesson-text">Compound Conditions</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/gVZ0AVNrD8w">
+            <span class="lesson-title">
+              <span class="lesson-index">10</span>
+              <span class="lesson-text">Nested if statement 1</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/buGPqVpxFPU">
+            <span class="lesson-title">
+              <span class="lesson-index">11</span>
+              <span class="lesson-text">Nested if statement 2</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/GxXecCUeJ9Q">
+            <span class="lesson-title">
+              <span class="lesson-index">12</span>
+              <span class="lesson-text">Nested if statement 3</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/VXWDeIZzWik">
+            <span class="lesson-title">
+              <span class="lesson-index">13</span>
+              <span class="lesson-text">switch statement 1</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/YmYXAAlbex4">
+            <span class="lesson-title">
+              <span class="lesson-index">14</span>
+              <span class="lesson-text">switch statement 2</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/w4AEFK9iQ5Y">
+            <span class="lesson-title">
+              <span class="lesson-index">15</span>
+              <span class="lesson-text">switch statement 3</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/m8Jd5o7v-kU">
+            <span class="lesson-title">
+              <span class="lesson-index">16</span>
+              <span class="lesson-text">Nested switch statement</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/ellPkbH2DDk">
+            <span class="lesson-title">
+              <span class="lesson-index">17</span>
+              <span class="lesson-text">Operators</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/J5gvDV4l12A">
+            <span class="lesson-title">
+              <span class="lesson-index">18</span>
+              <span class="lesson-text">Mixed Operators 1</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/ynMTYJijOxQ">
+            <span class="lesson-title">
+              <span class="lesson-index">19</span>
+              <span class="lesson-text">Mixed Operators 2</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 3</div>
+        <p class="module-title">Loops</p>
+        <script>
+          $(document).ready(function () {
+            $("div#loop a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="loop" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/hAldLNt-GcE">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text">Loops</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/IMqNTXT-Cys">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text">Trace or Debug</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/B5U48is5Ws0">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Nested Loops</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/vHie7uF5xqM">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> Ranged For Loop</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/rqNkSgvgHuI">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text"> Display 100 Odd Numbers</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/bpuSePx0dmk">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text"> Sum 100 Odd Numbers</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/xSx3ksTX0Ik">
+            <span class="lesson-title">
+              <span class="lesson-index">07</span>
+              <span class="lesson-text"> Student Information</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/y--9gqJ2jDE">
+            <span class="lesson-title">
+              <span class="lesson-index">08</span>
+              <span class="lesson-text"> Prime Numbers Test</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/lxs8mPi-CYY">
+            <span class="lesson-title">
+              <span class="lesson-index">09</span>
+              <span class="lesson-text"> Fibonacci Sequence</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/lxs8mPi-CYY">
+            <span class="lesson-title">
+              <span class="lesson-index">10</span>
+              <span class="lesson-text"> find GCD between two numbers</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/jH-XVRTOfSQ">
+            <span class="lesson-title">
+              <span class="lesson-index">11</span>
+              <span class="lesson-text"> Math Series 1</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/Qwfj7c_ZPMI">
+            <span class="lesson-title">
+              <span class="lesson-index">12</span>
+              <span class="lesson-text"> Math Series 2</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/_vTWN2iXUxY">
+            <span class="lesson-title">
+              <span class="lesson-index">13</span>
+              <span class="lesson-text"> Math Series 3</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/sjAV1eI0TzM">
+            <span class="lesson-title">
+              <span class="lesson-index">14</span>
+              <span class="lesson-text"> Math Series 4</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/n21WsFPvESA">
+            <span class="lesson-title">
+              <span class="lesson-index">15</span>
+              <span class="lesson-text"> Reverse an integer</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/-VbUQ8h7qIk">
+            <span class="lesson-title">
+              <span class="lesson-index">16</span>
+              <span class="lesson-text"> Find the Output 1</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/iTyyrxs_VXY">
+            <span class="lesson-title">
+              <span class="lesson-index">17</span>
+              <span class="lesson-text"> Find the Output 2</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/PDNBX3fYkx8">
+            <span class="lesson-title">
+              <span class="lesson-index">18</span>
+              <span class="lesson-text"> Find the Output 3</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/CTu4oeI7IpQ">
+            <span class="lesson-title">
+              <span class="lesson-index">19</span>
+              <span class="lesson-text"> Find the Output 4</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/erlLearZ4MA">
+            <span class="lesson-title">
+              <span class="lesson-index">20</span>
+              <span class="lesson-text"> Find the Output 5</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/Guw6GVdkiWI">
+            <span class="lesson-title">
+              <span class="lesson-index">21</span>
+              <span class="lesson-text"> Read Seven Marks</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/_xPEnY-2HQg">
+            <span class="lesson-title">
+              <span class="lesson-index">22</span>
+              <span class="lesson-text"> Student Average, Number of Fails</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/-DBPM1RDQz4">
+            <span class="lesson-title">
+              <span class="lesson-index">23</span>
+              <span class="lesson-text"> Add Numbers from 1 to 100</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/PmWKyQi-ubg">
+            <span class="lesson-title">
+              <span class="lesson-index">24</span>
+              <span class="lesson-text"> Printing a table</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/4g7b3cR5JFo">
+            <span class="lesson-title">
+              <span class="lesson-index">25</span>
+              <span class="lesson-text"> Printing Figure 1</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/Ll_6Hko83_Y">
+            <span class="lesson-title">
+              <span class="lesson-index">26</span>
+              <span class="lesson-text"> Printing Figure 2</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/CHu8IPtHVP0">
+            <span class="lesson-title">
+              <span class="lesson-index">27</span>
+              <span class="lesson-text"> Printing Figure 3</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 4</div>
+        <p class="module-title">Functions</p>
+        <script>
+          $(document).ready(function () {
+            $("div#func a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="func" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/L-5cmL-Edxk">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> Functions</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/L6_4yx4Nx-s">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> Important Notes on Functions</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/LPwvSEfHk8M">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Default Arguments</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/lHtqEwR65c8">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> More on Variables</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/i1XqIUIWjT8">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text"> Recursion</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/-IdNgzepkL4">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text"> Math Series with functions</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/dQEGcsoV9_I">
+            <span class="lesson-title">
+              <span class="lesson-index">07</span>
+              <span class="lesson-text"> Count Uppercase Letters</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/XxQayunYdlU">
+            <span class="lesson-title">
+              <span class="lesson-index">08</span>
+              <span class="lesson-text"> Convert Feet to Meters</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/PD2tMCSFg1o">
+            <span class="lesson-title">
+              <span class="lesson-index">09</span>
+              <span class="lesson-text"> Time Converting</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/m0NYp2CPQm8">
+            <span class="lesson-title">
+              <span class="lesson-index">10</span>
+              <span class="lesson-text"> Check Odd or Even Integers</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/b01jTq_uk7U">
+            <span class="lesson-title">
+              <span class="lesson-index">11</span>
+              <span class="lesson-text"> Compute Permutation</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/K08iwf2TWuY">
+            <span class="lesson-title">
+              <span class="lesson-index">12</span>
+              <span class="lesson-text"> Check Student Average</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/pqBiu4CSClQ">
+            <span class="lesson-title">
+              <span class="lesson-index">13</span>
+              <span class="lesson-text"> Fibonacci with Functions</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/CtdrgpRZIQE">
+            <span class="lesson-title">
+              <span class="lesson-index">14</span>
+              <span class="lesson-text"> Factorial with Functions</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/Rlh9WD7qFHc">
+            <span class="lesson-title">
+              <span class="lesson-index">15</span>
+              <span class="lesson-text"> Equation of Factorials</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/77V_xoV93SQ">
+            <span class="lesson-title">
+              <span class="lesson-index">16</span>
+              <span class="lesson-text"> Leap Year Check</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/tk9urKJrj6Q">
+            <span class="lesson-title">
+              <span class="lesson-index">17</span>
+              <span class="lesson-text"> Calculate Power</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/o3o2gGvqKeA">
+            <span class="lesson-title">
+              <span class="lesson-index">18</span>
+              <span class="lesson-text"> Reverse an Integer</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/pPV5mmu9LzQ">
+            <span class="lesson-title">
+              <span class="lesson-index">19</span>
+              <span class="lesson-text"> Convert Letter Case</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/VbnKWF32MWo">
+            <span class="lesson-title">
+              <span class="lesson-index">20</span>
+              <span class="lesson-text"> Power of N Numbers</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 5</div>
+        <p class="module-title">Arrays</p>
+        <script>
+          $(document).ready(function () {
+            $("div#arr a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="arr" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/4vIZq4Vfmt8">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> Arrays</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/lqVYEcaijyM">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> Multi-Dimesional Arrays</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/_xPEnY-2HQg">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Student Average, Number of Fails</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/uCpBlMysBLM">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> Array Order Check</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/UhYrbxwUQUc">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text"> Count Array's Zeroes</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/RGI0jb83A2A">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text"> Add two Arrays</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/ZcX3ppZjJVE">
+            <span class="lesson-title">
+              <span class="lesson-index">07</span>
+              <span class="lesson-text"> Multiply by Two</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/Mnz_HxeYYEI">
+            <span class="lesson-title">
+              <span class="lesson-index">08</span>
+              <span class="lesson-text"> Average of Temperatures</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/sL_10dRliZY">
+            <span class="lesson-title">
+              <span class="lesson-index">09</span>
+              <span class="lesson-text"> Merge Arrays</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/XpicL_ihgb0">
+            <span class="lesson-title">
+              <span class="lesson-index">10</span>
+              <span class="lesson-text"> Summation of Columns</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/cvGvDi1a-4k">
+            <span class="lesson-title">
+              <span class="lesson-index">11</span>
+              <span class="lesson-text"> Secondary Diagonal with Zeroes</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/i6q_vMmzjJg">
+            <span class="lesson-title">
+              <span class="lesson-index">12</span>
+              <span class="lesson-text"> Main with Secondary Diagonal</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/7it9bFl1lEc">
+            <span class="lesson-title">
+              <span class="lesson-index">13</span>
+              <span class="lesson-text"> Summation of Odd Numbers</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/PlPK-o9v0as">
+            <span class="lesson-title">
+              <span class="lesson-index">14</span>
+              <span class="lesson-text"> Search for a Value</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/mRHEF9yKDkQ">
+            <span class="lesson-title">
+              <span class="lesson-index">15</span>
+              <span class="lesson-text"> Convert 1D to 2D Arrays</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/udM1Z3Bb1vI">
+            <span class="lesson-title">
+              <span class="lesson-index">16</span>
+              <span class="lesson-text"> Move Capital &amp; Small Letters</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/eXQzsZXzq_Q">
+            <span class="lesson-title">
+              <span class="lesson-index">17</span>
+              <span class="lesson-text"> Replace Evens with Number 10</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/992R9XRYa1o">
+            <span class="lesson-title">
+              <span class="lesson-index">18</span>
+              <span class="lesson-text"> Replace Evens in Main Diagonal</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/-oGg_AEkEeM">
+            <span class="lesson-title">
+              <span class="lesson-index">19</span>
+              <span class="lesson-text"> Find Minimum number</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/MtbaTIAPDws">
+            <span class="lesson-title">
+              <span class="lesson-index">20</span>
+              <span class="lesson-text"> Exchange Rows</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/uu-VGdsIGIk">
+            <span class="lesson-title">
+              <span class="lesson-index">21</span>
+              <span class="lesson-text"> Exchange Row with Column</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/6MVX7qvulQ8">
+            <span class="lesson-title">
+              <span class="lesson-index">22</span>
+              <span class="lesson-text"> Max of Secondary Diagonal</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/FwUglkTlr7Q">
+            <span class="lesson-title">
+              <span class="lesson-index">23</span>
+              <span class="lesson-text"> Delete an element</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/w_Fu8TiJJAY">
+            <span class="lesson-title">
+              <span class="lesson-index">24</span>
+              <span class="lesson-text"> Sorting an Array</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/LmDLUm84zvM">
+            <span class="lesson-title">
+              <span class="lesson-index">25</span>
+              <span class="lesson-text"> Average of Even Numbers</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/CcZa_UcKf-c">
+            <span class="lesson-title">
+              <span class="lesson-index">26</span>
+              <span class="lesson-text"> Create 1D Array from 2D</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/o1bXUgHSFwg">
+            <span class="lesson-title">
+              <span class="lesson-index">27</span>
+              <span class="lesson-text"> Create 2D Arrays</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 6</div>
+        <p class="module-title">Strings</p>
+        <script>
+          $(document).ready(function () {
+            $("div#str a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="str" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/d02MwEtOUis">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> Strings</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/IbCQrnPFbpE">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> String Conversion Functions</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/40H8JA5EUm4">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Reverse a String</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/wrK-T-LuOn4">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> Convert Letter Case</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/uNwYTcfLXwY">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text"> Seperate Words</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/JTiUnQCiNeI">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text"> Check Palindrome String</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 7</div>
+        <p class="module-title">Structures</p>
+        <script>
+          $(document).ready(function () {
+            $("div#struct a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="struct" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/5Mx9Utynxx0">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> Structures</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/8E-9VhVSun8">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> Array of Structures</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/SKDq2DroaBg">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Employee Array of Structures</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/awDEIth4z08">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> Structure of Structures</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/qfVb_YHo48Y">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text"> Information of Employees</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 8</div>
+        <p class="module-title">Pointers</p>
+        <script>
+          $(document).ready(function () {
+            $("div#point a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="point" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/4UED3iLxfoY">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> Introduction to Pointers</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/mSfgFhSQUos">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> Pointers with Functions Arguments</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/_bEdxOGuPSU">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Pointers with Arrays</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/wttfnaMA5cY">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> Pointers with Structures</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/5gw41uFnxGs">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text"> Pointer to Function</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/szeaVEbDQQg">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text"> Passing Function to Function</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/L1huH24P-l0">
+            <span class="lesson-title">
+              <span class="lesson-index">07</span>
+              <span class="lesson-text"> Pointer Arithmetic</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/sfgOvcpY3qo">
+            <span class="lesson-title">
+              <span class="lesson-index">08</span>
+              <span class="lesson-text"> Find the Output</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="module-label">Track 9</div>
+        <p class="module-title">Files</p>
+        <script>
+          $(document).ready(function () {
+            $("div#files a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="files" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/YbI5b3HpRRc">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> Write to files</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/P1S4RPbGyVs">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> Read from files</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/8LWhCwuMfhA">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Backup a text file</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br><br><br><br>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <h1 class="section-title" id="oop">Object Oriented Programming</h1>
+        <script>
+          $(document).ready(function () {
+            $("div#pr_oop a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="pr_oop" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/i4SN8XFVpTk">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> OOP Introduction</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/8xYuJ94MVo4">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> Constructor &amp; Destructor</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/MQsjwSxMbD4">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Constructor Overloading</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/VWLFiLXw_fM">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> OOP Calculator</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/3YAaeP9KfuI">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text"> Constant &amp; Static Data Members</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/3ageFGbX-So">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text"> Building an employee class</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/lWlkD7SCZ6k">
+            <span class="lesson-title">
+              <span class="lesson-index">07</span>
+              <span class="lesson-text"> Getters &amp; Setters</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/7YHg7ZNLNd8">
+            <span class="lesson-title">
+              <span class="lesson-index">08</span>
+              <span class="lesson-text"> Friend Functions</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/SvZqPijZhHk">
+            <span class="lesson-title">
+              <span class="lesson-index">09</span>
+              <span class="lesson-text"> Building an Class of Car</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/jwcpnA32lyc">
+            <span class="lesson-title">
+              <span class="lesson-index">10</span>
+              <span class="lesson-text"> Friend Class</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/zajf197KQP8">
+            <span class="lesson-title">
+              <span class="lesson-index">11</span>
+              <span class="lesson-text"> Building a Friend Class</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/H0zhiw86Cno">
+            <span class="lesson-title">
+              <span class="lesson-index">12</span>
+              <span class="lesson-text"> Array of Objects with Friend</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/29NeWoONJIc">
+            <span class="lesson-title">
+              <span class="lesson-index">13</span>
+              <span class="lesson-text"> Array of Objects with Friend Function</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/k4z_yXGuoYs">
+            <span class="lesson-title">
+              <span class="lesson-index">14</span>
+              <span class="lesson-text"> Multiple Objects with Friend Function</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/RCF1m62FfrE">
+            <span class="lesson-title">
+              <span class="lesson-index">15</span>
+              <span class="lesson-text"> Array of Objects with Friend Function</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/hCxQE91p0yU">
+            <span class="lesson-title">
+              <span class="lesson-index">16</span>
+              <span class="lesson-text"> Pointer to Object</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/RGDFMNtVolg">
+            <span class="lesson-title">
+              <span class="lesson-index">17</span>
+              <span class="lesson-text"> Class Member Object</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/07x82MzCHDo">
+            <span class="lesson-title">
+              <span class="lesson-index">18</span>
+              <span class="lesson-text"> Operators Overloading (Unary Operators)</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/vVfDnyQsQt0">
+            <span class="lesson-title">
+              <span class="lesson-index">19</span>
+              <span class="lesson-text"> Operators Overloading (Binary Operators) Example 1</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/CE9s0MVMR2w">
+            <span class="lesson-title">
+              <span class="lesson-index">20</span>
+              <span class="lesson-text"> Operators Overloading (Binary Operators) Example 2</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/AMMahVZEpZU">
+            <span class="lesson-title">
+              <span class="lesson-index">21</span>
+              <span class="lesson-text"> Operators Overloading (Binary Operators) Example 3</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/1nhIK34BEyY">
+            <span class="lesson-title">
+              <span class="lesson-index">22</span>
+              <span class="lesson-text"> Single Inheritance</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/FOh-jjmVFt8">
+            <span class="lesson-title">
+              <span class="lesson-index">23</span>
+              <span class="lesson-text"> Inheritance with Constructors</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/-CsX5AAU9U0">
+            <span class="lesson-title">
+              <span class="lesson-index">24</span>
+              <span class="lesson-text"> Multiple Inheritance</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/UYvHqAug-rE">
+            <span class="lesson-title">
+              <span class="lesson-index">25</span>
+              <span class="lesson-text"> Hierarchical Inheritance</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/YhiGXZdQul8">
+            <span class="lesson-title">
+              <span class="lesson-index">26</span>
+              <span class="lesson-text"> Multilevel Inheritance</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/1FoCVS6fuc8">
+            <span class="lesson-title">
+              <span class="lesson-index">27</span>
+              <span class="lesson-text"> Inheritance with Operator Overloading</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/fz2tjOqr9ts">
+            <span class="lesson-title">
+              <span class="lesson-index">28</span>
+              <span class="lesson-text"> Public, Protected and Private Inheritance</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/SLkCGDIIhuA">
+            <span class="lesson-title">
+              <span class="lesson-index">29</span>
+              <span class="lesson-text"> Inheritance and Override</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/ZMYkxtVXcq8">
+            <span class="lesson-title">
+              <span class="lesson-index">30</span>
+              <span class="lesson-text"> Virtual Functions</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/zCqpPqq5QCc">
+            <span class="lesson-title">
+              <span class="lesson-index">31</span>
+              <span class="lesson-text"> Virtual Inheritance</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/tXBEQl8U3sY">
+            <span class="lesson-title">
+              <span class="lesson-index">32</span>
+              <span class="lesson-text"> Class Templates</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h1 class="section-title" id="ds">Data Structures</h1>
+        <script>
+          $(document).ready(function () {
+            $("div#pr_ds a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="pr_ds" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/iAgr41bL09g">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> Stack</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/jwRhgyNvXVY">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> Stack in OOP</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/VLcUoO3sdXg">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Stack Applications (infix to postfix)</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/0S3fznfeTRc">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> Queue</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/buNLgr8Zesw">
+            <span class="lesson-title">
+              <span class="lesson-index">05</span>
+              <span class="lesson-text"> Queue in OOP</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/A9u6M5pLNCw">
+            <span class="lesson-title">
+              <span class="lesson-index">06</span>
+              <span class="lesson-text"> Circular Queue Part 1</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/s-e-tw8yFms">
+            <span class="lesson-title">
+              <span class="lesson-index">07</span>
+              <span class="lesson-text"> Circular Queue Part 2</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/U5iaHbmPAjU">
+            <span class="lesson-title">
+              <span class="lesson-index">08</span>
+              <span class="lesson-text"> Even Queue and Odd Stack</span>
+            </span>
+            <span class="lesson-tag exercise">Exercise</span>
+          </a>
+          <a href="https://www.youtube.com/embed/hgUtP9oV_rs">
+            <span class="lesson-title">
+              <span class="lesson-index">09</span>
+              <span class="lesson-text"> Linked List Part 1</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/40YGmE5s1mQ">
+            <span class="lesson-title">
+              <span class="lesson-index">10</span>
+              <span class="lesson-text"> Linked List Part 2 (Insert)</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/CCoeVO49_Gw">
+            <span class="lesson-title">
+              <span class="lesson-index">11</span>
+              <span class="lesson-text"> Linked List Part 3 (Delete)</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <p class="section-title">Libraries</p>
+        <script>
+          $(document).ready(function () {
+            $("div#libs a").click(function (e) {
+              e.preventDefault();
+              $("#myframe").attr("src", $(this).attr("href"));
+              $("html, body").animate({
+                scrollTop: scrollVal
+              }, "slow");
+            })
+          });
+        </script>
+        <div id="libs" class="module-card lesson-list">
+          <a href="https://www.youtube.com/embed/PW0edU84w0c">
+            <span class="lesson-title">
+              <span class="lesson-index">01</span>
+              <span class="lesson-text"> Vectors</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/BL7XTexs8O0">
+            <span class="lesson-title">
+              <span class="lesson-index">02</span>
+              <span class="lesson-text"> Maps</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/AX7udJw1U0Y">
+            <span class="lesson-title">
+              <span class="lesson-index">03</span>
+              <span class="lesson-text"> Strings</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+          <a href="https://www.youtube.com/embed/pXQXGiP2QbQ">
+            <span class="lesson-title">
+              <span class="lesson-index">04</span>
+              <span class="lesson-text"> Stack</span>
+            </span>
+            <span class="lesson-tag topic">Topic</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <p><i class="fas fa-angle-double-left heartbeat"></i><a href="../lectures.html"> Back to Lectures</a></p>
+
+    <div class="row text-center comment w-100">
+      <div class="col-12">
+        <div class="fb-comments" data-href="https://s4ifbn.com/pg/cpp.html" data-width="100%" data-numposts="5">
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="row text-center">
+      <div class="col-12">
+        <a href="#top"><i class="fa-solid fa-angles-up heartbeat"></i></a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <table width="100%">
+        <tr>
+          <td width="33%" id="year">
+            <a href="../cv.html" class="text-white"> Saif</a>
+            <i class="far fa-copyright"></i> {{year}}
+          </td>
+          <td width="33%">
+            <img src="../img/tree.png" alt="Saif Bashar" width="50%">
+          </td>
+          <td width="33%">
+            <div id="updated">{{message}} <i class="fas fa-check-circle"></i></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="../js/main.js"></script>
 
 </body>
 
