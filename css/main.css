@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@400;700&display=swap");
 
 @media screen and (max-width: 500px) {
+
   .lecturesBtn,
   .youtubeBtn,
   .booksBtn,
@@ -30,7 +31,7 @@
   --yellow: #FFC107;
   --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --gradient-primary: linear-gradient(135deg, #6366f1 0%, #B122CB 50%, #00bfc0 100%);
-   --gradient-purple: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
+  --gradient-purple: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
 }
 
 * {
@@ -104,7 +105,7 @@ input.gsc-input {
   border-radius: 20px !important;
 }
 
-.gsc-control-cse{
+.gsc-control-cse {
   background: transparent !important;
   border: none !important;
 }
@@ -186,7 +187,7 @@ div.counter {
   padding: 10px;
 }
 
-.mydiv i{
+.mydiv i {
   transition: all 0.3s ease;
 }
 
@@ -195,9 +196,9 @@ div.counter {
   transform: scale(1.3, 1.3);
 }
 
-.stats{
-  width: 70%; 
-  margin-left: auto; 
+.stats {
+  width: 70%;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -271,7 +272,7 @@ li {
 
 /* lectures */
 
-.lects-title{
+.lects-title {
   font-size: 58px;
   font-weight: bolder;
   background: -webkit-linear-gradient(var(--purple), var(--green));
@@ -281,15 +282,164 @@ li {
 
 .tags span {
   border-radius: 999px;
-  padding: 0.5rem 0.9rem;
+  padding: 0.4rem 0.9rem;
   background: rgba(249, 250, 251, 0.9);
   border: 1px solid rgba(229, 231, 235, 0.8);
   color: #374151;
   font-size: 0.9rem;
-  margin: 0.1rem 0.2rem;
+  margin: 0.2rem 0.2rem;
   display: inline-flex;
   align-items: flex-start;
   gap: 0.25rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+}
+
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.btn-actions {
+  border-radius: 999px;
+  padding: 0.7rem 1.6rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #B122CB, #6366f1);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.17s ease-out;
+}
+
+.btn-actions:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.3);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.module-card {
+  border-radius: 1.1rem;
+  background: #ffffff;
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.module-header {
+  padding: 1.1rem 1.2rem 0.4rem 1.2rem;
+  border-bottom: 1px solid rgba(229, 231, 235, 0.8);
+}
+
+.module-label {
+  font-size: 0.75rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #9ca3af;
+}
+
+.module-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0.2rem 0 0.4rem 0;
+}
+
+.module-meta {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.lesson-list {
+  list-style: none;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  overflow-y: auto;
+  max-height: 40rem;
+}
+
+.lesson-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.65rem;
+  font-size: 0.9rem;
+  color: #374151;
+  background: transparent;
+  transition: background 0.12s ease-out, transform 0.08s ease-out, box-shadow 0.12s ease-out;
+  text-decoration: none;
+}
+
+.lesson-list a:hover {
+  background: rgba(249, 250, 251, 0.9);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.lesson-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.lesson-index {
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(249, 250, 251, 0.9);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  font-size: 0.78rem;
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.lesson-text {
+  font-size: 0.86rem;
+}
+
+.lesson-tag {
+  font-size: 0.7rem;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.lesson-tag.exercise {
+  background: rgba(254, 226, 226, 0.8);
+  color: #991b1b;
+  border: 1px solid rgba(248, 113, 113, 0.5);
+}
+
+.lesson-tag.topic {
+  background: rgba(219, 234, 254, 0.8);
+  color: #1e40af;
+  border: 1px solid rgba(96, 165, 250, 0.5);
 }
 
 .mycard {
@@ -299,7 +449,7 @@ li {
   align-items: center;
 }
 
-.red{
+.red {
   color: #DC3545;
 }
 
@@ -335,6 +485,10 @@ li {
   color: var(--green);
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.fa-lightbulb {
+  color: #FFC107;
 }
 
 .fa-discord {
@@ -404,7 +558,7 @@ li {
   font-size: 16px;
 }
 
-.badge a{
+.badge a {
   color: white !important;
   text-decoration: none !important;
 }
